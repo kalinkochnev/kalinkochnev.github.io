@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>XRoads on Kalin Kochnev</title>
+    <link>https://kalinkochnev.com/journey/xroads/</link>
+    <description>Recent content in XRoads on Kalin Kochnev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jan 2023 13:06:41 -0500</lastBuildDate><atom:link href="https://kalinkochnev.com/journey/xroads/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Does this look good? this should take up multiple lines because it is really long</title>
+      <link>https://kalinkochnev.com/journey/xroads/log-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/xroads/log-3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

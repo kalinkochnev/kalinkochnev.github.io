@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kalin Kochnev</title>
+    <link>https://kalinkochnev.com/journey/</link>
+    <description>Recent content on Kalin Kochnev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jan 2023 13:06:41 -0500</lastBuildDate><atom:link href="https://kalinkochnev.com/journey/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
