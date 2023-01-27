@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kalin Kochnev</title>
+    <link>https://kalinkochnev.com/</link>
+    <description>Recent content on Kalin Kochnev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jan 2023 13:06:41 -0500</lastBuildDate><atom:link href="https://kalinkochnev.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Staircases</title>
+      <link>https://kalinkochnev.com/blog/staircases/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/blog/staircases/</guid>
+      <description>Nobody knows what they are doing</description>
+    </item>
+    
+    <item>
+      <title>Losing wonder</title>
+      <link>https://kalinkochnev.com/blog/losingwonder/</link>
+      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/blog/losingwonder/</guid>
+      <description>How the educational system does the complete opposite of what it should do</description>
+    </item>
+    
+    <item>
+      <title>A sunset a day</title>
+      <link>https://kalinkochnev.com/blog/asunsetaday/</link>
+      <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/blog/asunsetaday/</guid>
+      <description>Sometimes we need to take a moment and do nothing</description>
+    </item>
+    
+    <item>
+      <title>AI is overrated</title>
+      <link>https://kalinkochnev.com/blog/aioverrated/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/blog/aioverrated/</guid>
+      <description>Hopefully our future machine overlords don&amp;rsquo;t see this&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>lol nothing matters</title>
+      <link>https://kalinkochnev.com/blog/lolnothingmatters/</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/blog/lolnothingmatters/</guid>
+      <description>A small dose of perspective</description>
+    </item>
+    
+    <item>
+      <title>Worry about now, not the future</title>
+      <link>https://kalinkochnev.com/blog/worryaboutnow/</link>
+      <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/blog/worryaboutnow/</guid>
+      <description>Sometimes it feels like all we do is fail at the things we are passionate about</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kalinkochnev.com/journey/nasabigidea/nasalog1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/nasabigidea/nasalog1/</guid>
+      <description>name: &amp;ldquo;My first NASA Log!&amp;rdquo; description: &amp;ldquo;sadlfkjaslfdkjkljlkj&amp;rdquo; tags: [&amp;ldquo;hardware&amp;rdquo;, &amp;ldquo;software&amp;rdquo;] img: &amp;ldquo;/images/amberlogo.png&amp;rdquo;
+started: &amp;ldquo;{{ .Date }}&amp;rdquo; last-modified: &amp;ldquo;{{ .Date }}&amp;rdquo; status: &amp;ldquo;active&amp;rdquo; p</description>
+    </item>
+    
+    <item>
+      <title>Does this look good? this should take up multiple lines because it is really long</title>
+      <link>https://kalinkochnev.com/journey/xroads/log-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/xroads/log-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>This is a log this better work</title>
+      <link>https://kalinkochnev.com/journey/resonant/log1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/resonant/log1/</guid>
+      <description>about this journey&amp;hellip; this is a link!</description>
+    </item>
+    
+  </channel>
+</rss>

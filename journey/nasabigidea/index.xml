@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AMBER @ UConn on Kalin Kochnev</title>
+    <link>https://kalinkochnev.com/journey/nasabigidea/</link>
+    <description>Recent content in AMBER @ UConn on Kalin Kochnev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey/nasabigidea/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://kalinkochnev.com/journey/nasabigidea/nasalog1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/nasabigidea/nasalog1/</guid>
+      <description>name: &amp;ldquo;My first NASA Log!&amp;rdquo; description: &amp;ldquo;sadlfkjaslfdkjkljlkj&amp;rdquo; tags: [&amp;ldquo;hardware&amp;rdquo;, &amp;ldquo;software&amp;rdquo;] img: &amp;ldquo;/images/amberlogo.png&amp;rdquo;
+started: &amp;ldquo;{{ .Date }}&amp;rdquo; last-modified: &amp;ldquo;{{ .Date }}&amp;rdquo; status: &amp;ldquo;active&amp;rdquo; p</description>
+    </item>
+    
+  </channel>
+</rss>
