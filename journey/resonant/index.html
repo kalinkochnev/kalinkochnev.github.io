@@ -8,9 +8,28 @@
 <script src="/js/batch-load.js"></script>
  
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
 </script>
+ 
 <body>
         
         <div id="content">
@@ -22,7 +41,14 @@
         arrows: false,
       }
   );
-    splide.mount();
+    var elms = document.getElementsByClassName( 'splide' );
+
+
+    for ( var i = 0; i < elms.length; i++ ) {
+        let settings = {type: 'loop', autoplay: false, arrows: false};
+        if (i == 0) { settings.autoplay = true; }
+        new Splide( elms[ i ], settings).mount();
+    }
   } );
 </script>
 
@@ -43,21 +69,59 @@
 </header>  
 <div id="journey-single">
   <div id="description-col">
-    <section class="splide" aria-label="Splide Basic HTML Example">
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide"><img src="https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png" /></li>
-          <li class="splide__slide">Slide 02</li>
-          <li class="splide__slide">Slide 03</li>
-        </ul>
-      </div>
-    </section>
-
+    
     <div class="content">
-      <p>Be fucking impossible to ignore. Stand so tall that they can’t look past you. Think about all the fucking possibilities. Someday is not a fucking day of the week. Don’t get hung up on things that don’t fucking work. Creativity is a fucking work-ethic. Don’t fucking censor yourself. Sterility leads to susceptibility. Celebrate your fucking failures. Then you’ll prove to yourself that you can survive anything.</p>
-<p>When you design, you have to draw on your own fucking life experiences. If it’s not something you would want to read/look at/use then why fucking bother? Whatever can be captured in words can be conquered with understanding. Respect your fucking craft. The details are not the details. They make the fucking design. Make your work consistent but not fucking predictable.</p>
-<p>Paul Rand once said, “The public is more familiar with bad fucking design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring.” You need to sit down and sketch more fucking ideas because stalking your ex on facebook isn’t going to get you anywhere.</p>
-<p>Defy fucking convention. If you don’t test your will against the dissent</p>
+      <section class="splide" aria-label="">
+  <div class="splide__track">
+    <ul class="splide__list">
+      
+    <li class="splide__slide">
+   <figure><div class="image-container">
+       <img src="/journey/resonant/groupphoto.jpg" width="700px"class="batch-load"
+       />
+     </div><figcaption>
+             Us at the STANYS Science Fair!
+         </figcaption>
+ </figure>
+ 
+</li>
+
+    <li class="splide__slide">
+   <figure><div class="image-container">
+       <img src="/journey/resonant/poster.jpg"class="batch-load"
+       />
+     </div><figcaption>
+             Our poster for the fair
+         </figcaption>
+ </figure>
+ 
+</li>
+
+
+    </ul>
+  </div>
+</section>
+
+
+<p>Resonant started as a high school science fair project with two of my friends, Rohan Menon and Jacob Yanoff. Our hope was to develop a wearable, and discreet, device that could serve as an alternative to hearing aids for the deaf. Additionally, the technology has interesting applications in spatial perception for robotics. Our project won Highest Honors at the New York State STANYS Science Fair.</p>
+<h2 id="specifications">Specifications</h2>
+<p>The wearable has fully integrated computing and sensing. Inside of the baseball cap there is an array of four microphones, an inertial measurement unit (IMU), a Raspberry Pi Compute unit, an OLED display at the brim of the hat, and finally a battery. On the software stack we built our prototype using Python and Numpy. Preferably we would have used a systems programming language, but since we were on such a tight deadline we settled for this solution. Communication was handled through I2C lines and multithreading.</p>
+<h2 id="math">Math</h2>
+<p>The mathematics behind sound localization are extremely interesting and elegant. It was mind blowing to me how such a simple equation could be so effective at producing a real world result. We were concerned that this project was infeasible, yet even with non-ideal conditions (a stereo microphone on a laptop) we saw accurate results!
+$$\theta = \arccos\left(\frac{v_s \tau}{d}\right)$$
+$v_s$ is the speed of sound, $\tau$ is the time delay between two audio signals, and $d$ is the distance between a pair of microphones.</p>
+<p>Granted, this equation isn&rsquo;t the full story. It&rsquo;s limited to localization in 2D and a <em>lot</em> of additional signal processing is required to compute the time delay, like computing cross-correlation with the fast Fourier transform.</p>
+<h2 id="whats-next">What&rsquo;s next?</h2>
+<p>Resonant was the first software and hardware project I worked on. It has been, by far, my favorite to work on, which is why I&rsquo;m excited to have the opportunity to research this more extensively in college! There is a lot of room for improvement for our device in almost every aspect, machine learning, localization, hardware, and software. There is so much potential and things left to learn and explore with this technology. We plan to focus a lot on improving the algorithm since a lot of research in this area went over our heads in high school. Additionally, we&rsquo;d like to explore the usage of sound localization as a sensing platform for robots.</p>
+<h3 id="areas-of-interest">Areas of interest</h3>
+<ul>
+<li>Multi-source localization in 3D space</li>
+<li>Source tracking with Kalman filters</li>
+<li>Audio beamforming for selective reception</li>
+<li>Noise-resistant machine learning model for classification and speech transcription</li>
+<li>Custom microphone array</li>
+<li>Systems programming language (like C++/Rust)</li>
+</ul>
 
     </div>
   </div>
@@ -70,7 +134,7 @@
 </span>
 </h1>
     <div id="inducted">
-      <h2 id="date">Inducted January 9, 2023</h2>
+      <h2 id="date">Inducted February 10, 2021</h2>
       <div>
         <span class="icon">
   <svg width="100%" height="100%" version="1.1" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
@@ -92,26 +156,27 @@
     </div>
     <div>
       
+        <span class="tag">signal processing</span>
+      
+        <span class="tag">electronics</span>
+      
+        <span class="tag">wearable</span>
+      
     </div>
-    <p>A webapp for students to share their ideas using Django. Features include a unique user tag system similar to discord, custom user authentication, posting, searching and page navigation</p>
+    
+    <p>An exploration of audio localization and identification through accessibility and sensing projects</p>
+    <div id="links">
+      
+        <a href="https://github.com/kalinkochnev/resonant"><span class="icon">
+    <svg width="100%" height="100%" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)" fill="#1B1F23"/>
+</svg>
 
-    <div id="log-container">
-
-  <h2>Recent Logs</h2>
-  
-  
-    <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/resonant\/log1\/'" data-tags="hardware,software," >
-      <span>#1</span>
-      <div class="info-container">
-        <h3>This is a log this better work</h3>
-        <div class="date-info">
-          <h4>January 1, 1</h4>
-          
-        </div>
-      </div>
-    </div>
-  
-</div>
+</span>
+ <span class="link-style">project repository</span> </a>
+      
+    <div>
+    
  
   </div>
 </div>

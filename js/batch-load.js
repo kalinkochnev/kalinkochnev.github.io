@@ -18,5 +18,7 @@ setTimeout(function() {
 function setImageOpacity(opacity) {
     document.querySelectorAll('.batch-load').forEach(function(image) {
         image.style.opacity = opacity;
+        image.parentNode.style.backgroundColor = "transparent";
+        image.parentNode.style.animation = "fadeOut 0.4s";
     });
 }

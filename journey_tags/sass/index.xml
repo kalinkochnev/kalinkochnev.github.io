@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sass on Kalin Kochnev</title>
+    <link>https://kalinkochnev.com/journey_tags/sass/</link>
+    <description>Recent content in sass on Kalin Kochnev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/sass/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Online Portfolio</title>
+      <link>https://kalinkochnev.com/journey/webportfolio/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/webportfolio/</guid>
+      <description>My portfolio to showcase my in-progress/completed projects and writings</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,41 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kalinkochnev.com/journey/webportfolio/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey/nasabigidea/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://kalinkochnev.com/journey/resonant/</loc>
-    <lastmod>2023-01-09T13:06:41-05:00</lastmod>
+    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey/</loc>
-    <lastmod>2023-01-09T13:06:41-05:00</lastmod>
-  </url><url>
-    <loc>https://kalinkochnev.com/journey_tags/hardware/</loc>
-    <lastmod>2023-01-09T13:06:41-05:00</lastmod>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey_tags/</loc>
-    <lastmod>2023-01-09T13:06:41-05:00</lastmod>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/</loc>
-    <lastmod>2023-01-09T13:06:41-05:00</lastmod>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kalinkochnev.com/journey/kochnet/</loc>
-    <lastmod>2023-01-09T13:06:41-05:00</lastmod>
-  </url><url>
-    <loc>https://kalinkochnev.com/journey_tags/ml/</loc>
-    <lastmod>2023-01-09T13:06:41-05:00</lastmod>
-  </url><url>
-    <loc>https://kalinkochnev.com/journey_tags/rust/</loc>
-    <lastmod>2023-01-09T13:06:41-05:00</lastmod>
-  </url><url>
-    <loc>https://kalinkochnev.com/journey_tags/software/</loc>
-    <lastmod>2023-01-09T13:06:41-05:00</lastmod>
+    <loc>https://kalinkochnev.com/journey/webportfolio/softlaunch/</loc>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey_tags/web/</loc>
-    <lastmod>2023-01-09T13:06:41-05:00</lastmod>
+    <lastmod>2023-02-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kalinkochnev.com/journey/xroads/</loc>
-    <lastmod>2023-01-09T13:06:41-05:00</lastmod>
+    <loc>https://kalinkochnev.com/journey_tags/electronics/</loc>
+    <lastmod>2023-01-31T20:14:19-05:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/rust/</loc>
+    <lastmod>2023-01-31T20:14:19-05:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey/rustodrive/</loc>
+    <lastmod>2023-01-31T20:14:19-05:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/data-science/</loc>
+    <lastmod>2023-01-31T19:40:54-05:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/jupyter/</loc>
+    <lastmod>2023-01-31T19:40:54-05:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/python/</loc>
+    <lastmod>2023-01-31T19:40:54-05:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey/sleepanalysis/</loc>
+    <lastmod>2023-01-31T19:40:54-05:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/hugo/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/sass/</loc>
+    <lastmod>2023-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey/rustbackprop/</loc>
+    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/ml/</loc>
+    <lastmod>2022-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey/nasabigidea/nasalog1/</loc>
+    <lastmod>2022-04-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/robotics/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/space/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/systems-engineering/</loc>
+    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/blog/</loc>
-    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/blog/improvementhapp/</loc>
+    <lastmod>2022-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/blog/waveseries1/</loc>
+    <lastmod>2021-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/blog_tags/</loc>
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
@@ -44,8 +86,32 @@
     <loc>https://kalinkochnev.com/blog_tags/philosophy/</loc>
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://kalinkochnev.com/journey/rheumagraph/</loc>
+    <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://kalinkochnev.com/blog/staircases/</loc>
     <lastmod>2021-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/blog/excusesbad/</loc>
+    <lastmod>2021-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/blog/qualifiedteach/</loc>
+    <lastmod>2021-11-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/blog/books2021/</loc>
+    <lastmod>2021-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/blog/smallandbig/</loc>
+    <lastmod>2021-10-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/blog/lemons/</loc>
+    <lastmod>2021-10-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/blog_tags/books/</loc>
+    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/blog/paperisdead/</loc>
+    <lastmod>2021-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/blog_tags/education/</loc>
     <lastmod>2021-10-02T00:00:00+00:00</lastmod>
@@ -68,20 +134,29 @@
     <loc>https://kalinkochnev.com/blog/aioverrated/</loc>
     <lastmod>2021-09-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kalinkochnev.com/journey/nasabigidea/</loc>
-    <lastmod>2021-09-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://kalinkochnev.com/blog/lolnothingmatters/</loc>
     <lastmod>2021-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/blog/worryaboutnow/</loc>
     <lastmod>2021-09-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kalinkochnev.com/journey/nasabigidea/nasalog1/</loc>
+    <loc>https://kalinkochnev.com/journey_tags/signal-processing/</loc>
+    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kalinkochnev.com/journey/xroads/log-3/</loc>
+    <loc>https://kalinkochnev.com/journey_tags/wearable/</loc>
+    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kalinkochnev.com/journey/resonant/log1/</loc>
+    <loc>https://kalinkochnev.com/journey_tags/django/</loc>
+    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/fullstack/</loc>
+    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/reactjs/</loc>
+    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey/xroads/</loc>
+    <lastmod>2019-06-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/types/</loc>
   </url>

@@ -8,9 +8,9 @@
 <script src="/js/batch-load.js"></script>
  
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 
-</script>
+
 <body>
         
         <div id="content">
@@ -22,7 +22,14 @@
         arrows: false,
       }
   );
-    splide.mount();
+    var elms = document.getElementsByClassName( 'splide' );
+
+
+    for ( var i = 0; i < elms.length; i++ ) {
+        let settings = {type: 'loop', autoplay: false, arrows: false};
+        if (i == 0) { settings.autoplay = true; }
+        new Splide( elms[ i ], settings).mount();
+    }
   } );
 </script>
 
@@ -43,16 +50,7 @@
 </header>  
 <div id="journey-single">
   <div id="description-col">
-    <section class="splide" aria-label="Splide Basic HTML Example">
-      <div class="splide__track">
-        <ul class="splide__list">
-          <li class="splide__slide"><img src="https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png" /></li>
-          <li class="splide__slide">Slide 02</li>
-          <li class="splide__slide">Slide 03</li>
-        </ul>
-      </div>
-    </section>
-
+    
     <div class="content">
       
     </div>
@@ -61,7 +59,7 @@
   <div id="summary-container">
     <h1 id="title">XRoads</h1>
     <div id="inducted">
-      <h2 id="date">Inducted January 9, 2023</h2>
+      <h2 id="date">Inducted June 28, 2019</h2>
       <div>
         <span class="icon">
   <svg width="100%" height="100%" version="1.1" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
@@ -83,26 +81,21 @@
     </div>
     <div>
       
+        <span class="tag">web</span>
+      
+        <span class="tag">reactjs</span>
+      
+        <span class="tag">django</span>
+      
+        <span class="tag">fullstack</span>
+      
     </div>
-    <p>A webapp for students to share their ideas using Django</p>
-
-    <div id="log-container">
-
-  <h2>Recent Logs</h2>
-  
-  
-    <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/xroads\/log-3\/'" data-tags="" >
-      <span>#1</span>
-      <div class="info-container">
-        <h3>Does this look good? this should take up multiple lines because it is really long</h3>
-        <div class="date-info">
-          <h4>January 1, 1</h4>
-          
-        </div>
-      </div>
-    </div>
-  
-</div>
+    
+    <p>A webapp for clubs to connect with students during the pandemic</p>
+    <div id="links">
+      
+    <div>
+    
  
   </div>
 </div>
