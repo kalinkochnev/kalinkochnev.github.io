@@ -665,8 +665,8 @@ a {
 
 .link-style, .content a {
   font-family: "Open Sans", sans-serif;
-  border-bottom: 2px solid #855546;
-  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
   line-height: 0.95;
   color: #855546;
 }
