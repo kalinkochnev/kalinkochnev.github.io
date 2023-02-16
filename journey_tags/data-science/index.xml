@@ -16,14 +16,5 @@
       <description>A statistical analysis of sleep records from a Fitbit</description>
     </item>
     
-    <item>
-      <title>Rheumagraph</title>
-      <link>https://kalinkochnev.com/journey/rheumagraph/</link>
-      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kalinkochnev.com/journey/rheumagraph/</guid>
-      <description>Data-driven insight to help patients and doctors make informed decisions to manage Rheumatoid Arthritis</description>
-    </item>
-    
   </channel>
 </rss>

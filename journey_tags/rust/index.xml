@@ -6,16 +6,7 @@
     <description>Recent content in rust on Kalin Kochnev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Jan 2023 20:14:19 -0500</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/rust/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Rust ODrive</title>
-      <link>https://kalinkochnev.com/journey/rustodrive/</link>
-      <pubDate>Tue, 31 Jan 2023 20:14:19 -0500</pubDate>
-      
-      <guid>https://kalinkochnev.com/journey/rustodrive/</guid>
-      <description>A rust client library for communicating with multiple ODrives using a CAN bus</description>
-    </item>
-    
+    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/rust/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backpropagation Neural Network</title>
       <link>https://kalinkochnev.com/journey/rustbackprop/</link>
