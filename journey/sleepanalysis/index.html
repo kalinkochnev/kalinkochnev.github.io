@@ -10,7 +10,26 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
 
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+ 
 <body>
         
         <div id="content">
@@ -52,7 +71,82 @@
   <div id="description-col">
     
     <div class="content">
+      <section class="splide" aria-label="">
+  <div class="splide__track">
+    <ul class="splide__list">
       
+<li class="splide__slide">
+   <figure><div class="image-container">
+      <img src="/journey/sleepanalysis/histogram.png" width="700px"class="batch-load"
+      />
+    </div><figcaption>
+            Histogram of hours slept (AP Stats)
+        </figcaption>
+</figure>
+ 
+</li>
+
+<li class="splide__slide">
+   <figure><div class="image-container">
+      <img src="/journey/sleepanalysis/probabilityplot.png" width="700px"class="batch-load"
+      />
+    </div><figcaption>
+            Probability plot of hours slept (AP Stats)
+        </figcaption>
+</figure>
+ 
+</li>
+   
+  
+
+    </ul>
+  </div>
+</section>
+
+
+<h2 id="back-in-highschool">Back in highschool</h2>
+<p>This project started in junior year of high school. My AP Statistics teacher wanted us to apply what we learned in class to something relevant in our lives. I had recently gotten a Fitbit, so it was the natural choice for me to analyze my sleep data.</p>
+<p>I think wearable sensing is a really awesome application for monitoring health. You can also gameify aspects of your life to encourage you to exercise more or sleep better. When I wake up in the morning, one of the first things I do is check how many hours of sleep I got. Ocassionally I feel that my quality of sleep was really bad compared to what my Fitbit says, but most of the time it is pretty spot on.</p>
+<p>At this point, I was only investigating if the amount of hours I slept followed a normal distribution. It looked pretty dang close with only 50 samples, considering the linear trend of the probability plot.</p>
+<h2 id="why-we-sleephttpswwwsleepdiplomatcomauthor"><a href="https://www.sleepdiplomat.com/author">&ldquo;Why we sleep&rdquo;</a></h2>
+<p>I read this book in my freshman year of college. This really ignited my interest in sleep and made me realize the incredible importance of sleep. Getting enough sleep is probably one of the most important things we can do to stay healthy. There is no bodily function that sleep somehow doesn&rsquo;t affect. And from my own experience, the quality of life goes through the roof when you feel rested and awake. I could experience the best day of my life, but as long as I was tired, it would have felt awful.</p>
+<h2 id="what-is-my-optimal-bedtime">What is my optimal bedtime?</h2>
+<p>This has been a question that I haven&rsquo;t found a good answer to. I have a general intuition of what time I should go to bed and feel rested, but I wanted the data to speak for itself. Maybe I could find a secret life hack that I&rsquo;ve been missing out on my entire life. That was the dream at least.</p>
+<p>I spent a significant amount of time pondering how I would go about this. There are so many factors that affect the quality of sleep like temperature, diet, exercise, time of day, and more. Some of those I do have control over, but it would be incredibly difficult to collect a dataset. I would be conducting an experiment on myself for months.</p>
+<p>One option was to randomly assign myself a bed time and wake up time for the span of several months. I immediately ruled that out because sleep deprivation sounded like (and is) torture.</p>
+<p>I could have experimented with the factors listed above, but they aren&rsquo;t, in my opinion, the things I can control. Here is what I attempted to analyze:</p>
+<ol>
+<li>What time I go to bed</li>
+<li>What time I wake up</li>
+</ol>
+<p>I decided to take a bayesian approach. Given that I go to bed at time $N$, what is the probability that I get $H$ hours of sleep while waking up at $M$ time. This will be more clear with a graph.</p>
+<p>$$P(H \mid \text{M wakeup and N bedtime})$$</p>
+<h3 id="example">Example</h3>
+<figure><div class="image-container">
+      <img src="/journey/sleepanalysis/bayesianexample.png"class="batch-load"
+      />
+    </div><figcaption>
+            My probability of getting at least 7.5 hours of sleep while waking up at 8 am
+        </figcaption>
+</figure>
+
+<p>On the x-axis is the time I go to bed. I specified it to start at 10pm-12am. The orange line represents how likely I am going to get at least 7.5 hours of sleep. So let&rsquo;s say I go to bed at 11pm (23:00), then I have about an 80% chance of getting &gt; 7.5 hours of sleep.</p>
+<p>What I find really satisfying, and also appears to verify the method, is how the chance I get 7.5 hours of sleep clearly decreases the closer to midnight I get. If I go to bed at 1 am, there is absolutely no chance I get 7.5 hours since there aren&rsquo;t even 7.5 hours between 1 am and 8 am.</p>
+<p>Now you might see something strange. If I&rsquo;m waking up at 8 am, shouldn&rsquo;t I have had 0% at 1 am and not midnight?</p>
+<p>This is because we aren&rsquo;t perfectly efficient sleepers. Every minute spent in bed is not necessarily time that you&rsquo;re asleep. On average, according to Fitbit, the average time users are awake during the night is 25 minutes. This is also dependent on age. For my age range, it is normal to be awake for 5-15% of the night. My statistic on average is 9-10%. So for me to get 7.5 hours of sleep, I need to be in bed for at least 8.25 hours.</p>
+<h2 id="applying-to-all-possible-wake-up-times">Applying to all possible wake up times</h2>
+<p><figure><div class="image-container">
+      <img src="/journey/sleepanalysis/bayesianall.png"class="batch-load"
+      />
+    </div><figcaption>
+            For all wakeup times between 6 and 10 am
+        </figcaption>
+</figure>
+
+When I saw this graph, I became very excited!</p>
+<p>On school nights, I generally try to go to bed around 10:30 pm. However, I really struggle to fall asleep at that time. On the flip side, if I go to bed at 1 am, I practically pass out. Unfortunately, that&rsquo;s not so feasible with a college schedule.</p>
+<p>According to &ldquo;Why we sleep&rdquo;, generally a young adult has a biologically need to have a later bed time (I don&rsquo;t remember the exact reasoning).</p>
+
     </div>
   </div>
   
