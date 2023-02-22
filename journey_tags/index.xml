@@ -17,24 +17,6 @@
     </item>
     
     <item>
-      <title>electronics</title>
-      <link>https://kalinkochnev.com/journey_tags/electronics/</link>
-      <pubDate>Tue, 31 Jan 2023 20:14:19 -0500</pubDate>
-      
-      <guid>https://kalinkochnev.com/journey_tags/electronics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rust</title>
-      <link>https://kalinkochnev.com/journey_tags/rust/</link>
-      <pubDate>Tue, 31 Jan 2023 20:14:19 -0500</pubDate>
-      
-      <guid>https://kalinkochnev.com/journey_tags/rust/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>data-science</title>
       <link>https://kalinkochnev.com/journey_tags/data-science/</link>
       <pubDate>Tue, 31 Jan 2023 19:40:54 -0500</pubDate>
@@ -89,6 +71,24 @@
     </item>
     
     <item>
+      <title>rust</title>
+      <link>https://kalinkochnev.com/journey_tags/rust/</link>
+      <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey_tags/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>electronics</title>
+      <link>https://kalinkochnev.com/journey_tags/electronics/</link>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey_tags/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>robotics</title>
       <link>https://kalinkochnev.com/journey_tags/robotics/</link>
       <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
@@ -130,33 +130,6 @@
       <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kalinkochnev.com/journey_tags/wearable/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>django</title>
-      <link>https://kalinkochnev.com/journey_tags/django/</link>
-      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kalinkochnev.com/journey_tags/django/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fullstack</title>
-      <link>https://kalinkochnev.com/journey_tags/fullstack/</link>
-      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kalinkochnev.com/journey_tags/fullstack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reactjs</title>
-      <link>https://kalinkochnev.com/journey_tags/reactjs/</link>
-      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kalinkochnev.com/journey_tags/reactjs/</guid>
       <description></description>
     </item>
     

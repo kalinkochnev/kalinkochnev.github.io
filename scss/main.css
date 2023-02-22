@@ -535,10 +535,17 @@
   max-width: 100%;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  font-color: #352a26;
+  color: #352a26;
 }
 .content ol > li::marker {
   font-weight: bold;
+}
+.content img {
+  width: 100%;
+  border-radius: 5px;
+}
+.content .image-container {
+  width: 100%;
 }
 .content figure {
   display: flex;
@@ -548,18 +555,11 @@
   flex-wrap: nowrap;
   margin: 0px;
 }
-.content figure .image-container {
-  width: 100%;
-}
-.content figure img {
-  width: 100%;
-  border-radius: 5px;
-}
 .content figure figcaption {
   display: inline;
   font-size: 16px;
   font-family: "Lora", serif;
-  color: black;
+  color: #231c1a;
 }
 .content blockquote ::before {
   display: block;
@@ -575,8 +575,7 @@
 }
 .content blockquote p {
   font-weight: 700;
-  font-family: "Lora", serif;
-  color: black;
+  font-family: "Open Sans", sans-serif;
 }
 .content code {
   background-color: aliceblue;
