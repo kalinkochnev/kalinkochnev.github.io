@@ -25,14 +25,5 @@
       <description>The site might be rough on the edges, but bear with me</description>
     </item>
     
-    <item>
-      <title>XRoads</title>
-      <link>https://kalinkochnev.com/journey/xroads/</link>
-      <pubDate>Fri, 28 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kalinkochnev.com/journey/xroads/</guid>
-      <description>A webapp for clubs to connect with students during the pandemic</description>
-    </item>
-    
   </channel>
 </rss>
