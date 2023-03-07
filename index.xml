@@ -6,7 +6,16 @@
     <description>Recent content on Kalin Kochnev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Feb 2023 17:43:53 -0500</lastBuildDate><atom:link href="https://kalinkochnev.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Feb 2023 22:29:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning in public</title>
+      <link>https://kalinkochnev.com/journey/webportfolio/learning-in-public/</link>
+      <pubDate>Wed, 15 Feb 2023 22:29:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/webportfolio/learning-in-public/</guid>
+      <description>A completely different way of thinking about learning</description>
+    </item>
+    
     <item>
       <title>Multiplicative time</title>
       <link>https://kalinkochnev.com/blog/multiplicativetime/</link>
@@ -158,17 +167,6 @@
       
       <guid>https://kalinkochnev.com/blog/worryaboutnow/</guid>
       <description>Sometimes it feels like all we do is fail at the things we are passionate about</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kalinkochnev.com/journey/webportfolio/learning-in-public/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kalinkochnev.com/journey/webportfolio/learning-in-public/</guid>
-      <description>https://andrewrea.substack.com/p/on-commitment-and-optionality title: &amp;ldquo;Learning in public&amp;rdquo; summary: &amp;ldquo;A completely different way of thinking about learning&amp;rdquo;
-date: 2023-02-15T22:29:00-00:00 draft: false journey_tags: [&amp;ldquo;web&amp;rdquo;, &amp;ldquo;learning&amp;rdquo;, &amp;ldquo;notetaking&amp;rdquo;] type: &amp;ldquo;log&amp;rdquo; If you haven&amp;rsquo;t already, please check out my portfolio site! I made it from scratch and it is the home for my blogs posts and more!
-Using markdown to take notes For the unfamiliar, markdown is a simple language to create formatted text. You can include headers, text, images, and links.</description>
     </item>
     
   </channel>

@@ -6,7 +6,7 @@
     <description>Recent content in web on Kalin Kochnev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Feb 2023 22:29:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Online Portfolio</title>
       <link>https://kalinkochnev.com/journey/webportfolio/</link>
@@ -14,6 +14,15 @@
       
       <guid>https://kalinkochnev.com/journey/webportfolio/</guid>
       <description>My portfolio to showcase my journeys and writings</description>
+    </item>
+    
+    <item>
+      <title>Learning in public</title>
+      <link>https://kalinkochnev.com/journey/webportfolio/learning-in-public/</link>
+      <pubDate>Wed, 15 Feb 2023 22:29:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/webportfolio/learning-in-public/</guid>
+      <description>A completely different way of thinking about learning</description>
     </item>
     
     <item>
