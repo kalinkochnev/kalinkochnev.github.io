@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey/webportfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>The website is responsive! (almost)</title>
+      <link>https://kalinkochnev.com/journey/webportfolio/responsive3-9-23/</link>
+      <pubDate>Thu, 09 Mar 2023 19:55:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/webportfolio/responsive3-9-23/</guid>
+      <description>Sometimes when you&amp;rsquo;re code doesn&amp;rsquo;t compile, it&amp;rsquo;s not you&amp;rsquo;re fault!</description>
+    </item>
+    
+    <item>
       <title>Learning in public</title>
       <link>https://kalinkochnev.com/journey/webportfolio/learninginpublic/</link>
       <pubDate>Wed, 15 Feb 2023 22:29:00 +0000</pubDate>
@@ -23,6 +32,15 @@
       
       <guid>https://kalinkochnev.com/journey/webportfolio/softlaunch/</guid>
       <description>The site might be rough on the edges, but bear with me</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kalinkochnev.com/journey/webportfolio/responsive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/webportfolio/responsive/</guid>
+      <description></description>
     </item>
     
   </channel>

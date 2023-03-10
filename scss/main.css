@@ -624,6 +624,12 @@
   font-size: 1.5rem;
 }
 .content a {
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  line-height: 0.95;
+  color: #855546;
   font-size: 1.5rem;
 }
 .content li {
@@ -676,6 +682,20 @@
   background-color: aliceblue;
   padding: 3px;
   border-radius: 5px;
+}
+.content pre {
+  border-radius: 5px;
+  padding: 0px 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+  transition: width ease-in 0.2s;
+}
+.content pre code {
+  background-color: inherit;
+}
+.content pre:hover {
+  width: 900px;
 }
 
 .pagination {
@@ -820,7 +840,7 @@ a {
   color: inherit;
 }
 
-.link-style, .content a {
+.link-style {
   font-size: 1.2rem;
   font-family: "Open Sans", sans-serif;
   text-decoration-line: underline;

@@ -6,7 +6,7 @@
     <description>Recent content in web on Kalin Kochnev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Feb 2023 22:29:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Mar 2023 19:55:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Online Portfolio</title>
       <link>https://kalinkochnev.com/journey/webportfolio/</link>
@@ -14,6 +14,15 @@
       
       <guid>https://kalinkochnev.com/journey/webportfolio/</guid>
       <description>My portfolio to showcase my journeys and writings</description>
+    </item>
+    
+    <item>
+      <title>The website is responsive! (almost)</title>
+      <link>https://kalinkochnev.com/journey/webportfolio/responsive3-9-23/</link>
+      <pubDate>Thu, 09 Mar 2023 19:55:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/webportfolio/responsive3-9-23/</guid>
+      <description>Sometimes when you&amp;rsquo;re code doesn&amp;rsquo;t compile, it&amp;rsquo;s not you&amp;rsquo;re fault!</description>
     </item>
     
     <item>
