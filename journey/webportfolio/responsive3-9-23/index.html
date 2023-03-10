@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+
+<link rel="stylesheet" href="/scss/main.css" />
+
+
+<script src="/js/batch-load.js"></script>
+ 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+        
+        <div id="content">
+
+
+<link rel="stylesheet" href="/scss/main.css" />
+
+
+<script src="/js/batch-load.js"></script>
+ 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<header>  
+  <nav class="navbar" role="navigation">  
+    <div id="left"> 
+      
+      <a href="/">kalin kochnev</a>
+      
+    </div>  
+    <div id="right">  
+      <a href="/journey">journeys</a>  
+      <a href="/blog">blog</a>
+    </div>  
+  </nav>  
+</header>  
+
+<div class="single-container">
+  <div class="post-page">
+    <div id="post-head">
+      <h1>The website is responsive! (almost)</h1>
+      <h4>Sometimes when you&rsquo;re code doesn&rsquo;t compile, it&rsquo;s not you&rsquo;re fault!</h4>
+
+      <div class="date">
+
+        <p>March 9, 2023</p>
+      </div>
+    </div>
+    <div class="content">
+      <h1 id="changelog">Changelog</h1>
+<p>Since my last log I have made a few changes.</p>
+<ul>
+<li>
+<p>You may have noticed that a lot of the components on my pages have shrunk. The design was too &ldquo;in your face&rdquo; and the amount of actual content on a page was sparse.</p>
+</li>
+<li>
+<p>The mobile experience is significantly improved, and there is pagination for my logs and blog page. I unintentionally forgot to response-ify my project page so that&rsquo;s on my list of next steps.</p>
+</li>
+<li>
+<p>I designed a brand new home page! I wanted to create something a bit more personal and indicate my personal and career goals. The design may be altered as I start to implement it, but here&rsquo;s how it is looking. (I use Inkscape for all my mockups)</p>
+</li>
+</ul>
+<p><img src="/journey/webportfolio/responsive3-9-23/fullpage.png" alt="New web page"></p>
+<h1 id="battling-dart-sass-and-hugo">Battling Dart Sass and Hugo</h1>
+<p>I recently had been battling Syncthing conflicts between my desktop and laptop. Since the semester started, I&rsquo;ve been coding on my laptop almost exclusively.  I must have accidentally commited to my version control on my desktop with outstanding changes on my laptop, which effectively erased a bunch of work I had done.</p>
+<p>Then a few days ago while I was developing the mobile layout, all of a sudden my hugo build stopped working. I suspected was residual issues from syncthing, but I could not figure it out.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Error: Error building site: TOCSS-DART: failed to transform <span style="color:#e6db74">&#34;scss/main.scss&#34;</span> <span style="color:#f92672">(</span>text/x-scss<span style="color:#f92672">)</span>: got 
+</span></span><span style="display:flex;"><span>unexpected EOF when executing <span style="color:#e6db74">&#34;dart-sass-embedded&#34;</span>. The user running hugo must have read and
+</span></span><span style="display:flex;"><span> execute permissions on this program. With execute permissions only, this error is thrown.
+</span></span></code></pre></div><p>I had seen this error before, which was resolved by either</p>
+<ol>
+<li>Installing the <code>--extended</code> snap for hugo</li>
+<li>Use the <code>dart-sass-embedded</code> snap instead of the bundled NodeSass (which has been deprecated for several years)</li>
+</ol>
+<p>When it comes to coding issues, I am the most fallible link in the chain. My code not compiling has almost always been due to me being stupid. I figured that somehow my project structure had its file permissions badly altered by Syncthing. I am not the most comfortable when it comes to linux permissions, but in attempting to address my issues I ended up learning a lot about how to manipulate permissions recursively. I used</p>
+<p>I have fallen into false confidence about the reliability of code written by others, since surely code published online doesn&rsquo;t have any issues. I didn&rsquo;t take my own advice from my blog about <a href="https://kalinkochnev.com/blog/multiplicativetime/" title="Multiplicative time">Multiplicative time</a>. I, again, debugged for several hours and wanted to pull my hair out.</p>
+<p>As a last resort I posted on the <a href="https://discourse.gohugo.io/t/tocss-dart-failed-to-transform-scss-main-scss-execute-permissions/43267?u=kalinkochnev">Hugo discourse</a>.</p>
+<p>Apparently there was an upstream change that broke <code>dart-sass-embedded</code> at the exact moment I ran <code>sudo apt upgrade</code>. Just my luck. On the flip side, hopefully my struggle saved some other developers the trouble. I really have to stop &ldquo;rage coding&rdquo;.</p>
+
+    </div>
+  </div>
+</div>
+        </div></body>
+</html>
