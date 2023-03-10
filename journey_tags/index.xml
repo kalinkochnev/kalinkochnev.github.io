@@ -6,7 +6,25 @@
     <description>Recent content in Journey_tags on Kalin Kochnev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Mar 2023 19:55:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Mar 2023 11:13:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>signal processing</title>
+      <link>https://kalinkochnev.com/journey_tags/signal-processing/</link>
+      <pubDate>Fri, 10 Mar 2023 11:13:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey_tags/signal-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://kalinkochnev.com/journey_tags/hugo/</link>
+      <pubDate>Thu, 09 Mar 2023 19:55:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey_tags/hugo/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>web</title>
       <link>https://kalinkochnev.com/journey_tags/web/</link>
@@ -58,15 +76,6 @@
       <pubDate>Tue, 31 Jan 2023 19:40:54 -0500</pubDate>
       
       <guid>https://kalinkochnev.com/journey_tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://kalinkochnev.com/journey_tags/hugo/</link>
-      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kalinkochnev.com/journey_tags/hugo/</guid>
       <description></description>
     </item>
     
@@ -130,15 +139,6 @@
       <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://kalinkochnev.com/journey_tags/systems-engineering/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>signal processing</title>
-      <link>https://kalinkochnev.com/journey_tags/signal-processing/</link>
-      <pubDate>Wed, 10 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kalinkochnev.com/journey_tags/signal-processing/</guid>
       <description></description>
     </item>
     

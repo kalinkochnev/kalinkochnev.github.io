@@ -55,17 +55,36 @@
       <h1 id="changelog">Changelog</h1>
 <p>Since my last log I have made a few changes.</p>
 <ul>
-<li>
-<p>You may have noticed that a lot of the components on my pages have shrunk. The design was too &ldquo;in your face&rdquo; and the amount of actual content on a page was sparse.</p>
-</li>
-<li>
-<p>The mobile experience is significantly improved, and there is pagination for my logs and blog page. I unintentionally forgot to response-ify my project page so that&rsquo;s on my list of next steps.</p>
-</li>
-<li>
-<p>I designed a brand new home page! I wanted to create something a bit more personal and indicate my personal and career goals. The design may be altered as I start to implement it, but here&rsquo;s how it is looking. (I use Inkscape for all my mockups)</p>
-</li>
+<li><strong>Smaller components:</strong> You may have noticed that a lot of the components on my pages have shrunk. The design was too &ldquo;in your face&rdquo; and the amount of actual content on a page was sparse.</li>
+<li><strong>Better mobile experience:</strong> The mobile experience is significantly improved, and there is pagination for my logs and blog page. I unintentionally forgot to response-ify my project page so that&rsquo;s on my list of next steps.</li>
+<li><strong>Pagination!</strong></li>
+<li><strong>In progress home page design:</strong> I designed a brand new home page! I wanted to create something a bit more personal and indicate my personal and career goals. The design may be altered as I start to implement it, but here&rsquo;s how it is looking. (I use Inkscape for all my mockups).</li>
+<li><strong>More sensible typography sizing:</strong> I picked more sensible font sizes and text spacing. The next-sibling css selector is very helpful for styling headers in relation to one another. For example, I may want to have different spacing between a header when its before</li>
+<li><strong>Code blocks expand:</strong> Codeblocks on hover now expand to fit all the content. I find it really annoying to scroll on very long horizontal code blocks and loved this idea.</li>
 </ul>
 <p><img src="/journey/webportfolio/responsive3-9-23/fullpage.png" alt="New web page"></p>
+<h1 id="future-plans">Future plans</h1>
+<h2 id="site-performance">Site performance</h2>
+<ul>
+<li>Resize large images and convert to WebP <a href="https://gohugo.io/content-management/image-processing/#target-format">using hugo</a>. My current home screen image is 12mb 🤯</li>
+</ul>
+<h2 id="seo">SEO</h2>
+<ul>
+<li>Add title tags to main page</li>
+<li>Add <a href="https://moz.com/learn/seo/meta-description">meta descriptions</a> to each page</li>
+<li>Add site favicon and custom name</li>
+</ul>
+<h2 id="responsiveness">Responsiveness</h2>
+<ul>
+<li>Make the journey page responsive. All I need to do is switch to CSS Grid and add some breakpoints.</li>
+<li>On mobile change the journeys list from a horizontal card to a vertical one so the font size can stay consistent</li>
+</ul>
+<h2 id="miscellaenous">Miscellaenous</h2>
+<ul>
+<li>I have to rework how I&rsquo;m styling and displaying SVGs. I have not found a clean way of doing it yet while maintaing control of styling after the fact.</li>
+<li>Add a link to bring you back from a log to the journey it belongs to</li>
+<li>Add a site footer</li>
+</ul>
 <h1 id="battling-dart-sass-and-hugo">Battling Dart Sass and Hugo</h1>
 <p>I recently had been battling Syncthing conflicts between my desktop and laptop. Since the semester started, I&rsquo;ve been coding on my laptop almost exclusively.  I must have accidentally commited to my version control on my desktop with outstanding changes on my laptop, which effectively erased a bunch of work I had done.</p>
 <p>Then a few days ago while I was developing the mobile layout, all of a sudden my hugo build stopped working. I suspected was residual issues from syncthing, but I could not figure it out.</p>
