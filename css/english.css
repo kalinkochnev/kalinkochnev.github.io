@@ -12,7 +12,23 @@
   margin-bottom: 50px;
 }
 
-iframe {
-  width: 75%;
+.about-me {
+  display:flex;
+  flex-direction: row;
   max-width: 1200px;
+}
+
+.about-me p {
+  flex-direction: column;
+  
+}
+
+.about-me img {
+  height: 600px;
+  margin-right: 45px;
+}
+
+.about-me .description {
+  width: 700px;
+  font-size: 18px;
 }
