@@ -893,7 +893,19 @@ header {
   font-weight: 700;
   font-size: 2rem;
 }
-.navbar #left {
+.navbar #face-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.navbar #face-icon img {
+  margin-right: 10px;
+  width: 4rem;
+  height: 4rem;
+}
+.navbar #name {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -904,7 +916,7 @@ header {
   font-size: 2rem;
   line-height: 1;
 }
-.navbar #left #subtitle {
+.navbar #name #subtitle {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 2rem;
