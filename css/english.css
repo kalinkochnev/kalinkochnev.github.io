@@ -4,8 +4,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  
 }
+
+.main-container p {
+  font-size: 1.3rem;
+}
+
 .mood-board {
   width: 75%;
   max-width: 1200px;
@@ -31,4 +35,19 @@
 .about-me .description {
   width: 700px;
   font-size: 18px;
+}
+
+#curation-project {
+  width: 900px;
+}
+.curated-post {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+.curated-post img {
+  width: 400px;
+  border-radius: 5px;
+  height: fit-content;
+  margin-right: 20px;
 }
