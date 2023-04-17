@@ -6,7 +6,16 @@
     <description>Recent content in robotics on Kalin Kochnev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SLAM Bike</title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/</link>
+      <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/</guid>
+      <description>A self-stabilizing and autonomous bike project</description>
+    </item>
+    
     <item>
       <title>AMBER @ UConn</title>
       <link>https://kalinkochnev.com/journey/nasabigidea/</link>

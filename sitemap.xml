@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kalinkochnev.com/journey/stabilizingbike/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://kalinkochnev.com/journey/webportfolio/</loc>
     <lastmod>2023-01-31T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,18 +15,33 @@
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey/</loc>
-    <lastmod>2023-04-08T13:57:00+00:00</lastmod>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/controls/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/hardware/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/robotics/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey/stabilizingbike/logs/literature_review/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/youtube/</loc>
+    <lastmod>2023-04-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey/webportfolio/changelog4-8-23/</loc>
     <lastmod>2023-04-08T13:57:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey_tags/hugo/</loc>
-    <lastmod>2023-04-08T13:57:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kalinkochnev.com/journey_tags/</loc>
-    <lastmod>2023-04-08T13:57:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kalinkochnev.com/</loc>
     <lastmod>2023-04-08T13:57:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey_tags/web/</loc>
@@ -87,9 +105,6 @@
     <lastmod>2022-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey_tags/electronics/</loc>
-    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kalinkochnev.com/journey_tags/robotics/</loc>
     <lastmod>2022-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey_tags/space/</loc>
@@ -163,8 +178,6 @@
   </url><url>
     <loc>https://kalinkochnev.com/journey_tags/wearable/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kalinkochnev.com/english-lab/</loc>
   </url><url>
     <loc>https://kalinkochnev.com/1/</loc>
   </url><url>
