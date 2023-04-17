@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+
+<link rel="stylesheet" href="/scss/main.css" />
+
+
+<script src="/js/batch-load.js"></script>
+ 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<head>
+ <title>Kalin Kochnev</title>
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+        
+        <div id="content">
+<script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    var splide = new Splide( '.splide', {
+        type: 'loop',
+        autoplay: true,
+        arrows: false,
+        autoHeight: true,
+      }
+  );
+    var elms = document.getElementsByClassName( 'splide' );
+
+
+    for ( var i = 0; i < elms.length; i++ ) {
+        let settings = {type: 'loop', autoplay: false, arrows: false};
+        if (i == 0) { settings.autoplay = true; }
+        new Splide( elms[ i ], settings).mount();
+    }
+  } );
+</script>
+
+<header>  
+  <nav class="navbar" role="navigation">  
+    <div id="face-icon">
+      <img src="/images/face.png" />
+      <div id="name"> 
+        
+        <a href="/">kalin kochnev</a>
+        
+        <p id="subtitle">journeys</p>
+        
+      </div>  
+    </div>
+    
+    <div id="right">  
+      <a href="/journey">journeys</a>  
+      <a href="/blog">blog</a>
+    </div>  
+  </nav>  
+</header>  
+<div id="journey-single-container">
+  <div id="journey-single-grid">
+    <div id="description-col">
+      
+      <div class="content">
+        <figure><div class="image-container">
+      <img src="/journey/stabilizingbike/images/bike.jpg" width="700px"class="batch-load"
+      />
+    </div>
+</figure>
+
+<p>I had the idea for this as I was walking alongside my friends who always tease how annoying it is to bring my bike around campus. Never tease an engineer because now I&rsquo;ll have the last laugh!</p>
+<p>How hilarious would it be if I could have my bike follow me so I can walk with my non-bike friends without worry. Or what if my bike could pick me up like an Uber?</p>
+<p>This is a project I will be working on for the summer of 2023. I&rsquo;m really excited because it&rsquo;s a super interesting physics and controls system problem. Plus the end result is beyond amazing.</p>
+<hr>
+<p>image attribution: <a href="https://www.flickr.com/people/7527824@N04">齐健</a> from Peking, People&rsquo;s Republic of China</p>
+
+      </div>
+    </div>
+    
+    <div id="summary-container">
+      <h1 id="title">SLAM Bike<span  class="star-icon" >
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 33.502 34.617" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-1321.6 -236.47)"><g transform="matrix(1.4055 0 0 1.4055 601.33 -306.2)"><path d="m521.7 409.43c0.2524-0.0676 0.5145-0.20532 0.7739-0.41755l4.4139-4.2001 5.9227 1.4304c0.3306 0.0541 0.6266 0.0423 0.8788-0.0253 0.7821-0.20956 1.1477-0.95661 0.8425-1.9486l-2.2072-5.5373 2.7958-4.9969c0.5195-1.2711-0.1723-2.3001-1.5457-2.2985l-5.9842 0.61546-3.8988-4.4185c-0.5236-0.46869-1.1007-0.62034-1.6062-0.48491-0.4826 0.12931-0.8988 0.51982-1.1402 1.1456l-1.5517 5.9538-5.0077 2.2858c-1.1776 0.70619-1.2523 1.9602-0.1669 2.8013l4.9194 2.9293 0.8571 5.8989c0.2319 1.0125 0.9223 1.4766 1.7045 1.267z" fill="#ffdb00" stroke="#000" stroke-width="2"/></g></g></svg>
+
+</span>
+</h1>
+      <div id="inducted">
+        <h2 id="date">Inducted April 17, 2023</h2>
+        <div id="status">
+          <span class="icon">
+  <svg width="100%" height="100%" version="1.1" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+   <g transform="translate(-84.865 -99.13)">
+     <circle cx="97.365" cy="111.63" r="7.5" 
+      fill="
+          
+            #b4e6acff
+           
+        " 
+    stroke="#000 " 
+    stroke-width="3.2657"/>
+   </g>
+  </svg>
+</span>
+
+          active
+        </div>
+      </div>
+      <div>
+        
+          <span class="tag">hardware</span>
+        
+          <span class="tag">robotics</span>
+        
+          <span class="tag">controls</span>
+        
+          <span class="tag">youtube</span>
+        
+      </div>
+      
+      <p>A self-stabilizing and autonomous bike project</p>
+      <div id="links">
+        
+      </div>
+      
+  
+  <div id="log-container">
+
+    <h2>Recent Logs</h2>
+    
+      <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/stabilizingbike\/logs\/literature_review\/'" data-tags="," >
+        <span>#1</span>
+        <div class="info-container">
+          <h3>Slaaaam bike and literature review!</h3>
+          <h4 class="summary">A new beginning</h4>
+          <div class="date-info">
+            <h4>April 17, 2023</h4>
+            
+          </div>
+        </div>
+      </div>
+    
+  </div>
+
+ 
+    </div>
+  </div>
+</div>
+        </div></body>
+</html>
