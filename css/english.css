@@ -8,6 +8,7 @@
 
 .main-container p {
   font-size: 1.3rem;
+  max-width: 1200px;
 }
 
 .mood-board {
