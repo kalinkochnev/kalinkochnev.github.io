@@ -7,8 +7,7 @@
 
 <script src="/js/batch-load.js"></script>
  
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
@@ -33,7 +32,19 @@
     });
 </script>
  
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elms = document.getElementsByClassName('splide');
 
+        for (var i = 0; i < elms.length; i++) {
+            let settings = { type: 'loop', autoplay: false, arrows: false };
+            if (i == 0) { settings.autoplay = true; }
+            new Splide(elms[i], settings).mount();
+        }
+    });
+</script> 
 <head>
  <title>Kalin Kochnev</title>
  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -41,30 +52,26 @@
 <body>
         
         <div id="content">
-<script>
-  document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide', {
-        type: 'loop',
-        autoplay: true,
-        arrows: false,
-        autoHeight: true,
-      }
-  );
-    var elms = document.getElementsByClassName( 'splide' );
-
-
-    for ( var i = 0; i < elms.length; i++ ) {
-        let settings = {type: 'loop', autoplay: false, arrows: false};
-        if (i == 0) { settings.autoplay = true; }
-        new Splide( elms[ i ], settings).mount();
-    }
-  } );
-</script>
 
 <header>  
   <nav class="navbar" role="navigation">  
     <div id="face-icon">
-      <img src="/images/face.png" />
+      
+
+
+
+
+
+    
+    <img 
+        src="/images/face_hu03cb41ba356b0fd884adcc4944d0157c_969556_60x0_resize_q90_h2_box_3.webp" 
+         
+        
+
+        alt=""
+  
+    />
+
       <div id="name"> 
         
         <a href="/">kalin kochnev</a>
@@ -90,9 +97,27 @@
     <ul class="splide__list">
       
 <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/sleepanalysis/histogram.png" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/sleepanalysis/histogram_huf1aa0d291d52464134132745eb528dcd_53278_1200x0_resize_q90_h2_box_3.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              Histogram of hours slept (AP Stats)
          </figcaption>
@@ -101,9 +126,27 @@
 </li>
 
 <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/sleepanalysis/probabilityplot.png" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/sleepanalysis/probabilityplot_hu456981dbbb0ccd05fa9873bc747accd2_56591_1200x0_resize_q90_h2_box_3.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              Probability plot of hours slept (AP Stats)
          </figcaption>
@@ -134,13 +177,59 @@
 <p>I decided to take a bayesian approach. Given that I go to bed at time $N$, what is the probability that I get $H$ hours of sleep while waking up at $M$ time. This will be more clear with a graph.</p>
 <p>$$P(\ge H \mid \text{(M wakeup and N bedtime)})$$</p>
 <h3 id="example-pge75-mid-textwakeup-8am-bedtime-n">Example $P(\ge7.5 \mid \text{(Wakeup: 8am, Bedtime N)})$</h3>
-<p><img src="/journey/sleepanalysis/bayesianexample.png" alt="Probability of getting enough sleep if I wake up at 8 AM"></p>
+<figure ><div class="image-container">
+        
+        
+
+        
+        
+
+
+
+
+
+    
+    <img 
+        src="/journey/sleepanalysis/bayesianexample_hu6cd3afda5d1a896588baa083ba181142_48603_1200x0_resize_q90_h2_box_3.webp" 
+         class="batch-load"  
+        
+
+        alt=""
+  
+    />
+
+    </div>
+</figure>
+
 <p>On the x-axis is the time I go to sleep (in military time). While on the y-axis is the probability of getting $\ge 7.5$ hours of sleep. The orange line represents a specific wake up time, 8 AM. So let&rsquo;s say I go to bed at 11 PM (23:00), then I have approximately an 80% chance of getting $\ge 7.5$ hours of sleep.</p>
 <p>The probability approaching 0 as it gets closer to midnight seems to validate that my code works. Clearly if I go to bed at 1 am, there is absolutely no chance I get 7.5 hours since there aren&rsquo;t even 7.5 hours between 1 am and 8 am.</p>
 <p>Now you might see something strange. If I&rsquo;m waking up at 8 am, shouldn&rsquo;t I have had 0% at 1 am and not midnight? The graph is dropping off way too steeply.</p>
 <p>My best explanation is because we aren&rsquo;t perfectly efficient sleepers. Every minute spent in bed is not necessarily time that we are asleep. On average, according to Fitbit, users are awake during the night for 25 minutes. This is also dependent on age. For my age range, it is normal to be awake for 5-15% of the night. My statistic on average is 9-10%. So for me to get 7.5 hours of sleep, I need to be in bed for at least 8.25 hours.</p>
 <h2 id="applying-to-all-possible-wake-up-times">Applying to all possible wake up times</h2>
-<p><img src="/journey/sleepanalysis/bayesianall.png" alt="For all wake up times">
+<p><figure ><div class="image-container">
+        
+        
+
+        
+        
+
+
+
+
+
+    
+    <img 
+        src="/journey/sleepanalysis/bayesianall_hu931a68d9111a17bfae0f7c837186808b_125280_1200x0_resize_q90_h2_box_3.webp" 
+         class="batch-load"  
+        
+
+        alt=""
+  
+    />
+
+    </div>
+</figure>
+
 When I saw this graph, I became very excited!</p>
 <p>According to &ldquo;Why we sleep&rdquo;, generally a young adult has a biologically need to have a later bed time. And like many others, I would love to stay up late and wake up late, but the college schedule does not necessarily support that. It&rsquo;s even worse with middle and high school where you have to wake up at 6 AM.</p>
 <p>So for the longest time, I faced my reality and forced myself to go to bed earlier. However, I had the suspicion that by going to bed later, I actually fell asleep faster. The effects are more pronounced</p>
@@ -186,9 +275,50 @@ When I saw this graph, I became very excited!</p>
         
       </div>
       
- 
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+<div id="log-container">
+  <h2>Recent Logs</h2>
+  
+  
+</div> 
     </div>
   </div>
-</div>
-        </div></body>
+</div><noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript>
+        </div><noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript></body>
 </html>

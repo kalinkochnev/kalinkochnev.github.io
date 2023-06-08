@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap");
 .landing-layout {
   height: 100%;
   width: 100%;
@@ -39,7 +39,7 @@
 }
 #welcome-container .navbar a {
   font-family: "Open Sans", sans-serif;
-  color: #352a26;
+  color: black;
   font-weight: 600;
   font-size: 35px;
   text-decoration: none;
@@ -60,7 +60,7 @@
 #welcome-container #welcome h3 {
   margin-top: 0px;
   font-family: "Open Sans", sans-serif;
-  color: #352a26;
+  color: black;
   font-size: 1.5rem;
   font-weight: normal;
 }
@@ -68,7 +68,7 @@
   margin: 0px;
   font-family: "Lora", serif;
   font-size: 4rem;
-  color: #352a26;
+  color: black;
 }
 
 @media screen and (max-width: 1400px) {
@@ -129,9 +129,9 @@
 .post .date p {
   margin: 0px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
-  color: #352a26;
+  color: black;
 }
 .post h4 {
   margin: 0px;
@@ -140,25 +140,26 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.3;
-  color: #352a26;
+  color: black;
 }
-.post h3, .post h1 {
+.post h3,
+.post h1 {
   margin: 0px;
   font-family: "Lora", serif;
-  font-size: 27px;
+  font-size: 1.7rem;
   font-weight: bold;
   line-height: 1.1;
-  color: #352a26;
+  color: black;
 }
 
 .blog-tag {
-  background-color: #494949;
+  background-color: hsl(20, 11%, 45%);
   border-radius: 20px;
   padding: 5px 10px;
   color: white;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  font-style: 400;
+  font-size: 1.15rem;
+  font-weight: 400;
   display: inline-block;
 }
 
@@ -175,7 +176,8 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(400px, 1fr));
   column-gap: 30px;
-  grid-auto-rows: min-content; /* OR min-content*/
+  grid-auto-rows: min-content;
+  /* OR min-content*/
   justify-self: center;
   max-width: 1000px;
   max-height: inherit;
@@ -189,13 +191,12 @@
 .post-container .top img {
   width: 100%;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .post-container .featured-container {
   height: fit-content;
 }
 .post-container .list-container {
-  margin-top: 10px;
   width: 100%;
   overflow: auto;
   box-sizing: border-box;
@@ -252,7 +253,6 @@
   align-items: center;
   flex-wrap: nowrap;
   width: 750px;
-  padding: 0px 20px;
   box-sizing: border-box;
 }
 .post-page #post-head {
@@ -261,6 +261,8 @@
   box-sizing: border-box;
   padding: 12.5px;
   width: 750px;
+  padding: 0px;
+  margin-bottom: 15px;
 }
 .post-page #post-head .date {
   display: flex;
@@ -273,9 +275,9 @@
 .post-page #post-head .date p {
   margin: 0px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.4rem;
-  color: #352a26;
+  color: black;
 }
 .post-page #post-head h4 {
   margin: 0px;
@@ -284,15 +286,16 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.3;
-  color: #352a26;
+  color: black;
 }
-.post-page #post-head h3, .post-page #post-head h1 {
+.post-page #post-head h3,
+.post-page #post-head h1 {
   margin: 0px;
   font-family: "Lora", serif;
   font-size: 2.5rem;
   font-weight: bold;
   line-height: 1.1;
-  color: #352a26;
+  color: black;
 }
 .post-page .post-img {
   display: flex;
@@ -302,7 +305,7 @@
   flex-wrap: nowrap;
   min-width: 675px;
   margin-top: 30px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 750px) {
@@ -324,9 +327,9 @@
 #journey-container #journeys-multiple {
   display: grid;
   grid-template-columns: minmax(300px, 1.4fr) minmax(300px, 1fr);
-  column-gap: 20px;
+  column-gap: 50px;
   justify-self: center;
-  max-width: 1100px;
+  max-width: 1150px;
   height: fit-content;
 }
 #journey-container #journeys-multiple #project-col {
@@ -348,9 +351,46 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12.5px;
   padding: 15px;
   margin-bottom: 10px;
   height: fit-content;
+}
+.project-card .date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  margin-top: 2px;
+}
+.project-card .date p {
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: black;
+}
+.project-card h4 {
+  margin: 0px;
+  margin-top: 5px;
+  font-size: 1.15rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  color: black;
+}
+.project-card h3,
+.project-card h1 {
+  margin: 0px;
+  font-family: "Lora", serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 1.1;
+  color: black;
 }
 .project-card .left {
   padding-right: 15px;
@@ -362,27 +402,16 @@
 .project-card .journey-img {
   height: 100%;
   aspect-ratio: 6/5;
-  border-radius: 5px;
+  border-radius: 8px;
   object-fit: cover;
 }
-.project-card h3 {
-  font-size: 1.7rem;
-  font-family: "Lora", serif;
-  font-weight: bold;
-  margin: 0px;
-  color: #352a26;
-}
-.project-card h3 span {
+.project-card .star-icon {
   height: 30px;
   position: relative;
   top: 3px;
   right: -6.5px;
 }
 .project-card h4 {
-  font-size: 1.1rem;
-  font-weight: 300;
-  font-family: "Open Sans", sans-serif;
-  margin: 0px;
   margin-bottom: 10px;
 }
 
@@ -417,18 +446,19 @@
   grid-template-columns: minmax(300px, 1.4fr) minmax(300px, 1fr);
   column-gap: 20px;
   justify-self: center;
-  max-width: 100vw;
+  width: fit-content;
   column-gap: 40px;
   padding-bottom: 50px;
 }
 
 #description-col {
   max-width: 750px;
+  width: 750px;
 }
 #description-col img {
   height: 450px;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 #summary-container {
@@ -448,7 +478,7 @@
   margin: 0px;
   line-height: 1;
   font-size: 1.5rem;
-  font-weight: 200;
+  font-weight: 400;
   font-family: "Lora", serif;
 }
 #summary-container p {
@@ -545,12 +575,13 @@
   align-items: stretch;
   flex-wrap: nowrap;
   border-radius: 10px;
+  margin-bottom: 22.5px;
 }
 #log-container h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
   font-weight: 600px;
-  color: #352a26;
+  color: black;
   margin: 0px;
 }
 #log-container .log {
@@ -560,33 +591,33 @@
   align-items: flex-start;
   flex-wrap: nowrap;
   padding: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 #log-container .log h3 {
   width: 100%;
   margin: 0px;
   margin-bottom: 10px;
   line-height: 1;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", serif;
   font-size: 1.4rem;
-  color: #352a26;
-  font-weight: 400;
+  color: black;
+  font-weight: 600;
 }
 #log-container .log span {
   font-size: 2rem;
-  line-height: 0.75;
+  line-height: 1;
   font-family: "Open Sans", sans-serif;
   color: #855546;
   font-weight: 800;
 }
 #log-container .log h4 {
   font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  font-size: 1rem;
-  color: #352a26;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: black;
   line-height: 1.3;
   margin: 0px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0px;
 }
 #log-container .log .info-container {
@@ -605,8 +636,8 @@
   align-items: center;
   flex-wrap: nowrap;
   width: 100%;
-  margin-top: 10px;
-  font-size: 1rem;
+  margin-top: 5px;
+  font-size: 1.15rem;
 }
 
 @media screen and (max-width: 400px) {
@@ -626,7 +657,7 @@
 }
 .splide__slide figure {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 8px;
   height: min-content;
   object-fit: cover;
   justify-content: flex-end;
@@ -650,11 +681,417 @@
   background-color: #855546;
 }
 
+/* Background */
+.bg, .content code {
+  color: #e0def4;
+  background-color: #232136;
+}
+
+/* PreWrapper */
+.chroma {
+  color: #e0def4;
+  background-color: #232136;
+}
+
+/* Other */
+/* Error */
+.chroma .err {
+  color: #eb6f92;
+}
+
+/* CodeLine */
+/* LineLink */
+.chroma .lnlinks {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* LineTableTD */
+.chroma .lntd {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* LineTable */
+.chroma .lntable {
+  border-spacing: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* LineHighlight */
+.chroma .hl {
+  background-color: #ffffcc;
+}
+
+/* LineNumbersTable */
+.chroma .lnt {
+  white-space: pre;
+  -webkit-user-select: none;
+  user-select: none;
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f;
+}
+
+/* LineNumbers */
+.chroma .ln {
+  white-space: pre;
+  -webkit-user-select: none;
+  user-select: none;
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f;
+}
+
+/* Line */
+.chroma .line {
+  display: flex;
+}
+
+/* Keyword */
+.chroma .k {
+  color: #3e8fb0;
+}
+
+/* KeywordConstant */
+.chroma .kc {
+  color: #3e8fb0;
+}
+
+/* KeywordDeclaration */
+.chroma .kd {
+  color: #3e8fb0;
+}
+
+/* KeywordNamespace */
+.chroma .kn {
+  color: #c4a7e7;
+}
+
+/* KeywordPseudo */
+.chroma .kp {
+  color: #3e8fb0;
+}
+
+/* KeywordReserved */
+.chroma .kr {
+  color: #3e8fb0;
+}
+
+/* KeywordType */
+.chroma .kt {
+  color: #3e8fb0;
+}
+
+/* Name */
+.chroma .n {
+  color: #ea9a97;
+}
+
+/* NameAttribute */
+.chroma .na {
+  color: #ea9a97;
+}
+
+/* NameBuiltin */
+.chroma .nb {
+  color: #ea9a97;
+}
+
+/* NameBuiltinPseudo */
+.chroma .bp {
+  color: #ea9a97;
+}
+
+/* NameClass */
+.chroma .nc {
+  color: #9ccfd8;
+}
+
+/* NameConstant */
+.chroma .no {
+  color: #f6c177;
+}
+
+/* NameDecorator */
+.chroma .nd {
+  color: #908caa;
+}
+
+/* NameEntity */
+.chroma .ni {
+  color: #ea9a97;
+}
+
+/* NameException */
+.chroma .ne {
+  color: #3e8fb0;
+}
+
+/* NameFunction */
+.chroma .nf {
+  color: #ea9a97;
+}
+
+/* NameFunctionMagic */
+.chroma .fm {
+  color: #ea9a97;
+}
+
+/* NameLabel */
+.chroma .nl {
+  color: #ea9a97;
+}
+
+/* NameNamespace */
+.chroma .nn {
+  color: #ea9a97;
+}
+
+/* NameOther */
+/* NameProperty */
+.chroma .py {
+  color: #ea9a97;
+}
+
+/* NameTag */
+.chroma .nt {
+  color: #ea9a97;
+}
+
+/* NameVariable */
+.chroma .nv {
+  color: #ea9a97;
+}
+
+/* NameVariableClass */
+.chroma .vc {
+  color: #ea9a97;
+}
+
+/* NameVariableGlobal */
+.chroma .vg {
+  color: #ea9a97;
+}
+
+/* NameVariableInstance */
+.chroma .vi {
+  color: #ea9a97;
+}
+
+/* NameVariableMagic */
+.chroma .vm {
+  color: #ea9a97;
+}
+
+/* Literal */
+.chroma .l {
+  color: #f6c177;
+}
+
+/* LiteralDate */
+.chroma .ld {
+  color: #f6c177;
+}
+
+/* LiteralString */
+.chroma .s {
+  color: #f6c177;
+}
+
+/* LiteralStringAffix */
+.chroma .sa {
+  color: #f6c177;
+}
+
+/* LiteralStringBacktick */
+.chroma .sb {
+  color: #f6c177;
+}
+
+/* LiteralStringChar */
+.chroma .sc {
+  color: #f6c177;
+}
+
+/* LiteralStringDelimiter */
+.chroma .dl {
+  color: #f6c177;
+}
+
+/* LiteralStringDoc */
+.chroma .sd {
+  color: #f6c177;
+}
+
+/* LiteralStringDouble */
+.chroma .s2 {
+  color: #f6c177;
+}
+
+/* LiteralStringEscape */
+.chroma .se {
+  color: #3e8fb0;
+}
+
+/* LiteralStringHeredoc */
+.chroma .sh {
+  color: #f6c177;
+}
+
+/* LiteralStringInterpol */
+.chroma .si {
+  color: #f6c177;
+}
+
+/* LiteralStringOther */
+.chroma .sx {
+  color: #f6c177;
+}
+
+/* LiteralStringRegex */
+.chroma .sr {
+  color: #f6c177;
+}
+
+/* LiteralStringSingle */
+.chroma .s1 {
+  color: #f6c177;
+}
+
+/* LiteralStringSymbol */
+.chroma .ss {
+  color: #f6c177;
+}
+
+/* LiteralNumber */
+.chroma .m {
+  color: #f6c177;
+}
+
+/* LiteralNumberBin */
+.chroma .mb {
+  color: #f6c177;
+}
+
+/* LiteralNumberFloat */
+.chroma .mf {
+  color: #f6c177;
+}
+
+/* LiteralNumberHex */
+.chroma .mh {
+  color: #f6c177;
+}
+
+/* LiteralNumberInteger */
+.chroma .mi {
+  color: #f6c177;
+}
+
+/* LiteralNumberIntegerLong */
+.chroma .il {
+  color: #f6c177;
+}
+
+/* LiteralNumberOct */
+.chroma .mo {
+  color: #f6c177;
+}
+
+/* Operator */
+.chroma .o {
+  color: #908caa;
+}
+
+/* OperatorWord */
+.chroma .ow {
+  color: #908caa;
+}
+
+/* Punctuation */
+.chroma .p {
+  color: #908caa;
+}
+
+/* Comment */
+.chroma .c {
+  color: #6e6a86;
+}
+
+/* CommentHashbang */
+.chroma .ch {
+  color: #6e6a86;
+}
+
+/* CommentMultiline */
+.chroma .cm {
+  color: #6e6a86;
+}
+
+/* CommentSingle */
+.chroma .c1 {
+  color: #6e6a86;
+}
+
+/* CommentSpecial */
+.chroma .cs {
+  color: #6e6a86;
+}
+
+/* CommentPreproc */
+.chroma .cp {
+  color: #6e6a86;
+}
+
+/* CommentPreprocFile */
+.chroma .cpf {
+  color: #6e6a86;
+}
+
+/* Generic */
+/* GenericDeleted */
+.chroma .gd {
+  color: #eb6f92;
+}
+
+/* GenericEmph */
+.chroma .ge {
+  font-style: italic;
+}
+
+/* GenericError */
+/* GenericHeading */
+/* GenericInserted */
+.chroma .gi {
+  color: #9ccfd8;
+}
+
+/* GenericOutput */
+/* GenericPrompt */
+/* GenericStrong */
+.chroma .gs {
+  font-weight: bold;
+}
+
+/* GenericSubheading */
+.chroma .gu {
+  color: #c4a7e7;
+}
+
+/* GenericTraceback */
+/* GenericUnderline */
+/* TextWhitespace */
 .content {
   max-width: 100%;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  color: #352a26;
+  color: black;
   margin-bottom: 75px;
   word-break: keep-all;
 }
@@ -685,20 +1122,54 @@
 .content h1 + h2 {
   margin-top: 31px;
 }
-.content p + h3, .content ol + h3, .content ul + h3 {
+.content h3 + p,
+.content h3 + ol,
+.content h3 + ul,
+.content h3 + figure {
   margin-top: 20px;
 }
-.content p + h2, .content ol + h2, .content ul + h2 {
+.content h2 + p,
+.content h2 + ol,
+.content h2 + ul,
+.content h2 + figure {
   margin-top: 30px;
 }
-.content p + h1, .content ol + h1, .content ul + h1 {
+.content h1 + p,
+.content h1 + ol,
+.content h1 + ul,
+.content h1 + figure {
+  margin-top: 20px;
+}
+.content p + h1,
+.content ol + h1,
+.content ul + h1,
+.content figure + h1 {
   margin-top: 56px;
 }
-.content p + p, .content ol + p, .content ul + p {
+.content p + h2,
+.content ol + h2,
+.content ul + h2,
+.content figure + h2 {
+  margin-top: 30px;
+}
+.content p + h3,
+.content ol + h3,
+.content ul + h3,
+.content figure + h2 {
+  margin-top: 20px;
+}
+.content .highlight {
+  margin: 29px 0px;
+}
+.content p + p,
+.content ol + p,
+.content ul + p,
+.content figure + p {
   margin-top: 29px;
 }
-.content p + ol, .content p + ul {
-  margin-top: 5px;
+.content p + ol,
+.content p + ul {
+  margin-top: 7.5px;
 }
 .content a {
   font-size: 1.2rem;
@@ -718,10 +1189,9 @@
 }
 .content img {
   width: 100%;
-  border-radius: 5px;
 }
 .content iframe {
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .content .image-container {
   width: 100%;
@@ -732,7 +1202,6 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: nowrap;
-  margin: 0px;
 }
 .content figure figcaption {
   text-align: center;
@@ -762,22 +1231,18 @@
   font-size: 1.3rem;
 }
 .content code {
-  font-size: 1.3rem;
-  background-color: aliceblue;
+  font-size: 1.1rem;
   padding: 3px;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .content pre {
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 0px 20px;
   overflow-x: scroll;
   overflow-y: hidden;
   width: 100%;
   box-sizing: border-box;
   transition: width ease-in 0.2s;
-}
-.content pre code {
-  background-color: inherit;
 }
 .content pre:hover {
   width: 900px;
@@ -855,7 +1320,7 @@
 }
 
 html {
-  color: #352a26;
+  color: black;
   line-height: 1.5;
   font-family: "Lora";
   overflow-x: hidden;
@@ -888,7 +1353,7 @@ header {
 }
 .navbar a {
   text-decoration: none;
-  color: #352a26;
+  color: black;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 2rem;
@@ -954,7 +1419,7 @@ a {
 
 .hover {
   border-radius: 10px;
-  background-color: #d7c9bb;
+  background-color: inherit;
   transition: all 0.4s;
   box-shadow: none;
 }
@@ -974,28 +1439,31 @@ a {
 }
 .image-container {
   background-color: #c3ac95;
-  border-radius: 5px;
+  border-radius: 8px;
   animation: fadeIn 1s infinite alternate;
 }
 .image-container img.batch-load {
   display: block;
   margin: 0px;
   opacity: 0;
-  transition: opacity 0.4s;
+  transition: opacity 0.6s;
   background-color: transparent;
+  border-radius: 8px;
+  border: 3px solid black;
+  box-sizing: border-box;
 }
 
 .tag {
-  background-color: #494949;
+  background-color: hsl(20, 11%, 45%);
   border-radius: 15px;
-  padding: 3px 8px;
+  padding: 3px 10px;
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 0.8rem;
-  font-style: 400;
+  font-weight: 400;
   display: inline-block;
-  margin-bottom: 1px;
-  font-weight: bold;
+  margin-bottom: 4px;
+  font-weight: normal;
 }
 
 .star-icon {

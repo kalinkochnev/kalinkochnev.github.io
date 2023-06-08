@@ -7,8 +7,7 @@
 
 <script src="/js/batch-load.js"></script>
  
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
@@ -33,7 +32,19 @@
     });
 </script>
  
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elms = document.getElementsByClassName('splide');
 
+        for (var i = 0; i < elms.length; i++) {
+            let settings = { type: 'loop', autoplay: false, arrows: false };
+            if (i == 0) { settings.autoplay = true; }
+            new Splide(elms[i], settings).mount();
+        }
+    });
+</script> 
 <head>
  <title>Kalin Kochnev</title>
  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -41,30 +52,26 @@
 <body>
         
         <div id="content">
-<script>
-  document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide', {
-        type: 'loop',
-        autoplay: true,
-        arrows: false,
-        autoHeight: true,
-      }
-  );
-    var elms = document.getElementsByClassName( 'splide' );
-
-
-    for ( var i = 0; i < elms.length; i++ ) {
-        let settings = {type: 'loop', autoplay: false, arrows: false};
-        if (i == 0) { settings.autoplay = true; }
-        new Splide( elms[ i ], settings).mount();
-    }
-  } );
-</script>
 
 <header>  
   <nav class="navbar" role="navigation">  
     <div id="face-icon">
-      <img src="/images/face.png" />
+      
+
+
+
+
+
+    
+    <img 
+        src="/images/face_hu03cb41ba356b0fd884adcc4944d0157c_969556_60x0_resize_q90_h2_box_3.webp" 
+         
+        
+
+        alt=""
+  
+    />
+
       <div id="name"> 
         
         <a href="/">kalin kochnev</a>
@@ -90,9 +97,27 @@
     <ul class="splide__list">
       
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/resonant/groupphoto.jpg" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/resonant/groupphoto_hue2129026dbea195d780975319eab3c96_764618_1200x0_resize_q90_h2_box.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              Us at the STANYS Science Fair!
          </figcaption>
@@ -101,9 +126,27 @@
 </li>
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/resonant/poster.jpg"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/resonant/poster_hu17b4b9cf27697bae1eaaa8e314ebc095_523666_1200x0_resize_q90_h2_box.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              Our poster for the fair
          </figcaption>
@@ -191,28 +234,69 @@ $v_s$ is the speed of sound, $\tau$ is the time delay between two audio signals,
         
       </div>
       
+
+
+
   
-  <div id="log-container">
 
-    <h2>Recent Logs</h2>
+  
+
+  
+
+  
+
+  
     
-      <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/resonant\/v2plan\/'" data-tags="signal-processing," >
-        <span>#1</span>
-        <div class="info-container">
-          <h3>Resonant V2 Plans!</h3>
-          <h4 class="summary">There&rsquo;s plenty of unfinished business</h4>
-          <div class="date-info">
-            <h4>March 10, 2023</h4>
-            
-          </div>
-        </div>
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+<div id="log-container">
+  <h2>Recent Logs</h2>
+  
+  
+    
+     
+  <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/resonant\/v2plan\/'"
+    data-tags="signal-processing,">
+    <span>#5</span> 
+    <div class="info-container">
+      <h3>Resonant V2 Plans!</h3>
+      <h4 class="summary">There&rsquo;s plenty of unfinished business</h4>
+      <div class="date-info">
+        <h4>March 10, 2023</h4>
+
+        
       </div>
-    
-  </div>
-
- 
     </div>
   </div>
-</div>
-        </div></body>
+  
+</div> 
+    </div>
+  </div>
+</div><noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript>
+        </div><noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript></body>
 </html>
