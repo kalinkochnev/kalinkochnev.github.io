@@ -556,6 +556,9 @@
   #journey-single-container {
     margin: 0px 10px;
   }
+  #description-col {
+    width: 100%;
+  }
   #summary-container {
     width: 100%;
   }
