@@ -7,12 +7,23 @@
 
 <script src="/js/batch-load.js"></script>
  
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elms = document.getElementsByClassName('splide');
 
+        for (var i = 0; i < elms.length; i++) {
+            let settings = { type: 'loop', autoplay: false, arrows: false };
+            if (i == 0) { settings.autoplay = true; }
+            new Splide(elms[i], settings).mount();
+        }
+    });
+</script> 
 <head>
  <title>Kalin Kochnev</title>
  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -20,30 +31,26 @@
 <body>
         
         <div id="content">
-<script>
-  document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide', {
-        type: 'loop',
-        autoplay: true,
-        arrows: false,
-        autoHeight: true,
-      }
-  );
-    var elms = document.getElementsByClassName( 'splide' );
-
-
-    for ( var i = 0; i < elms.length; i++ ) {
-        let settings = {type: 'loop', autoplay: false, arrows: false};
-        if (i == 0) { settings.autoplay = true; }
-        new Splide( elms[ i ], settings).mount();
-    }
-  } );
-</script>
 
 <header>  
   <nav class="navbar" role="navigation">  
     <div id="face-icon">
-      <img src="/images/face.png" />
+      
+
+
+
+
+
+    
+    <img 
+        src="/images/face_hu03cb41ba356b0fd884adcc4944d0157c_969556_60x0_resize_q90_h2_box_3.webp" 
+         
+        
+
+        alt=""
+  
+    />
+
       <div id="name"> 
         
         <a href="/">kalin kochnev</a>
@@ -69,9 +76,27 @@
     <ul class="splide__list">
       
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/roverimage.png" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/roverimage_hubad6d62750f9e18721f6f6cfd147dca7_344539_1200x0_resize_q90_h2_box_3.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              Concept Render
          </figcaption>
@@ -80,9 +105,27 @@
 </li>
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/nasagroupphoto.jpg" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/nasagroupphoto_huf14ef01b090dc3fdd72bf19a1ef94e2d_1686337_1200x0_resize_q90_h2_box.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              The team
          </figcaption>
@@ -91,9 +134,27 @@
 </li>
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/lab1.jpg" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/lab1_hu87e3e000b517de27a08d2701297cc5d4_2457472_1200x0_resize_q90_h2_box.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              Our shared lab space
          </figcaption>
@@ -102,9 +163,27 @@
 </li>
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/lab2.jpg" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/lab2_hu75bddcc66caa49e688ac9a10ca41d876_2538683_1200x0_resize_q90_h2_box.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              Our shared lab space
          </figcaption>
@@ -113,9 +192,27 @@
 </li>
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/denver.jpg" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/denver_hu3ed8f7f40344fbb57678109dddbb8a13_2543124_1200x0_resize_q90_h2_box.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              Presentation at the 2022 ASCE Earth and Space Conference
          </figcaption>
@@ -124,9 +221,27 @@
 </li>
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/jpl.jpg" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/jpl_hub257c50803a507bde390fc583a6210c0_4467981_1200x0_resize_q90_h2_box.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              We got a tour of JPL after our symposium!
          </figcaption>
@@ -135,9 +250,27 @@
 </li>
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/california.jpg" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/california_hua1ad619f9c29e2d98659938a00d693f3_3046635_1200x0_resize_q90_h2_box.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              California is so beautiful
          </figcaption>
@@ -147,9 +280,27 @@
 
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/desert.jpg" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/desert_huf8df93e1b3f870d9e4b285f620a654a8_473738_1200x0_resize_q90_h2_box.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              Group photo of participants (Northeastern, ASU, UMD, Caltech, MIT, FSU, UConn)
          </figcaption>
@@ -158,9 +309,27 @@
 </li>
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/television.png" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/television_hubd5f3a3423962edb38a49173f888cee3_872342_1200x0_resize_q90_h2_box_3.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              It&#39;s weird seeing yourself on TV
          </figcaption>
@@ -187,9 +356,27 @@
     <ul class="splide__list">
       
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/scrumboard.png" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/scrumboard_hub8c162b35e5faa731a2d8288429af9bf_6317470_1200x0_resize_q90_h2_box_3.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              The infamous Scrum Board
          </figcaption>
@@ -198,9 +385,27 @@
 </li>
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/masterspreadsheet.png" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/masterspreadsheet_hu9344ef2256c1fc9093599f3a58754cca_949613_1200x0_resize_q90_h2_box_3.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              The Master Spreadsheet of Doom
          </figcaption>
@@ -209,9 +414,27 @@
 </li>
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/functiontree.jpg" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/functiontree_hudab986b6a0174a9c8224e41bd5e2539e_169381_1200x0_resize_q90_h2_box.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              Systems engineering function tree
          </figcaption>
@@ -220,9 +443,27 @@
 </li>
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/missionobjectives.jpg" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/missionobjectives_huca84e299a058965375be3b570ab4a2c9_119516_1200x0_resize_q90_h2_box.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              Systems engineering mission objectives
          </figcaption>
@@ -231,9 +472,27 @@
 </li>
 
     <li class="splide__slide">
-   <figure><div class="image-container">
-       <img src="/journey/nasabigidea/images/debugging.jpg" width="700px"class="batch-load"
-       />
+   <figure ><div class="image-container">
+         
+         
+ 
+         
+         
+ 
+ 
+ 
+ 
+ 
+     
+     <img 
+         src="/journey/nasabigidea/debugging_hu526c0561ad573c071e978c4835ad4c30_2727084_1200x0_resize_q90_h2_box.webp" 
+          class="batch-load"  
+         
+ 
+         alt=""
+   
+     />
+ 
      </div><figcaption>
              Endless hours of debugging encoders
          </figcaption>
@@ -328,28 +587,69 @@
         
       </div>
       
+
+
+
   
-  <div id="log-container">
-
-    <h2>Recent Logs</h2>
     
-      <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/nasabigidea\/nasalog1\/'" data-tags="," >
-        <span>#1</span>
-        <div class="info-container">
-          <h3>Growing pains and supply chains</h3>
-          <h4 class="summary">Dealing with the harsh realities of engineering in the real world</h4>
-          <div class="date-info">
-            <h4>April 9, 2022</h4>
-            
-          </div>
-        </div>
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+<div id="log-container">
+  <h2>Recent Logs</h2>
+  
+  
+    
+     
+  <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/nasabigidea\/nasalog1\/'"
+    data-tags="">
+    <span>#1</span> 
+    <div class="info-container">
+      <h3>Growing pains and supply chains</h3>
+      <h4 class="summary">Dealing with the harsh realities of engineering in the real world</h4>
+      <div class="date-info">
+        <h4>April 9, 2022</h4>
+
+        
       </div>
-    
-  </div>
-
- 
     </div>
   </div>
-</div>
-        </div></body>
+  
+</div> 
+    </div>
+  </div>
+</div><noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript>
+        </div><noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript></body>
 </html>

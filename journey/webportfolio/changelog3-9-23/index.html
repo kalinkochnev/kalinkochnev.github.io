@@ -7,8 +7,7 @@
 
 <script src="/js/batch-load.js"></script>
  
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -27,8 +26,7 @@
 
 <script src="/js/batch-load.js"></script>
  
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -41,7 +39,22 @@
 <header>  
   <nav class="navbar" role="navigation">  
     <div id="face-icon">
-      <img src="/images/face.png" />
+      
+
+
+
+
+
+    
+    <img 
+        src="/images/face_hu03cb41ba356b0fd884adcc4944d0157c_969556_60x0_resize_q90_h2_box_3.webp" 
+         
+        
+
+        alt=""
+  
+    />
+
       <div id="name"> 
         
         <a href="/">kalin kochnev</a>
@@ -65,8 +78,18 @@
       <div class="date">
 
         <p>March 9, 2023</p>
+        <div class="tag-list">
+          
+
+          
+          <span class="tag">web</span>
+          
+          <span class="tag">hugo</span>
+          
+        </div>
       </div>
     </div>
+
     <div class="content">
       <h1 id="changelog">Changelog</h1>
 <p>Since my last log I have made a few changes.</p>
@@ -78,7 +101,30 @@
 <li><strong>More sensible typography sizing:</strong> I picked more sensible font sizes and text spacing. The next-sibling css selector is very helpful for styling headers in relation to one another. For example, I may want to have different spacing between a header when its before</li>
 <li><strong>Code blocks expand:</strong> Codeblocks on hover now expand to fit all the content. I find it really annoying to scroll on very long horizontal code blocks and loved this idea.</li>
 </ul>
-<p><img src="/journey/webportfolio/responsive3-9-23/fullpage.png" alt="New web page"></p>
+<figure ><div class="image-container">
+        
+        
+
+        
+        
+
+
+
+
+
+    
+    <img 
+        src="/journey/webportfolio/changelog3-9-23/fullpage_hud0b3751882cc2d1d0feb1203ba72d64a_8543014_1200x0_resize_q90_h2_box_3.webp" 
+         class="batch-load"  
+        
+
+        alt=""
+  
+    />
+
+    </div>
+</figure>
+
 <h1 id="future-plans">Future plans</h1>
 <h2 id="site-performance">Site performance</h2>
 <ul>
@@ -105,9 +151,9 @@
 <h1 id="battling-dart-sass-and-hugo">Battling Dart Sass and Hugo</h1>
 <p>I recently had been battling Syncthing conflicts between my desktop and laptop. Since the semester started, I&rsquo;ve been coding on my laptop almost exclusively.  I must have accidentally commited to my version control on my desktop with outstanding changes on my laptop, which effectively erased a bunch of work I had done.</p>
 <p>Then a few days ago while I was developing the mobile layout, all of a sudden my hugo build stopped working. I suspected was residual issues from syncthing, but I could not figure it out.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>Error: Error building site: TOCSS-DART: failed to transform <span style="color:#e6db74">&#34;scss/main.scss&#34;</span> <span style="color:#f92672">(</span>text/x-scss<span style="color:#f92672">)</span>: got 
-</span></span><span style="display:flex;"><span>unexpected EOF when executing <span style="color:#e6db74">&#34;dart-sass-embedded&#34;</span>. The user running hugo must have read and
-</span></span><span style="display:flex;"><span> execute permissions on this program. With execute permissions only, this error is thrown.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Error: Error building site: TOCSS-DART: failed to transform <span class="s2">&#34;scss/main.scss&#34;</span> <span class="o">(</span>text/x-scss<span class="o">)</span>: got 
+</span></span><span class="line"><span class="cl">unexpected EOF when executing <span class="s2">&#34;dart-sass-embedded&#34;</span>. The user running hugo must have <span class="nb">read</span> and
+</span></span><span class="line"><span class="cl"> execute permissions on this program. With execute permissions only, this error is thrown.
 </span></span></code></pre></div><p>I had seen this error before, which was resolved by either</p>
 <ol>
 <li>Installing the <code>--extended</code> snap for hugo</li>
@@ -120,6 +166,18 @@
 
     </div>
   </div>
-</div>
-        </div></body>
+</div><noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript>
+        </div><noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript></body>
 </html>
