@@ -308,6 +308,57 @@
   border-radius: 8px;
 }
 
+.next-prev {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  width: 100%;
+  column-gap: 20px;
+}
+.next-prev .section-next {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+.next-prev .section-next span {
+  transform: scaleX(-1);
+}
+.next-prev .section-prev {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+}
+.next-prev .section-prev h3 {
+  text-align: end;
+}
+.next-prev .section-prev p {
+  text-align: end;
+}
+.next-prev .section-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 50%;
+  padding: 15px;
+  border-radius: 8px;
+  border: 3px solid black;
+}
+.next-prev a p {
+  margin: 0px;
+}
+.next-prev a h3 {
+  margin: 0px;
+  margin-top: 5px;
+}
+
 @media screen and (max-width: 750px) {
   .post-page {
     width: 100%;
@@ -420,16 +471,12 @@
     grid-template-columns: repeat(1, minmax(300px, 1fr));
   }
   .project-card {
-    padding: 10px 0px;
+    padding: 10px 3px;
   }
 }
 @media screen and (max-width: 400px) {
   .right {
     width: 40%;
-  }
-  .left {
-    padding-left: 10px;
-    padding-right: 0px;
   }
 }
 #journey-single-container {
@@ -548,9 +595,6 @@
   #summary-container #inducted {
     margin: 0px;
   }
-  .project-card {
-    padding: 10px 0px;
-  }
 }
 @media screen and (max-width: 750px) {
   #journey-single-container {
@@ -566,9 +610,6 @@
     flex-direction: row;
     justify-content: center;
     column-gap: 20px;
-  }
-  .project-card {
-    padding: 10px 0px;
   }
 }
 #log-container {
