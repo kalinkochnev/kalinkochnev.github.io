@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kalin Kochnev</title>
+    <title>Musings and Other Quandaries on Kalin Kochnev</title>
     <link>https://kalinkochnev.com/blog/</link>
-    <description>Recent content on Kalin Kochnev</description>
+    <description>Recent content in Musings and Other Quandaries on Kalin Kochnev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Apr 2023 12:23:53 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/blog/index.xml" rel="self" type="application/rss+xml" />
