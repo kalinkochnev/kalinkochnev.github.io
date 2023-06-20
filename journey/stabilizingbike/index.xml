@@ -8,30 +8,30 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey/stabilizingbike/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Reflection: The Zen of Rock Climbing</title>
-      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/reflection1/</link>
+      <title>Inverted pendulum construction</title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate2/</link>
+      <pubDate>Wed, 14 Jun 2023 15:14:03 -0400</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate2/</guid>
+      <description>It&amp;rsquo;s mostly ready to wire up!</description>
+    </item>
+    
+    <item>
+      <title>Physics and controls research</title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate1/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/reflection1/</guid>
-      <description>A lot of good progress this first week of work</description>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate1/</guid>
+      <description>Attempting to find a handhold to latch on</description>
     </item>
     
     <item>
-      <title>Gyroscopic motion and Lagrangian mechanics</title>
-      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/gyromotion/</link>
-      <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/gyromotion/</guid>
-      <description>Lots of frantic googling</description>
-    </item>
-    
-    <item>
-      <title>Slaaaam bike and literature review!</title>
-      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/literature_review/</link>
+      <title>Literature review</title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate0/</link>
       <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/literature_review/</guid>
-      <description>A new beginning</description>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate0/</guid>
+      <description>Is a self driving bicycle even possible?</description>
     </item>
     
   </channel>

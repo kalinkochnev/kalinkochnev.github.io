@@ -37,14 +37,15 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var elms = document.getElementsByClassName('splide');
-
         for (var i = 0; i < elms.length; i++) {
-            let settings = { type: 'loop', autoplay: false, arrows: false };
-            if (i == 0) { settings.autoplay = true; }
+            console.log("elms " + elms.length);
+            let settings = { type: 'loop', autoplay: false, arrows: false, clones: 0};
+            
             new Splide(elms[i], settings).mount();
         }
     });
-</script> 
+</script>
+ 
 <head>
  <title>Kalin Kochnev</title>
  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -63,14 +64,16 @@
 
 
     
+
+
     <img 
         src="/images/face_hu03cb41ba356b0fd884adcc4944d0157c_969556_125x0_resize_q90_h2_box_3.webp" 
          
         
-
-        alt=""
+        
   
     />
+
 
       <div id="name"> 
         
@@ -98,59 +101,65 @@
       
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/resonant/groupphoto_hue2129026dbea195d780975319eab3c96_764618_1200x0_resize_q90_h2_box.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             Us at the STANYS Science Fair!
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/resonant/groupphoto_hue2129026dbea195d780975319eab3c96_764618_1200x0_resize_q90_h2_box.webp" 
+         class="batch-load"  
+        
+         alt="Us at the STANYS Science Fair!" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            Us at the STANYS Science Fair!
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/resonant/poster_hu17b4b9cf27697bae1eaaa8e314ebc095_523666_1200x0_resize_q90_h2_box.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             Our poster for the fair
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/resonant/poster_hu17b4b9cf27697bae1eaaa8e314ebc095_523666_1200x0_resize_q90_h2_box.webp" 
+         class="batch-load"  
+        
+         alt="Our poster for the fair" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            Our poster for the fair
+        </figcaption>
+    
+</figure>
  
 </li>
 
@@ -158,7 +167,6 @@
     </ul>
   </div>
 </section>
-
 
 <p>Resonant started as a high school science fair project with two of my friends, Rohan Menon and Jacob Yanoff. Our hope was to develop a wearable, and discreet, device that could serve as an alternative to hearing aids for the deaf. Additionally, the technology has interesting applications in spatial perception for robotics. Our project won Highest Honors at the New York State STANYS Science Fair.</p>
 <h2 id="specifications">Specifications</h2>

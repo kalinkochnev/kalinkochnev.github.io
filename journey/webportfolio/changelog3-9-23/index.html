@@ -19,23 +19,6 @@
 <body>
         
         <div id="content">
-
-
-<link rel="stylesheet" href="/scss/main.css" />
-
-
-<script src="/js/batch-load.js"></script>
- 
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-<head>
- <title>Kalin Kochnev</title>
- <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-</head>
-
 <header>  
   <nav class="navbar" role="navigation">  
     <div id="face-icon">
@@ -46,14 +29,16 @@
 
 
     
+
+
     <img 
         src="/images/face_hu03cb41ba356b0fd884adcc4944d0157c_969556_125x0_resize_q90_h2_box_3.webp" 
          
         
-
-        alt=""
+        
   
     />
+
 
       <div id="name"> 
         
@@ -70,28 +55,28 @@
 </header>  
 
 <div class="single-container">
-  <div class="post-page">
-    <div id="post-head">
-      <h1>The website is responsive! (almost)</h1>
-      <h4>Sometimes when you&rsquo;re code doesn&rsquo;t compile, it&rsquo;s not you&rsquo;re fault!</h4>
+    <div class="post-page">
+        <div id="post-head">
+            <h1>The website is responsive! (almost)</h1>
+            <h4>Sometimes when you&rsquo;re code doesn&rsquo;t compile, it&rsquo;s not you&rsquo;re fault!</h4>
 
-      <div class="date">
+            <div class="date">
 
-        <p>March 9, 2023</p>
-        <div class="tag-list">
-          
+                <p>March 9, 2023</p>
+                <div class="tag-list">
+                    
 
-          
-          <span class="tag">web</span>
-          
-          <span class="tag">hugo</span>
-          
+                    
+                    <span class="tag">web</span>
+                    
+                    <span class="tag">hugo</span>
+                    
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
 
-    <div class="content">
-      <h1 id="changelog">Changelog</h1>
+        <div class="content">
+            <h1 id="changelog">Changelog</h1>
 <p>Since my last log I have made a few changes.</p>
 <ul>
 <li><strong>Smaller components:</strong> You may have noticed that a lot of the components on my pages have shrunk. The design was too &ldquo;in your face&rdquo; and the amount of actual content on a page was sparse.</li>
@@ -102,27 +87,32 @@
 <li><strong>Code blocks expand:</strong> Codeblocks on hover now expand to fit all the content. I find it really annoying to scroll on very long horizontal code blocks and loved this idea.</li>
 </ul>
 <figure ><div class="image-container">
-        
-        
-
-        
-        
+            
+            
+            
+            
 
 
 
 
 
     
+
+
     <img 
         src="/journey/webportfolio/changelog3-9-23/fullpage_hud0b3751882cc2d1d0feb1203ba72d64a_8543014_1200x0_resize_q90_h2_box_3.webp" 
          class="batch-load"  
         
-
-        alt=""
+         alt="New web page" 
   
     />
 
-    </div>
+
+        </div>
+        <figcaption>
+            New web page
+        </figcaption>
+    
 </figure>
 
 <h1 id="future-plans">Future plans</h1>
@@ -151,10 +141,10 @@
 <h1 id="battling-dart-sass-and-hugo">Battling Dart Sass and Hugo</h1>
 <p>I recently had been battling Syncthing conflicts between my desktop and laptop. Since the semester started, I&rsquo;ve been coding on my laptop almost exclusively.  I must have accidentally commited to my version control on my desktop with outstanding changes on my laptop, which effectively erased a bunch of work I had done.</p>
 <p>Then a few days ago while I was developing the mobile layout, all of a sudden my hugo build stopped working. I suspected was residual issues from syncthing, but I could not figure it out.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Error: Error building site: TOCSS-DART: failed to transform <span class="s2">&#34;scss/main.scss&#34;</span> <span class="o">(</span>text/x-scss<span class="o">)</span>: got 
-</span></span><span class="line"><span class="cl">unexpected EOF when executing <span class="s2">&#34;dart-sass-embedded&#34;</span>. The user running hugo must have <span class="nb">read</span> and
-</span></span><span class="line"><span class="cl"> execute permissions on this program. With execute permissions only, this error is thrown.
-</span></span></code></pre></div><p>I had seen this error before, which was resolved by either</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">Error: Error building site: TOCSS-DART: failed to transform <span class="s2">&#34;scss/main.scss&#34;</span> <span class="o">(</span>text/x-scss<span class="o">)</span>: got 
+unexpected EOF when executing <span class="s2">&#34;dart-sass-embedded&#34;</span>. The user running hugo must have <span class="nb">read</span> and
+ execute permissions on this program. With execute permissions only, this error is thrown.
+</code></pre></div><p>I had seen this error before, which was resolved by either</p>
 <ol>
 <li>Installing the <code>--extended</code> snap for hugo</li>
 <li>Use the <code>dart-sass-embedded</code> snap instead of the bundled NodeSass (which has been deprecated for several years)</li>
@@ -164,36 +154,41 @@
 <p>As a last resort I posted on the <a href="https://discourse.gohugo.io/t/tocss-dart-failed-to-transform-scss-main-scss-execute-permissions/43267?u=kalinkochnev">Hugo discourse</a>.</p>
 <p>Apparently there was an upstream change that broke <code>dart-sass-embedded</code> at the exact moment I ran <code>sudo apt upgrade</code>. Just my luck. On the flip side, hopefully my struggle saved some other developers the trouble. I really have to stop &ldquo;rage coding&rdquo;.</p>
 
-    </div>
-    <div class="next-prev">
-       
+        </div>
+        <div class="next-prev">
+             
 
-      
-        <div class="section-nav section-prev">
-          <span >
+            <div class="section-nav">
+                
+                    <a class="section-prev hover" href="https://kalinkochnev.com/journey/webportfolio/learninginpublic/">
+                        <span >
     <svg width="18.167" height="30" xmlns="http://www.w3.org/2000/svg"><g color="#000"><path d="M46.411 51.77a4.868 4.868 0 0 0 0 6.9L67.11 79.369c1.911 1.91 4.988 1.91 6.9 0s1.91-4.989 0-6.9L56.76 55.22l17.25-17.249c1.91-1.911 1.91-4.988 0-6.9s-4.989-1.91-6.9 0z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/><path d="M70.561 28.982c-1.418 0-2.837.54-3.918 1.621l-20.699 20.7a5.541 5.541 0 0 0 0 7.833l20.699 20.7a5.541 5.541 0 0 0 7.834 0 5.541 5.541 0 0 0 0-7.835l-16.781-16.78 16.781-16.782a5.544 5.544 0 0 0 0-7.836 5.519 5.519 0 0 0-3.916-1.62zm0 1.313c1.076 0 2.152.414 2.982 1.244a4.194 4.194 0 0 1 0 5.964L55.826 55.22l17.717 17.717a4.192 4.192 0 0 1 0 5.963 4.194 4.194 0 0 1-5.964 0l-20.7-20.697a4.194 4.194 0 0 1 0-5.965l20.7-20.698a4.204 4.204 0 0 1 2.982-1.245z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/></g></svg>
 </span>
 
-          <a  href="https://kalinkochnev.com/journey/webportfolio/learninginpublic/">
-            <p>Online Portfolio - Previous</p>
-            <h3>Learning in public</h3>
-          </a>
-        </div>
-      
-      
-        <div class="section-nav section-next">
-          <a href="https://kalinkochnev.com/journey/webportfolio/changelog4-8-23/">
-            <p>Next - Online Portfolio</p>
-            <h3>Changelog</h3>
-          </a>
-          <span >
+                        <div>
+                            <p>Online Portfolio - Previous</p>
+                            <h3>Learning in public</h3>
+                        </div>
+                    </a>
+                
+            </div>
+
+            <div class="section-nav">
+                
+                    <a class="section-next hover" href="https://kalinkochnev.com/journey/webportfolio/changelog4-8-23/">
+                        <div>
+                            <p>Next - Online Portfolio</p>
+                            <h3>Changelog</h3>
+                        </div>
+                        <span >
     <svg width="18.167" height="30" xmlns="http://www.w3.org/2000/svg"><g color="#000"><path d="M46.411 51.77a4.868 4.868 0 0 0 0 6.9L67.11 79.369c1.911 1.91 4.988 1.91 6.9 0s1.91-4.989 0-6.9L56.76 55.22l17.25-17.249c1.91-1.911 1.91-4.988 0-6.9s-4.989-1.91-6.9 0z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/><path d="M70.561 28.982c-1.418 0-2.837.54-3.918 1.621l-20.699 20.7a5.541 5.541 0 0 0 0 7.833l20.699 20.7a5.541 5.541 0 0 0 7.834 0 5.541 5.541 0 0 0 0-7.835l-16.781-16.78 16.781-16.782a5.544 5.544 0 0 0 0-7.836 5.519 5.519 0 0 0-3.916-1.62zm0 1.313c1.076 0 2.152.414 2.982 1.244a4.194 4.194 0 0 1 0 5.964L55.826 55.22l17.717 17.717a4.192 4.192 0 0 1 0 5.963 4.194 4.194 0 0 1-5.964 0l-20.7-20.697a4.194 4.194 0 0 1 0-5.965l20.7-20.698a4.204 4.204 0 0 1 2.982-1.245z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/></g></svg>
 </span>
 
+                    </a>
+                
+            </div>
         </div>
-      
     </div>
-  </div>
 </div><noscript>
     <style>
         .image-container {
