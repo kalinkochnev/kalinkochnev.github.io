@@ -16,14 +16,15 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         var elms = document.getElementsByClassName('splide');
-
         for (var i = 0; i < elms.length; i++) {
-            let settings = { type: 'loop', autoplay: false, arrows: false };
-            if (i == 0) { settings.autoplay = true; }
+            console.log("elms " + elms.length);
+            let settings = { type: 'loop', autoplay: false, arrows: false, clones: 0};
+            
             new Splide(elms[i], settings).mount();
         }
     });
-</script> 
+</script>
+ 
 <head>
  <title>Kalin Kochnev</title>
  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -42,14 +43,16 @@
 
 
     
+
+
     <img 
         src="/images/face_hu03cb41ba356b0fd884adcc4944d0157c_969556_125x0_resize_q90_h2_box_3.webp" 
          
         
-
-        alt=""
+        
   
     />
+
 
       <div id="name"> 
         
@@ -77,263 +80,290 @@
       
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/roverimage_hubad6d62750f9e18721f6f6cfd147dca7_344539_1200x0_resize_q90_h2_box_3.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             Concept Render
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/roverimage_hubad6d62750f9e18721f6f6cfd147dca7_344539_1200x0_resize_q90_h2_box_3.webp" 
+         class="batch-load"  
+        
+         alt="Concept Render" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            Concept Render
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/nasagroupphoto_huf14ef01b090dc3fdd72bf19a1ef94e2d_1686337_1200x0_resize_q90_h2_box.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             The team
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/nasagroupphoto_huf14ef01b090dc3fdd72bf19a1ef94e2d_1686337_1200x0_resize_q90_h2_box.webp" 
+         class="batch-load"  
+        
+         alt="The team" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            The team
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/lab1_hu87e3e000b517de27a08d2701297cc5d4_2457472_1200x0_resize_q90_h2_box.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             Our shared lab space
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/lab1_hu87e3e000b517de27a08d2701297cc5d4_2457472_1200x0_resize_q90_h2_box.webp" 
+         class="batch-load"  
+        
+         alt="Our shared lab space" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            Our shared lab space
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/lab2_hu75bddcc66caa49e688ac9a10ca41d876_2538683_1200x0_resize_q90_h2_box.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             Our shared lab space
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/lab2_hu75bddcc66caa49e688ac9a10ca41d876_2538683_1200x0_resize_q90_h2_box.webp" 
+         class="batch-load"  
+        
+         alt="Our shared lab space" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            Our shared lab space
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/denver_hu3ed8f7f40344fbb57678109dddbb8a13_2543124_1200x0_resize_q90_h2_box.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             Presentation at the 2022 ASCE Earth and Space Conference
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/denver_hu3ed8f7f40344fbb57678109dddbb8a13_2543124_1200x0_resize_q90_h2_box.webp" 
+         class="batch-load"  
+        
+         alt="Presentation at the 2022 ASCE Earth and Space Conference" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            Presentation at the 2022 ASCE Earth and Space Conference
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/jpl_hub257c50803a507bde390fc583a6210c0_4467981_1200x0_resize_q90_h2_box.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             We got a tour of JPL after our symposium!
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/jpl_hub257c50803a507bde390fc583a6210c0_4467981_1200x0_resize_q90_h2_box.webp" 
+         class="batch-load"  
+        
+         alt="We got a tour of JPL after our symposium!" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            We got a tour of JPL after our symposium!
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/california_hua1ad619f9c29e2d98659938a00d693f3_3046635_1200x0_resize_q90_h2_box.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             California is so beautiful
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/california_hua1ad619f9c29e2d98659938a00d693f3_3046635_1200x0_resize_q90_h2_box.webp" 
+         class="batch-load"  
+        
+         alt="California is so beautiful" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            California is so beautiful
+        </figcaption>
+    
+</figure>
  
 </li>
 
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/desert_huf8df93e1b3f870d9e4b285f620a654a8_473738_1200x0_resize_q90_h2_box.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             Group photo of participants (Northeastern, ASU, UMD, Caltech, MIT, FSU, UConn)
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/desert_huf8df93e1b3f870d9e4b285f620a654a8_473738_1200x0_resize_q90_h2_box.webp" 
+         class="batch-load"  
+        
+         alt="Group photo of participants (Northeastern, ASU, UMD, Caltech, MIT, FSU, UConn)" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            Group photo of participants (Northeastern, ASU, UMD, Caltech, MIT, FSU, UConn)
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/television_hubd5f3a3423962edb38a49173f888cee3_872342_1200x0_resize_q90_h2_box_3.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             It&#39;s weird seeing yourself on TV
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/television_hubd5f3a3423962edb38a49173f888cee3_872342_1200x0_resize_q90_h2_box_3.webp" 
+         class="batch-load"  
+        
+         alt="It&#39;s weird seeing yourself on TV" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            It&#39;s weird seeing yourself on TV
+        </figcaption>
+    
+</figure>
  
 </li>
 
@@ -342,7 +372,6 @@
     </ul>
   </div>
 </section>
-
 
 <p>As a freshman I joined the University of Connecticut&rsquo;s inaugural team for the 2022 NASA BIG Idea Challenge. It started with 15 students and at its peak, grew to 23 students. It was an entirely undergraduate-run team, headed by <a href="https://www.linkedin.com/in/theresa-nosel-67861518b/">Theresa Nosel</a>. We submitted a proposal to NASA and were awarded $150,000 to pursue lunar robotics research.  We were the first team in the state of Connecticut to apply for, and win, funding.</p>
 <h2 id="phase-0-1">Phase 0-1</h2>
@@ -357,154 +386,169 @@
       
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/scrumboard_hub8c162b35e5faa731a2d8288429af9bf_6317470_1200x0_resize_q90_h2_box_3.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             The infamous Scrum Board
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/scrumboard_hub8c162b35e5faa731a2d8288429af9bf_6317470_1200x0_resize_q90_h2_box_3.webp" 
+         class="batch-load"  
+        
+         alt="The infamous Scrum Board" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            The infamous Scrum Board
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/masterspreadsheet_hu9344ef2256c1fc9093599f3a58754cca_949613_1200x0_resize_q90_h2_box_3.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             The Master Spreadsheet of Doom
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/masterspreadsheet_hu9344ef2256c1fc9093599f3a58754cca_949613_1200x0_resize_q90_h2_box_3.webp" 
+         class="batch-load"  
+        
+         alt="The Master Spreadsheet of Doom" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            The Master Spreadsheet of Doom
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/functiontree_hudab986b6a0174a9c8224e41bd5e2539e_169381_1200x0_resize_q90_h2_box.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             Systems engineering function tree
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/functiontree_hudab986b6a0174a9c8224e41bd5e2539e_169381_1200x0_resize_q90_h2_box.webp" 
+         class="batch-load"  
+        
+         alt="Systems engineering function tree" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            Systems engineering function tree
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/missionobjectives_huca84e299a058965375be3b570ab4a2c9_119516_1200x0_resize_q90_h2_box.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             Systems engineering mission objectives
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/missionobjectives_huca84e299a058965375be3b570ab4a2c9_119516_1200x0_resize_q90_h2_box.webp" 
+         class="batch-load"  
+        
+         alt="Systems engineering mission objectives" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            Systems engineering mission objectives
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    <figure ><div class="image-container">
-         
-         
- 
-         
-         
- 
- 
- 
- 
- 
-     
-     <img 
-         src="/journey/nasabigidea/debugging_hu526c0561ad573c071e978c4835ad4c30_2727084_1200x0_resize_q90_h2_box.webp" 
-          class="batch-load"  
-         
- 
-         alt=""
-   
-     />
- 
-     </div><figcaption>
-             Endless hours of debugging encoders
-         </figcaption>
- </figure>
+            
+            
+            
+            
+
+
+
+
+
+    
+
+
+    <img 
+        src="/journey/nasabigidea/debugging_hu526c0561ad573c071e978c4835ad4c30_2727084_1200x0_resize_q90_h2_box.webp" 
+         class="batch-load"  
+        
+         alt="Endless hours of debugging encoders" 
+  
+    />
+
+
+        </div>
+        <figcaption>
+            Endless hours of debugging encoders
+        </figcaption>
+    
+</figure>
  
 </li>
 
     <li class="splide__slide">
    
- <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-   <iframe src="https://www.youtube.com/embed/JPBf-1uIjwQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
- </div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/JPBf-1uIjwQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
  
 </li>
 
@@ -512,7 +556,6 @@
     </ul>
   </div>
 </section>
-
 
 <h2 id="conferences">Conferences</h2>
 <p>I presented at the 2022 ASCE Earth and Space conference. This was a three day conference where our team organized current and previous challenge winners to show off their projects and what they learned. This was a fantastic networking opportunity. Our team built relationships with a few of the past teams and we gained a lot of practical advice. We also heard some fascinating talks from the other panels.</p>
