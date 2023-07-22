@@ -707,14 +707,6 @@
     margin-top: 2.5px;
   }
 }
-.splide__slide figure {
-  width: 100%;
-  border-radius: 8px;
-  height: min-content;
-  object-fit: cover;
-  justify-content: flex-end;
-}
-
 .splide__pagination--ltr {
   padding: 0px;
 }
