@@ -638,14 +638,25 @@
 }
 #log-container .log {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  padding: 15px;
+}
+#log-container .log img {
+  width: 100%;
+}
+#log-container .log-number {
+  display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: nowrap;
-  padding: 15px;
   margin-bottom: 0px;
+  margin-top: 10px;
 }
-#log-container .log h3 {
+#log-container .log-number h3 {
   width: 100%;
   margin: 0px;
   margin-bottom: 10px;
@@ -655,14 +666,14 @@
   color: black;
   font-weight: 600;
 }
-#log-container .log span {
+#log-container .log-number span {
   font-size: 2rem;
   line-height: 1;
   font-family: "Open Sans", sans-serif;
   color: #855546;
   font-weight: 800;
 }
-#log-container .log h4 {
+#log-container .log-number h4 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 1.15rem;
@@ -672,7 +683,7 @@
   font-weight: 400;
   margin: 0px;
 }
-#log-container .log .info-container {
+#log-container .log-number .info-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -681,7 +692,7 @@
   margin-left: 10px;
   width: 100%;
 }
-#log-container .log .date-info {
+#log-container .log-number .date-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
