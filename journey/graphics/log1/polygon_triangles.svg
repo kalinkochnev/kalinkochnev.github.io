@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="213.20276mm"
+   height="49.105793mm"
+   viewBox="0 0 213.20276 49.105793"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="polygon_triangles.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:zoom="0.75277076"
+     inkscape:cx="396.53506"
+     inkscape:cy="73.063411"
+     inkscape:window-width="1912"
+     inkscape:window-height="1003"
+     inkscape:window-x="4"
+     inkscape:window-y="36"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="36.094295,-12.560141"
+       orientation="1,0"
+       id="guide1106"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="123.72048,-19.143112"
+       orientation="0,-1"
+       id="guide1110"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="90.09909,-2.5128014"
+       orientation="1,0"
+       id="guide1230"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="142.46659,-1.9974714"
+       orientation="1,0"
+       id="guide1370"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.6769122,-1.7100762)">
+    <circle
+       style="fill:#000000;stroke-width:0.769674;stroke-linecap:round"
+       id="path495"
+       cx="191.3931"
+       cy="26.262974"
+       r="24.48657" />
+    <g
+       id="g1356"
+       transform="matrix(1.0060093,0,0,1.0060093,-11.01936,-43.116846)">
+      <path
+         id="path1228"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.64583;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 38.551125,71.369591 15.370051,64.16141 M 53.972541,91.047712 38.706215,71.452832 25.238858,91.469829 M 38.735545,47.216978 V 71.53929 L 62.638181,63.409766 M 54.382387,91.518546 24.787349,92.006656 15.17776,64.010936 38.833744,46.22052 63.063537,63.221158 Z" />
+    </g>
+    <g
+       id="g1364"
+       transform="matrix(0.99676524,0,0,0.99676524,-9.3152273,-45.302255)">
+      <path
+         id="path1350"
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.64583;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+         d="M 92.80694,71.649655 115.7283,62.234442 M 92.80015,71.46622 69.640552,62.355872 M 83.607645,94.935553 92.740429,71.613847 C 92.60512,72.049244 70.352621,80.952714 70.352621,80.952714 M 115.616,81.237893 92.673851,71.613984 102.31653,94.71393 M 83.245684,48.932824 92.765381,71.435359 102.33995,48.734654 m 0.13614,46.278953 -19.270545,0.09096 -13.690653,-13.562018 -0.09096,-19.27055 13.562019,-13.690654 19.270549,-0.09096 13.69066,13.562019 0.091,19.270549 z" />
+    </g>
+    <path
+       id="path1388"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.49626;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 116.59725,16.556338 20.77504,9.996713 -14.29184,-18.0024161 m -7.13517,28.1992261 21.49084,-10.184558 -23.37142,-0.0015 m 18.10433,22.7302 5.21419,-22.731993 -14.56079,18.104734 m 29.23949,-0.162574 -14.65804,-18.108309 5.29656,22.903766 m 17.51888,-23.278181 -22.72628,0.396273 20.69688,10.02635 M 151.58573,8.3142047 137.36615,26.411677 157.99875,16.312364 M 132.08095,4.0653139 137.35629,26.41391 142.42638,3.7017963 m -10.38172,0.2796728 z m 20.14256,40.7830199 -9.50302,4.632456 -10.57189,0.05049 -9.54684,-4.541477 -6.63094,-8.233949 -2.40168,-10.295586 2.30323,-10.318057 6.55199,-8.296908 9.50302,-4.6324565 10.57189,-0.050491 9.54685,4.541477 6.63094,8.2339485 2.40168,10.295587 -2.30324,10.318056 z" />
+  </g>
+</svg>
