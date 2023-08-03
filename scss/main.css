@@ -511,10 +511,10 @@
 
 #journey-single-grid {
   display: grid;
-  grid-template-columns: minmax(300px, 1.6fr) minmax(300px, 1fr);
+  grid-template-columns: minmax(300px, 750px) minmax(300px, 1fr);
   column-gap: 20px;
   justify-self: center;
-  max-width: 1100px;
+  max-width: 1200px;
   column-gap: 40px;
   padding-bottom: 50px;
 }
@@ -620,7 +620,7 @@
     column-gap: 20px;
   }
 }
-#log-container {
+#all-log-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -629,51 +629,53 @@
   border-radius: 10px;
   margin-bottom: 22.5px;
 }
-#log-container h2 {
+#all-log-container h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
   font-weight: 600px;
   color: black;
   margin: 0px;
 }
-#log-container .log {
+#all-log-container .log {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
   flex-wrap: nowrap;
+  margin-bottom: 0px;
+  margin-top: 10px;
   padding: 15px;
 }
-#log-container .log img {
+#all-log-container .log img {
+  margin-bottom: 5px;
   width: 100%;
 }
-#log-container .log-number {
+#all-log-container .log iframe {
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+#all-log-container .log-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: nowrap;
-  margin-bottom: 0px;
-  margin-top: 10px;
 }
-#log-container .log-number h3 {
+#all-log-container .log-container h3 {
   width: 100%;
   margin: 0px;
-  margin-bottom: 10px;
-  line-height: 1;
+  line-height: 1.25;
   font-family: "Lora", serif;
   font-size: 1.4rem;
   color: black;
   font-weight: 600;
 }
-#log-container .log-number span {
-  font-size: 2rem;
-  line-height: 1;
+#all-log-container .log-container span {
   font-family: "Open Sans", sans-serif;
   color: #855546;
   font-weight: 800;
 }
-#log-container .log-number h4 {
+#all-log-container .log-container h4 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 1.15rem;
@@ -683,23 +685,22 @@
   font-weight: 400;
   margin: 0px;
 }
-#log-container .log-number .info-container {
+#all-log-container .log-container .info-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
   flex-wrap: nowrap;
-  margin-left: 10px;
   width: 100%;
 }
-#log-container .log-number .date-info {
+#all-log-container .log-container .date-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 7px;
   font-size: 1.15rem;
 }
 
@@ -1146,6 +1147,7 @@
 /* TextWhitespace */
 .content {
   max-width: 100%;
+  min-width: 750px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1207,7 +1209,11 @@
   width: 100%;
 }
 .content iframe {
+  width: 100%;
   border-radius: 8px;
+}
+.content iframe:first-child {
+  margin-top: 0px;
 }
 .content .image-container {
   display: flex;
@@ -1224,6 +1230,9 @@
   align-items: center;
   flex-wrap: nowrap;
   margin: 29px 0px;
+}
+.content figure:first-child {
+  margin-top: 0px;
 }
 .content figure figcaption {
   text-align: center;
