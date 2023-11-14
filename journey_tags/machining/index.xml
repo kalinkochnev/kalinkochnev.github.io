@@ -6,15 +6,14 @@
     <description>Recent content in machining on Kalin Kochnev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Jul 2023 15:06:50 -0400</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/machining/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jul 2023 15:06:50 -0400</lastBuildDate>
+    <atom:link href="https://kalinkochnev.com/journey_tags/machining/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Foundations of Fabrication</title>
       <link>https://kalinkochnev.com/journey/foundations/</link>
       <pubDate>Sat, 22 Jul 2023 15:06:50 -0400</pubDate>
-      
       <guid>https://kalinkochnev.com/journey/foundations/</guid>
       <description>A 6 month introduction to methods of fabrication</description>
     </item>
-    
   </channel>
 </rss>
