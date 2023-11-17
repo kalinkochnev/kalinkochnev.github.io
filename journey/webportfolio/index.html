@@ -36,8 +36,11 @@
     
     
     
+    loading="lazy" 
+
     style="
          
+        
         
     "
     />
@@ -173,6 +176,20 @@
 
 
 
+<style>
+    #play-button {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        transition: all .25s ease-in-out;
+    }
+
+    #play-button:hover {
+        transform-origin: center;
+        transform: scale(1.1) translate(-50%, -50%);
+    }
+</style>
 <div id="all-log-container">
     <h2>Recent Logs</h2>
     
@@ -182,8 +199,9 @@
     <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/webportfolio\/changelog6-8-23\/'"
         data-tags="web,hugo,">
 
-        
-        
+        <div class="image-container" style="position: relative; display: block; ">
+            
+        </div>
         <div class="log-container">
             <div class="info-container">
                 <h3><span>#9</span> Changelog</h3>
@@ -204,8 +222,9 @@
     <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/webportfolio\/changelog4-8-23\/'"
         data-tags="web,hugo,">
 
-        
-        
+        <div class="image-container" style="position: relative; display: block; ">
+            
+        </div>
         <div class="log-container">
             <div class="info-container">
                 <h3><span>#6</span> Changelog</h3>
@@ -226,8 +245,9 @@
     <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/webportfolio\/changelog3-9-23\/'"
         data-tags="web,hugo,">
 
-        
-        
+        <div class="image-container" style="position: relative; display: block; ">
+            
+        </div>
         <div class="log-container">
             <div class="info-container">
                 <h3><span>#4</span> The website is responsive! (almost)</h3>
@@ -248,8 +268,9 @@
     <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/webportfolio\/learninginpublic\/'"
         data-tags="web,notetaking,">
 
-        
-        
+        <div class="image-container" style="position: relative; display: block; ">
+            
+        </div>
         <div class="log-container">
             <div class="info-container">
                 <h3><span>#3</span> Learning in public</h3>
@@ -270,8 +291,9 @@
     <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/webportfolio\/softlaunch\/'"
         data-tags="web,">
 
-        
-        
+        <div class="image-container" style="position: relative; display: block; ">
+            
+        </div>
         <div class="log-container">
             <div class="info-container">
                 <h3><span>#2</span> Soft launch of the site!</h3>
