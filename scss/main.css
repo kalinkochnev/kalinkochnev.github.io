@@ -252,7 +252,8 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: nowrap;
-  width: 750px;
+  padding: 0px 10px;
+  width: 775px;
   box-sizing: border-box;
 }
 .post-page #nav-parent {
@@ -274,7 +275,7 @@
   width: 100%;
   box-sizing: border-box;
   padding: 12.5px;
-  width: 750px;
+  width: 100%;
   padding: 0px;
   margin-bottom: 15px;
 }
@@ -370,7 +371,6 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: nowrap;
-  width: 50%;
 }
 .next-prev a p {
   margin: 0px;
@@ -380,7 +380,7 @@
   margin-top: 5px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 775px) {
   .post-page {
     width: 100%;
   }
@@ -511,10 +511,10 @@
 
 #journey-single-grid {
   display: grid;
-  grid-template-columns: minmax(300px, 750px) minmax(300px, 1fr);
+  grid-template-columns: minmax(300px, 775px) minmax(300px, 1fr);
   column-gap: 20px;
   justify-self: center;
-  max-width: 1200px;
+  max-width: 1275px;
   column-gap: 40px;
   padding-bottom: 50px;
 }
@@ -604,7 +604,7 @@
     margin: 0px;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 775px) {
   #journey-single-container {
     margin: 0px 10px;
   }
@@ -647,7 +647,6 @@
   padding: 15px;
 }
 #all-log-container .log img {
-  margin-bottom: 5px;
   width: 100%;
 }
 #all-log-container .log iframe {
@@ -1146,8 +1145,7 @@
 /* GenericUnderline */
 /* TextWhitespace */
 .content {
-  max-width: 100%;
-  min-width: 750px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1250,7 +1248,7 @@
   justify-content: center;
   align-items: stretch;
   flex-wrap: nowrap;
-  width: 100vw;
+  width: 100%;
   align-self: center;
   background-color: #c3ac95;
   padding: 25px;
@@ -1268,7 +1266,7 @@
   top: 30px;
 }
 .content blockquote p {
-  width: 750px;
+  width: 775px;
   margin: 0px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
@@ -1299,7 +1297,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 875px) {
   .katex-display {
     overflow-x: scroll;
     overflow-y: clip;
@@ -1493,12 +1491,17 @@ a {
   border-radius: 8px;
   animation: fadeIn 1s infinite alternate;
 }
+.image-container > * {
+  background-color: transparent;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
 .image-container img.batch-load {
   display: block;
   margin: 0px;
-  opacity: 0;
   transition: opacity 0.6s;
   background-color: transparent;
+  opacity: 0;
   border-radius: 8px;
   box-sizing: border-box;
 }
@@ -1522,7 +1525,7 @@ a {
   max-width: 1.5rem;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 975px) {
   .navbar {
     max-width: 100%;
     justify-content: space-between;
