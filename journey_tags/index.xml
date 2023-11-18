@@ -9,6 +9,13 @@
     <lastBuildDate>Sun, 12 Nov 2023 12:33:16 -0500</lastBuildDate>
     <atom:link href="https://kalinkochnev.com/journey_tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>data-science</title>
+      <link>https://kalinkochnev.com/journey_tags/data-science/</link>
+      <pubDate>Sun, 12 Nov 2023 12:33:16 -0500</pubDate>
+      <guid>https://kalinkochnev.com/journey_tags/data-science/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>hackathon</title>
       <link>https://kalinkochnev.com/journey_tags/hackathon/</link>
       <pubDate>Sun, 12 Nov 2023 12:33:16 -0500</pubDate>
@@ -132,13 +139,6 @@
       <link>https://kalinkochnev.com/journey_tags/notetaking/</link>
       <pubDate>Wed, 15 Feb 2023 22:29:00 +0000</pubDate>
       <guid>https://kalinkochnev.com/journey_tags/notetaking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>data-science</title>
-      <link>https://kalinkochnev.com/journey_tags/data-science/</link>
-      <pubDate>Tue, 31 Jan 2023 19:40:54 -0500</pubDate>
-      <guid>https://kalinkochnev.com/journey_tags/data-science/</guid>
       <description></description>
     </item>
     <item>

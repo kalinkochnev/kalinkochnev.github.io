@@ -271,6 +271,20 @@
 
 
 
+<style>
+    #play-button {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        transition: all .25s ease-in-out;
+    }
+
+    #play-button:hover {
+        transform-origin: center;
+        transform: scale(1.1) translate(-50%, -50%);
+    }
+</style>
 <div id="all-log-container">
     <h2>Recent Logs</h2>
     
@@ -280,9 +294,10 @@
     <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/stabilizingbike\/logs\/weeklyupdate2\/'"
         data-tags="mechanical,cad,design,">
 
-        <div class="image-container">
+        <div class="image-container" style="position: relative; display: block; ">
             
-                
+                 
+
                 
 
 
@@ -307,7 +322,7 @@
 
 
 
-            
+                
             
         </div>
         <div class="log-container">
@@ -330,8 +345,7 @@
     <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/stabilizingbike\/logs\/weeklyupdate1\/'"
         data-tags="physics,controls,">
 
-        <div class="image-container">
-            
+        <div class="image-container" style="position: relative; display: block; ">
             
         </div>
         <div class="log-container">
@@ -354,8 +368,7 @@
     <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/stabilizingbike\/logs\/weeklyupdate0\/'"
         data-tags="academia,">
 
-        <div class="image-container">
-            
+        <div class="image-container" style="position: relative; display: block; ">
             
         </div>
         <div class="log-container">

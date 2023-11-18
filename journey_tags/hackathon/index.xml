@@ -9,11 +9,11 @@
     <lastBuildDate>Sun, 12 Nov 2023 12:33:16 -0500</lastBuildDate>
     <atom:link href="https://kalinkochnev.com/journey_tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hack4Delta 2023</title>
+      <title>Firefly</title>
       <link>https://kalinkochnev.com/journey/hack4delta2023/</link>
       <pubDate>Sun, 12 Nov 2023 12:33:16 -0500</pubDate>
       <guid>https://kalinkochnev.com/journey/hack4delta2023/</guid>
-      <description>Providing early detection of wildfires by using commercial airplanes as infrared aerial monitors</description>
+      <description>Providing early detection of wildfires by using commercial airplanes as infrared aerial monitors. Won 2nd place at Hack4Delta 2023.</description>
     </item>
   </channel>
 </rss>
