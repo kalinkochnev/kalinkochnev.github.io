@@ -202,6 +202,20 @@ are relatively young, WebGPU debugging could be a helpful skill to have.</p>
 
 
 
+<style>
+    #play-button {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        transition: all .25s ease-in-out;
+    }
+
+    #play-button:hover {
+        transform-origin: center;
+        transform: scale(1.1) translate(-50%, -50%);
+    }
+</style>
 <div id="all-log-container">
     <h2>Recent Logs</h2>
     
@@ -211,9 +225,10 @@ are relatively young, WebGPU debugging could be a helpful skill to have.</p>
     <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/graphics\/log1\/'"
         data-tags="gpu,rust,">
 
-        <div class="image-container">
+        <div class="image-container" style="position: relative; display: block; ">
             
-                
+                 
+
                 
 
 
@@ -236,7 +251,7 @@ are relatively young, WebGPU debugging could be a helpful skill to have.</p>
 
 
 
-            
+                
             
         </div>
         <div class="log-container">
