@@ -57,7 +57,10 @@
 #welcome-container #welcome {
   width: 600px;
 }
-#welcome-container #welcome h3 {
+#welcome-container #welcome #contact a {
+  margin-right: 15px;
+}
+#welcome-container #welcome a, #welcome-container #welcome h3 {
   margin-top: 0px;
   font-family: "Open Sans", sans-serif;
   color: black;
@@ -1362,6 +1365,41 @@
 .pagination .pagination__link span path {
   fill: hsl(20, 11%, 45%);
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+footer p {
+  margin: 0px;
+  margin-left: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+footer span {
+  margin-left: 7.5px;
+}
+
+#rss {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
+#love {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+}
+
 #content {
   height: 100%;
   overflow: hidden;
@@ -1449,6 +1487,7 @@ header {
 }
 .navbar #right a {
   margin: 0px;
+  margin-right: 17.5px;
   padding: 0px;
   font-size: 1.5rem;
   font-weight: 600;
@@ -1534,6 +1573,9 @@ a {
   }
 }
 @media screen and (max-width: 450px) {
+  #content {
+    padding: 0px 3px;
+  }
   html {
     font-size: 11px;
   }

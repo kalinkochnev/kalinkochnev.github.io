@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>philosophy on Kalin Kochnev</title>
+    <link>https://kalinkochnev.com/blog_tags/philosophy/</link>
+    <description>Recent content in philosophy on Kalin Kochnev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/blog_tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Improvement ≠ Happiness</title>
+      <link>https://kalinkochnev.com/blog/improvementhapp/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/blog/improvementhapp/</guid>
+      <description>What happens when our identity and fulfillment rests solely on becoming better?</description>
+    </item>
+    
+    <item>
+      <title>Staircases</title>
+      <link>https://kalinkochnev.com/blog/staircases/</link>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kalinkochnev.com/blog/staircases/</guid>
+      <description>Nobody knows what they are doing</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mechanical on Kalin Kochnev</title>
+    <link>https://kalinkochnev.com/journey_tags/mechanical/</link>
+    <description>Recent content in mechanical on Kalin Kochnev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 30 Jul 2023 12:24:50 -0400</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/mechanical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning to woodwork</title>
+      <link>https://kalinkochnev.com/journey/foundations/log1/</link>
+      <pubDate>Sun, 30 Jul 2023 12:24:50 -0400</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/foundations/log1/</guid>
+      <description>One unit down!</description>
+    </item>
+    
+    <item>
+      <title>Foundations of Fabrication</title>
+      <link>https://kalinkochnev.com/journey/foundations/</link>
+      <pubDate>Sat, 22 Jul 2023 15:06:50 -0400</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/foundations/</guid>
+      <description>A 6 month introduction to methods of fabrication</description>
+    </item>
+    
+    <item>
+      <title>Inverted pendulum construction</title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate2/</link>
+      <pubDate>Wed, 14 Jun 2023 15:14:03 -0400</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate2/</guid>
+      <description>It&amp;rsquo;s mostly ready to wire up!</description>
+    </item>
+    
+  </channel>
+</rss>

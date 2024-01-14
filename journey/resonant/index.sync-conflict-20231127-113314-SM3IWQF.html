@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+
+
+<link rel="stylesheet" href="/scss/main.css" />
+
+
+<script src="/js/batch-load.js"></script>
+ 
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ]
+        });
+    });
+</script>
+ 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elms = document.getElementsByClassName('splide');
+        for (var i = 0; i < elms.length; i++) {
+            console.log("elms " + elms.length);
+            let settings = { type: 'loop', autoplay: false, arrows: false, clones: 0};
+            
+            new Splide(elms[i], settings).mount();
+        }
+    });
+</script>
+ 
+<head>
+ <title>Kalin Kochnev</title>
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+        
+        <div id="content">
+
+<header>  
+  <nav class="navbar" role="navigation">  
+    <div id="face-icon">
+      
+
+
+
+
+    
+        
+    
+    <img
+    src="/images/face_hu03cb41ba356b0fd884adcc4944d0157c_969556_125x0_resize_q90_h2_box_3.webp"
+    
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+      <div id="name"> 
+        
+        <a href="/">kalin kochnev</a>
+        
+        <p id="subtitle">journeys</p>
+        
+      </div>  
+    </div>
+    
+    <div id="right">  
+      <a href="/journey">journeys</a>  
+      <a href="/blog">blog</a>
+    </div>  
+  </nav>  
+</header>  
+<div id="journey-single-container">
+  <div id="journey-single-grid">
+    <div id="description-col">
+      
+      <div class="content">
+        <section class="splide" aria-label="">
+  <div class="splide__track">
+    <ul class="splide__list">
+      
+    <li class="splide__slide">
+   <figure  ><div class="image-container">
+            
+            
+            
+            
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/resonant/groupphoto_hue2129026dbea195d780975319eab3c96_764618_1200x0_resize_q90_h2_box.webp"
+     class="batch-load" 
+    
+     alt="Us at the STANYS Science Fair!" 
+    loading="lazy" 
+
+    style="
+         
+         height: 480px; 
+        
+    "
+    />
+
+
+
+        </div>
+        <figcaption>
+            Us at the STANYS Science Fair!
+        </figcaption>
+    
+</figure>
+ 
+</li>
+
+    <li class="splide__slide">
+   <figure  ><div class="image-container">
+            
+            
+            
+            
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/resonant/poster_hu17b4b9cf27697bae1eaaa8e314ebc095_523666_1200x0_resize_q90_h2_box.webp"
+     class="batch-load" 
+    
+     alt="Our poster for the fair" 
+    loading="lazy" 
+
+    style="
+         
+         height: 480px; 
+        
+    "
+    />
+
+
+
+        </div>
+        <figcaption>
+            Our poster for the fair
+        </figcaption>
+    
+</figure>
+ 
+</li>
+
+
+    </ul>
+  </div>
+</section>
+
+<p>Resonant started as a high school science fair project with two of my friends, Rohan Menon and Jacob Yanoff. Our hope was to develop a wearable, and discreet, device that could serve as an alternative to hearing aids for the deaf. Additionally, the technology has interesting applications in spatial perception for robotics. Our project won Highest Honors at the New York State STANYS Science Fair.</p>
+<h2 id="specifications">Specifications</h2>
+<p>The wearable has fully integrated computing and sensing. Inside of the baseball cap there is an array of four microphones, an inertial measurement unit (IMU), a Raspberry Pi Compute unit, an OLED display at the brim of the hat, and finally a battery. On the software stack we built our prototype using Python and Numpy. Preferably we would have used a systems programming language, but since we were on such a tight deadline we settled for this solution. Communication was handled through I2C lines and multithreading.</p>
+<h2 id="math">Math</h2>
+<p>The mathematics behind sound localization are extremely interesting and elegant. It was mind blowing to me how such a simple equation could be so effective at producing a real world result. We were concerned that this project was infeasible, yet even with non-ideal conditions (a stereo microphone on a laptop) we saw accurate results!
+$$\theta = \arccos\left(\frac{v_s \tau}{d}\right)$$
+$v_s$ is the speed of sound, $\tau$ is the time delay between two audio signals, and $d$ is the distance between a pair of microphones.</p>
+<p>Granted, this equation isn&rsquo;t the full story. It&rsquo;s limited to localization in 2D and a <em>lot</em> of additional signal processing is required to compute the time delay, like computing cross-correlation with the fast Fourier transform.</p>
+<h2 id="whats-next">What&rsquo;s next?</h2>
+<p>Resonant was the first software and hardware project I worked on. It has been, by far, my favorite to work on, which is why I&rsquo;m excited to have the opportunity to research this more extensively in college! There is a lot of room for improvement for our device in almost every aspect, machine learning, localization, hardware, and software. There is so much potential and things left to learn and explore with this technology. We plan to focus a lot on improving the algorithm since a lot of research in this area went over our heads in high school. Additionally, we&rsquo;d like to explore the usage of sound localization as a sensing platform for robots.</p>
+<h3 id="areas-of-interest">Areas of interest</h3>
+<ul>
+<li>Multi-source localization in 3D space</li>
+<li>Source tracking with Kalman filters</li>
+<li>Audio beamforming for selective reception</li>
+<li>Noise-resistant machine learning model for classification and speech transcription</li>
+<li>Custom microphone array</li>
+<li>Systems programming language (like C++/Rust)</li>
+</ul>
+
+      </div>
+    </div>
+    
+    <div id="summary-container">
+      <h1 id="title">Resonant<span 
+     class="star-icon"  
+     
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 33.502 34.617" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-1321.6 -236.47)"><g transform="matrix(1.4055 0 0 1.4055 601.33 -306.2)"><path d="m521.7 409.43c0.2524-0.0676 0.5145-0.20532 0.7739-0.41755l4.4139-4.2001 5.9227 1.4304c0.3306 0.0541 0.6266 0.0423 0.8788-0.0253 0.7821-0.20956 1.1477-0.95661 0.8425-1.9486l-2.2072-5.5373 2.7958-4.9969c0.5195-1.2711-0.1723-2.3001-1.5457-2.2985l-5.9842 0.61546-3.8988-4.4185c-0.5236-0.46869-1.1007-0.62034-1.6062-0.48491-0.4826 0.12931-0.8988 0.51982-1.1402 1.1456l-1.5517 5.9538-5.0077 2.2858c-1.1776 0.70619-1.2523 1.9602-0.1669 2.8013l4.9194 2.9293 0.8571 5.8989c0.2319 1.0125 0.9223 1.4766 1.7045 1.267z" fill="#ffdb00" stroke="#000" stroke-width="2"/></g></g></svg>
+
+</span>
+</h1>
+      <div id="inducted">
+        <h2 id="date">Inducted February 10, 2021</h2>
+        <div id="status">
+          <span class="icon">
+  <svg width="100%" height="100%" version="1.1" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+   <g transform="translate(-84.865 -99.13)">
+     <circle cx="97.365" cy="111.63" r="7.5" 
+      fill="
+          
+            #b4e6acff
+           
+        " 
+    stroke="#000 " 
+    stroke-width="3.2657"/>
+   </g>
+  </svg>
+</span>
+
+          active
+        </div>
+      </div>
+      <div>
+        
+          <span class="tag">signal processing</span>
+        
+          <span class="tag">electronics</span>
+        
+          <span class="tag">wearable</span>
+        
+      </div>
+      
+      <p>An exploration of audio localization and identification through accessibility and sensing projects</p>
+      <div id="links">
+        
+          <a href="https://github.com/kalinkochnev/resonant"><span 
+     class="star-icon"  
+     
+>
+    <svg width="100%" height="100%" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)" fill="#1B1F23"/>
+</svg>
+
+</span>
+ <span class="link-style">project repository</span> </a>
+        
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    #play-button {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        transition: all .25s ease-in-out;
+    }
+
+    #play-button:hover {
+        transform-origin: center;
+        transform: scale(1.1) translate(-50%, -50%);
+    }
+</style>
+<div id="all-log-container">
+    <h2>Recent Logs</h2>
+    
+    
+    
+     
+    <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/resonant\/v2plan\/'"
+        data-tags="signal-processing,">
+
+        <div class="image-container" style="position: relative; display: block; ">
+            
+        </div>
+        <div class="log-container">
+            <div class="info-container">
+                <h3><span>#5</span> Resonant V2 Plans!</h3>
+                
+                    <h4 class="summary">There&rsquo;s plenty of unfinished business</h4>
+                
+                <div class="date-info">
+                    <h4>March 10, 2023</h4>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+ 
+    </div>
+  </div>
+</div><noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript>
+        </div><noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript></body>
+</html>
