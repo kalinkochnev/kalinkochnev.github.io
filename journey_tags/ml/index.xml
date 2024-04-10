@@ -6,14 +6,15 @@
     <description>Recent content in ml on Kalin Kochnev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kalinkochnev.com/journey_tags/ml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backpropagation Neural Network</title>
       <link>https://kalinkochnev.com/journey/rustbackprop/</link>
       <pubDate>Tue, 03 May 2022 00:00:00 +0000</pubDate>
+      
       <guid>https://kalinkochnev.com/journey/rustbackprop/</guid>
       <description>A Rust implementation of a backpropagation neural network</description>
     </item>
+    
   </channel>
 </rss>
