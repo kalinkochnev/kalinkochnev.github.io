@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Kalin Kochnev</title>
+    <link>http://localhost:1313/journey_tags/web/</link>
+    <description>Recent content in Web on Kalin Kochnev</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Jun 2023 11:52:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/journey_tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Changelog</title>
+      <link>http://localhost:1313/journey/webportfolio/changelog6-8-23/</link>
+      <pubDate>Thu, 08 Jun 2023 11:52:00 +0000</pubDate>
+      <guid>http://localhost:1313/journey/webportfolio/changelog6-8-23/</guid>
+      <description>Site optimization and bugfixes</description>
+    </item>
+    <item>
+      <title>Changelog</title>
+      <link>http://localhost:1313/journey/webportfolio/changelog4-8-23/</link>
+      <pubDate>Sat, 08 Apr 2023 13:57:00 +0000</pubDate>
+      <guid>http://localhost:1313/journey/webportfolio/changelog4-8-23/</guid>
+      <description>Bug fixes and responsiveness</description>
+    </item>
+    <item>
+      <title>The website is responsive! (almost)</title>
+      <link>http://localhost:1313/journey/webportfolio/changelog3-9-23/</link>
+      <pubDate>Thu, 09 Mar 2023 19:55:00 +0000</pubDate>
+      <guid>http://localhost:1313/journey/webportfolio/changelog3-9-23/</guid>
+      <description>Sometimes when you&amp;rsquo;re code doesn&amp;rsquo;t compile, it&amp;rsquo;s not you&amp;rsquo;re fault!</description>
+    </item>
+    <item>
+      <title>Learning in public</title>
+      <link>http://localhost:1313/journey/webportfolio/learninginpublic/</link>
+      <pubDate>Wed, 15 Feb 2023 22:29:00 +0000</pubDate>
+      <guid>http://localhost:1313/journey/webportfolio/learninginpublic/</guid>
+      <description>A completely different way of thinking about learning</description>
+    </item>
+    <item>
+      <title>Soft launch of the site!</title>
+      <link>http://localhost:1313/journey/webportfolio/softlaunch/</link>
+      <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journey/webportfolio/softlaunch/</guid>
+      <description>The site might be rough on the edges, but bear with me</description>
+    </item>
+    <item>
+      <title>Online Portfolio</title>
+      <link>http://localhost:1313/journey/webportfolio/</link>
+      <pubDate>Tue, 31 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journey/webportfolio/</guid>
+      <description>My portfolio to showcase my journeys and writings</description>
+    </item>
+  </channel>
+</rss>

@@ -6,7 +6,7 @@
     <description>Recent content in robotics on Kalin Kochnev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 May 2024 10:52:54 -0400</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SLAM Bike</title>
       <link>https://kalinkochnev.com/journey/stabilizingbike/</link>
@@ -23,6 +23,15 @@
       
       <guid>https://kalinkochnev.com/journey/nasabigidea/</guid>
       <description>A hybrid quadruped/tank rover for extreme lunar terrain. Finalists at the 2022 NASA Big Idea Challenge</description>
+    </item>
+    
+    <item>
+      <title>Rembrot</title>
+      <link>https://kalinkochnev.com/journey/robotarm/</link>
+      <pubDate>Thu, 16 May 2024 10:52:54 -0400</pubDate>
+      
+      <guid>https://kalinkochnev.com/journey/robotarm/</guid>
+      <description>A 3 DOF robotic painter</description>
     </item>
     
   </channel>

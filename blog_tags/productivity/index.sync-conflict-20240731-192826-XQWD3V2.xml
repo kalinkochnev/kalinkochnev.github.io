@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on Kalin Kochnev</title>
+    <link>http://localhost:1313/blog_tags/productivity/</link>
+    <description>Recent content in Productivity on Kalin Kochnev</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Feb 2023 17:43:53 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog_tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multiplicative time</title>
+      <link>http://localhost:1313/blog/multiplicativetime/</link>
+      <pubDate>Wed, 08 Feb 2023 17:43:53 -0500</pubDate>
+      <guid>http://localhost:1313/blog/multiplicativetime/</guid>
+      <description>Pushing through your problems, most of the time, isn&amp;rsquo;t the best solution</description>
+    </item>
+  </channel>
+</rss>

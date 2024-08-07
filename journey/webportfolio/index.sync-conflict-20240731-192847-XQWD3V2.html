@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+
+<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><link rel="stylesheet" href="/scss/main.css" />
+
+
+<script src="/js/batch-load.js"></script>
+<noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<head>
+ <title>Kalin Kochnev</title>
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+        <div id="content">
+<header>
+  <nav class="navbar" role="navigation">
+    <div id="face-icon">
+
+      <a href="/">
+        
+
+
+
+
+    
+        
+    
+    <img
+    src="/images/face_hu03cb41ba356b0fd884adcc4944d0157c_969556_125x0_resize_q90_h2_box_3.webp"
+    
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+      </a>
+      <div id="name">
+        
+        <a href="/">kalin kochnev</a>
+        
+        <p id="subtitle">journeys</p>
+        
+      </div>
+    </div>
+
+    <div id="right">
+      <a href="/journey">journeys</a>
+      <a href="/blog">blog</a>
+      <a href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
+    </div>
+  </nav>
+</header>
+<div id="journey-single-container">
+  <div id="journey-single-grid">
+    <div id="description-col">
+      
+      <div class="content">
+        <p>The creation of my portfolio has been long overdue. I have made several attempts over the past few years, and for a variety of reasons, it&rsquo;s taken me this long. The current iteration you&rsquo;re seeing right now uses a Hugo (a static site generator) and a theme I designed.</p>
+<h2 id="my-first-portfolio-attempt">My first portfolio attempt</h2>
+<p>I built an entire content management webapp starting from graphic design, frontend, backend, and everything in-between. I utilized Django REST Framework and ReactJS. It had a lot of features, like an admin panel, a customized WYSIWYG editor using <a href="https://docs.slatejs.org/">Slate.js</a> (which was a joy to use), drafting support, and autosave. At some point I might write some articles since there were some interesting backend classes I wrote.</p>
+<h3 id="one-very-large-bug">One very large bug&hellip;</h3>
+<p>However, while I was working on the drafting feature on the frontend, I ran into a major design flaw with how I managed state. I developed a custom form renderer (EzForm) which made displaying forms really easy. All I had to do was configure the form with a Javascript object and all the fields would be styled exactly the way I wanted.</p>
+<p>However, I improperly structured state handling within EzForm. It appeared to work with a standard React component where the only state update occured on the page load (to load any pre-populated data). Issues became apparent when I was building draft functionality. The backend successfully passed all the tests, and I thought the implementation was pretty elegant. All I had to do to make a model &ldquo;draftable&rdquo; was inherit a class. On the frontend, in theory, all I had to do was update the state of EzForm to switch between drafts.</p>
+<h3 id="why-a-custom-cms-is-a-mistake">Why a custom CMS is a mistake</h3>
+<p>Once I began to wrap my head around the problem, I knew it wouldn&rsquo;t have an easy fix. I would have to completely re-work EzForm. This made me aware of a very unfortunate truth. I worked on this website for an entire summer, but I didn&rsquo;t stop to think if doing a full-stack portfolio website was a good idea. It was a massive flex for sure, but would it really be worth it?</p>
+<p>What I originally saw as a benefit and demonstration of my skill, building a full stack portfolio with a custom CMS, was in reality a stupid idea. If there were any issues that arose, bugs, problems in the deployment, someone hacking the site, <em>I would be the one to fix it</em>. There would be no tech support to call. Who knows how many hours of additional commitment maintaining the site would require. I built an entire service for only one person to use.</p>
+<p>Despite the amount of web development experience I have, I do not want to pursue this as a career. Maybe maintaining a service would be a good exercise for someone else, but for someone who enjoys tinkering with hardware, it was a distraction from what was important to me.</p>
+<h2 id="learning-from-my-mistakes">Learning from my mistakes</h2>
+<p>After a long hiatus from working on my portfolio, I decided to take another crack at it. When I worked on the NASA BIG Idea Challenge, it became immediately clear how important it was that I document, and show off, all that I learned. This experience would only happen once in my entire lifetime, and I had no platform where I could share it.</p>
+<p>I had a few key motivations for building the site.</p>
+<ol>
+<li>Show off my design sense</li>
+<li>Have a home for all my projects</li>
+<li>Easily create logs as I make progress in my work</li>
+<li>Have a home for my blog</li>
+</ol>
+<h3 id="projects-versus-journeys">Projects versus Journeys</h3>
+<p>One of the key distinctions I made with my site is the idea of a &ldquo;journey&rdquo;. I feel that projects are a general term that have a connotation of professional development, something you put on a resume. Meanwhile, a journey is something that occurs in the moment and can apply to any aspect of life. With my site, I wanted to showcase my projects as well as my hobbies and interests.</p>
+<p>I have a lot of ideas on how to &ldquo;show the journey&rdquo; as its happening. But, I figured starting small and building the site to fit my needs than what I think I need is a better start.</p>
+
+      </div>
+    </div>
+    
+    <div id="summary-container">
+      <h1 id="title">Online Portfolio</h1>
+      <div id="inducted">
+        <h2 id="date">Inducted January 31, 2023</h2>
+        <div id="status">
+          <span class="icon">
+  <svg width="100%" height="100%" version="1.1" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+   <g transform="translate(-84.865 -99.13)">
+     <circle cx="97.365" cy="111.63" r="7.5" 
+      fill="
+          
+            #b4e6acff
+           
+        " 
+    stroke="#000 " 
+    stroke-width="3.2657"/>
+   </g>
+  </svg>
+</span>
+
+          active
+        </div>
+      </div>
+      <div>
+        
+          <span class="tag">web</span>
+        
+          <span class="tag">hugo</span>
+        
+          <span class="tag">sass</span>
+        
+      </div>
+      
+      <p>My portfolio to showcase my journeys and writings</p>
+      <div id="links">
+        
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    #play-button {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        transition: all .25s ease-in-out;
+    }
+
+    #play-button:hover {
+        transform-origin: center;
+        transform: scale(1.1) translate(-50%, -50%);
+    }
+</style>
+<div id="all-log-container">
+    <h2>Recent Logs</h2>
+    
+    
+    
+     
+    <div class="log hover tagable" onclick="window.location='http:\/\/localhost:1313\/journey\/webportfolio\/changelog6-8-23\/'"
+        data-tags="web,hugo,">
+
+        <div class="image-container" style="position: relative; display: block; ">
+            
+        </div>
+        <div class="log-container">
+            <div class="info-container">
+                <h3><span>#9</span> Changelog</h3>
+                
+                    <h4 class="summary">Site optimization and bugfixes</h4>
+                
+                <div class="date-info">
+                    <h4>June 8, 2023</h4>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+     
+    <div class="log hover tagable" onclick="window.location='http:\/\/localhost:1313\/journey\/webportfolio\/changelog4-8-23\/'"
+        data-tags="web,hugo,">
+
+        <div class="image-container" style="position: relative; display: block; ">
+            
+        </div>
+        <div class="log-container">
+            <div class="info-container">
+                <h3><span>#6</span> Changelog</h3>
+                
+                    <h4 class="summary">Bug fixes and responsiveness</h4>
+                
+                <div class="date-info">
+                    <h4>April 8, 2023</h4>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+     
+    <div class="log hover tagable" onclick="window.location='http:\/\/localhost:1313\/journey\/webportfolio\/changelog3-9-23\/'"
+        data-tags="web,hugo,">
+
+        <div class="image-container" style="position: relative; display: block; ">
+            
+        </div>
+        <div class="log-container">
+            <div class="info-container">
+                <h3><span>#4</span> The website is responsive! (almost)</h3>
+                
+                    <h4 class="summary">Sometimes when you&rsquo;re code doesn&rsquo;t compile, it&rsquo;s not you&rsquo;re fault!</h4>
+                
+                <div class="date-info">
+                    <h4>March 9, 2023</h4>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+     
+    <div class="log hover tagable" onclick="window.location='http:\/\/localhost:1313\/journey\/webportfolio\/learninginpublic\/'"
+        data-tags="web,notetaking,">
+
+        <div class="image-container" style="position: relative; display: block; ">
+            
+        </div>
+        <div class="log-container">
+            <div class="info-container">
+                <h3><span>#3</span> Learning in public</h3>
+                
+                    <h4 class="summary">A completely different way of thinking about learning</h4>
+                
+                <div class="date-info">
+                    <h4>February 15, 2023</h4>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+     
+    <div class="log hover tagable" onclick="window.location='http:\/\/localhost:1313\/journey\/webportfolio\/softlaunch\/'"
+        data-tags="web,">
+
+        <div class="image-container" style="position: relative; display: block; ">
+            
+        </div>
+        <div class="log-container">
+            <div class="info-container">
+                <h3><span>#2</span> Soft launch of the site!</h3>
+                
+                    <h4 class="summary">The site might be rough on the edges, but bear with me</h4>
+                
+                <div class="date-info">
+                    <h4>February 2, 2023</h4>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+ 
+    </div>
+  </div>
+</div>
+
+        </div>
+        
+<footer>
+    <div id="love">
+        <p>
+        Made with love
+        </p>
+
+        <span 
+     class="star-icon"  
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 23.168 20.232" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-101.93 -34.643)">
+  <path d="m108.77 37.95c-2.7926-0.0069-3.6384 2.4755-3.5284 4.7815 1.4308 6.5185 8.2134 9.0305 8.2134 9.0305s6.6452-2.3888 8.214-9.0305c0.53071-2.2468-0.88642-4.781-3.679-4.7741-3.5787 0.0088-4.5347 3.8324-4.5347 3.8324s-1.1067-3.831-4.6853-3.8398z" fill="#ff0003" stroke="#000" stroke-linecap="round" stroke-miterlimit="0" stroke-width="6.6146" style="paint-order:markers stroke fill"/>
+ </g>
+</svg>
+
+</span>
+ 
+    </div>
+    
+</footer>
+
+    </body>
+</html>
