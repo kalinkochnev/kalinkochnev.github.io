@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jupyter on Kalin Kochnev</title>
+    <link>http://localhost:1313/journey_tags/jupyter/</link>
+    <description>Recent content in Jupyter on Kalin Kochnev</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jan 2023 19:40:54 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/journey_tags/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sleep Analysis</title>
+      <link>http://localhost:1313/journey/sleepanalysis/</link>
+      <pubDate>Tue, 31 Jan 2023 19:40:54 -0500</pubDate>
+      <guid>http://localhost:1313/journey/sleepanalysis/</guid>
+      <description>A statistical analysis of sleep records from a Fitbit</description>
+    </item>
+  </channel>
+</rss>

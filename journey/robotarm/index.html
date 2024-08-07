@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html>
+
+
+<link rel="stylesheet" href="/scss/main.css" />
+
+
+<script src="/js/batch-load.js"></script>
+<noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ]
+        });
+    });
+</script>
+ 
+
+<head>
+ <title>Kalin Kochnev</title>
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+        <div id="content">
+<header>
+  <nav class="navbar" role="navigation">
+    <div id="face-icon">
+
+      <a href="/">
+        
+
+
+
+
+    
+        
+    
+    <img
+    src="/images/face_hu03cb41ba356b0fd884adcc4944d0157c_969556_125x0_resize_q90_h2_box_3.webp"
+    
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+      </a>
+      <div id="name">
+        
+        <a href="/">kalin kochnev</a>
+        
+        <p id="subtitle">journeys</p>
+        
+      </div>
+    </div>
+
+    <div id="right">
+      <a href="/journey">journeys</a>
+      <a href="/blog">blog</a>
+      <a href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
+    </div>
+  </nav>
+</header>
+<div id="journey-single-container">
+  <div id="journey-single-grid">
+    <div id="description-col">
+      
+      <div class="content">
+        <p>This was the final project my group came up with for ECE 3161: Introduction to Robotics at the University of Connecticut.</p>
+<p>My involvement in this project was primarily the mechanical design since my groupmates didn&rsquo;t have experience. In the future I would like to replace the cheap $5 servo motors with stepper motors for better performance. It was fun to pretend to be a mechanical engineer for a few weeks but next time I&rsquo;ll just code the controller instead 😀</p>
+<p>I found <a href="https://www.thingiverse.com/thing:3876856">this design</a> online that I am just itching to replicate for next time.</p>
+<h1 id="objectives">Objectives</h1>
+<p>Our goal was to design and manufacture a 3-DOF robot arm capable of drawing/painting simple shapes on a canvas. This would require us to</p>
+<ul>
+<li>Derive forward kinematics and DH parameters</li>
+<li>Derive and program inverse kinematics</li>
+<li>Convert simple paths to robot arm commands</li>
+</ul>
+<p>My personal objectives with the mechanical design was to make it easy to construct, fast to prototype, and use cheap/readily available parts.</p>
+<h1 id="features">Features</h1>
+<ul>
+<li>
+<p>Easy to manufacture
+Most components are printable without support and screw hole features won’t wear away since threaded inserts are used.</p>
+</li>
+<li>
+<p>Customizable:
+The robot assembly and 3D models have parameterized dimensions to account for printer tolerance or to scale the part sizes. <strong>Note</strong> change parameters at your own risk since some changes will require manual modifications, such as the &ldquo;truss&rdquo; structure for the links.</p>
+</li>
+</ul>
+<p>And thankfully the end effector fits most writing/drawing utensils.</p>
+<h1 id="design-process">Design process</h1>
+<p>I started by creating sketches of the robot arm using the <a href="https://concepts.app/en/">Concepts</a> iOS app (I highly recommend it). It was difficult for me to visualize how to mount the links to the servo motors since there is practically only one method of mounting.</p>
+<p>I decided to use OnShape as my 3D modeling software. As someone who has come from an Inventor/Fusion 360 background the switch was easy. I am a big fan of their source control feature not to mention that I can run it on my Linux laptop!</p>
+<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: end; column-gap: 20px;">
+     
+    <figure  ><div class="image-container">
+            
+            
+            
+            
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/robotarm/armsketch_hu4abd6c113b91aa4a8fb00b14cfa4cd19_2390346_1200x0_resize_q90_h2_box_3.webp"
+     class="batch-load" 
+    
+     alt="Sketch of robot" 
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+        </div>
+        <figcaption>
+            Sketch of robot
+        </figcaption>
+    
+</figure>
+
+    <figure  ><div class="image-container">
+            
+            
+            
+            
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/robotarm/arm_hu60cba8403fd1fdf7d16232438c76e3f2_316539_1200x0_resize_q90_h2_box_3.webp"
+     class="batch-load" 
+    
+     alt="OnShape assembly (available in the links section)" 
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+        </div>
+        <figcaption>
+            OnShape assembly (available in the links section)
+        </figcaption>
+    
+</figure>
+
+ 
+</div>
+
+<p>What really leveled up my functional 3D printed parts was compensating for the tolerance of the printer. If you want anything to fit together, guess and check will only get you so far. A dead simple option is to print this <a href="https://makerworld.com/en/models/22224?from=search#profileId-20163">tolerance test</a>. I would also suggest purchasing a caliper. A standard ruler can only do so much.</p>
+<p>Also consider purchasing some threaded inserts for screw holes. It will save you from throwing out your parts after a few re-assemblies.</p>
+<p>My love hate relationship with 3D printing reached a breaking point. I could not bring myself to tweak my Ender 3 for the 5,000th time in order to <em>maybe</em> have a part that works. I realized that I like to 3D print, not fix my 3D printer. My soul could only take so many failed prints before I lose interest in a project all together. So I plunked down the money for a Bambu P1S. And boy does it crank out flawless parts with minimal effort. Not to mention that printing times are a third of my ender. It certaintly helped me embrace the <em>iterate fast, break things quickly</em> mantra.</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/SO-_E8I95Ps" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<figure  ><div class="image-container">
+            
+            
+            
+            
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/robotarm/parts_hub159e3b2d24109ca0a73bfdb77f77b5a_782106_1200x0_resize_q90_h2_box_3.webp"
+     class="batch-load" 
+    
+     alt="Fail fast. Print faster!" 
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+        </div>
+        <figcaption>
+            Fail fast. Print faster!
+        </figcaption>
+    
+</figure>
+</p>
+<p>Here is the final product.</p>
+<figure  ><div class="image-container">
+            
+            
+            
+            
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/robotarm/builtarm_hu369eca3cff7f475408a8d95ce3892f87_1386469_1200x0_resize_q90_h2_box.webp"
+     class="batch-load" 
+    
+     alt="Final product" 
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+        </div>
+        <figcaption>
+            Final product
+        </figcaption>
+    
+</figure>
+
+<p>How does it work? Well&hellip; not the best. Rembrandt may have been a classical painter, but Rembrot is certainly an abstract painter.</p>
+<figure  ><div class="image-container">
+            
+            
+            
+            
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/robotarm/car_huf53310c4a1a3939b7fc2dda2ac71f239_208647_1200x0_resize_q90_h2_box_3.webp"
+     class="batch-load" 
+    
+     alt="You can&#39;t see the car? Oh well." 
+    loading="lazy" 
+
+    style="
+         width: 50%;  
+        
+        
+    "
+    />
+
+
+
+        </div>
+        <figcaption>
+            You can&rsquo;t see the car? Oh well.
+        </figcaption>
+    
+</figure>
+
+<h1 id="math">Math</h1>
+<p>For someone who may not have covered how to mathematically model a robot, the rest of this section will look like absolute gibberish. But if you are just getting started with robotics I highly encourage you to try and use plain old trigonometry. That is all you really need. With that said, let&rsquo;s continue on.</p>
+<p>If you apply the Denavit–Hartenberg convention you get a table that looks something like this</p>
+<table>
+<thead>
+<tr>
+<th>link #</th>
+<th>$\theta_i$</th>
+<th>$d_i$</th>
+<th>$\alpha_i$</th>
+<th>$a_i$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>$\theta_1$</td>
+<td>$l_1$</td>
+<td>90</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>$\theta_2$</td>
+<td>0</td>
+<td>$l_2$</td>
+<td>0</td>
+</tr>
+<tr>
+<td>3</td>
+<td>$\theta_3$</td>
+<td>0</td>
+<td>$l_3$</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>Here is a fantastic visualization of what each of the parameters mean 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/rA9tm0gTln8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<p>Note to self. The row describes how to modify the frame of reference from the start of the link in order to get the frame of reference at the end of the link.</p>
+<p>Let $A_i$ represent the total transformation from frame $F_{i-1}$ to $F_{i}$. To get the actual transformation for a single link using the DH convention we use</p>
+<p>$$A_i = Rot_{z, \theta_i} Trans_{z, d_i} Trans_{x, a_i} Rot_{x, \alpha_i}$$</p>
+<p>The total transformation is $T_i = A_1 A_2 A_3$. The order is reversed because the transformationed are with respect to the a relative frame. In other words, the links orientation depends on the ones before it.</p>
+<p>Before taking this course I thought that inverse kinematics must have had some kind of incredibly elegant solution. But plain old trigonometry is really all you need. The final formulas are pretty messy, but at some point I will come back and include a full derivation. For my 3 degree of freedom design you have:</p>
+<p>Let $D= \frac{x_c ^2 + y_c ^2 - l_2^2 -l_3^2}{-2 l_2 l_3}$.
+$$
+\begin{aligned}
+\theta_1 &amp;= arctan(x_c, y_c)\\
+\theta_3 &amp;= \frac{arctan(\pm \sqrt{1 - D^2})}{D} \\
+\theta_2 &amp;= arctan\left(\frac{z_c - l_1}{\sqrt{x_c^2 + y_c^2}}\right) - arctan\left(\frac{l_3 sin(\theta_3)}{l_2 + l_3 cos(\theta_3)}\right)
+\end{aligned}
+$$</p>
+<h1 id="issues">Issues</h1>
+<p>So clearly there is a lot of room for improvement. I can&rsquo;t speak about the quality of the code but our cheap hardware surely didn&rsquo;t help. The base was more wobbly than I liked, but is easily fixable, which is why the drawing is so shaky. The precision of the servo motors are also a limiting factor.</p>
+<p>For our purposes the robot arm did the job. But if the end effector had to be something more weighty this arm is a bad idea. The motors are the only thing holding the links together which definitely puts too much stress on the construction of the motor. Unfortunately I don&rsquo;t think there are many other ways to mount a cheap servo motor. At least stepper motors have screws that logically make sense.</p>
+
+      </div>
+    </div>
+    
+    <div id="summary-container">
+      <h1 id="title">Rembrot</h1>
+      <div id="inducted">
+        <h2 id="date">Inducted May 16, 2024</h2>
+        <div id="status">
+          <span class="icon">
+  <svg width="100%" height="100%" version="1.1" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
+   <g transform="translate(-84.865 -99.13)">
+     <circle cx="97.365" cy="111.63" r="7.5" 
+      fill="
+          
+            #b4e6acff
+           
+        " 
+    stroke="#000 " 
+    stroke-width="3.2657"/>
+   </g>
+  </svg>
+</span>
+
+          active
+        </div>
+      </div>
+      <div>
+        
+          <span class="tag">robotics</span>
+        
+          <span class="tag">college</span>
+        
+          <span class="tag">mechanical</span>
+        
+          <span class="tag">cad</span>
+        
+      </div>
+      
+      <p>A 3 DOF robotic painter</p>
+      <div id="links">
+        
+          <a href="https://cad.onshape.com/documents/44425672a783d06cce1eff18/w/46b2624f3f1715541776d2ce/e/107191b6fd2df9dc7beeebc7?renderMode=0&amp;uiState=664630eaeadd42601d0f71d4"><span 
+     class="star-icon"  
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 12.305 15.899" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-89.154 -83.568)" stroke-linecap="square">
+  <g transform="matrix(1.089 0 0 1.089 -8.2909 -8.2797)" stroke-width=".2961">
+   <path d="m97.144 90.904c-0.23884-0.35863-0.57074-0.69684-1.0326-0.96353-1.8967-1.0951-3.7433 0.299-3.7433 0.299l-0.12592 0.09568-2.7505 4.764-0.0092 0.1903s-0.12717 2.1816 1.679 3.2244c1.8062 1.0428 3.6319-0.15816 3.6319-0.15816l0.16036-0.103 2.3268-4.0302c-0.03668 0.0099-0.0735 0.01961-0.11044 0.02846-0.04338 0.01041-0.08685 0.02002-0.13055 0.02904-0.0437 9e-3 -0.08749 0.01747-0.13148 0.02515-0.044 0.0077-0.08822 0.0147-0.13247 0.02104-0.04426 0.0064-0.08858 0.01213-0.13306 0.01717-0.04449 0.0051-0.08903 0.0093-0.13371 0.01309-0.04467 0.0037-0.08954 0.0068-0.13438 0.0093-0.04483 0.0025-0.08974 0.0044-0.1347 0.0056-0.04496 0.0013-0.08997 0.0019-0.13503 0.0019-0.04505 4.2e-5 -0.09005-3.88e-4 -0.13516-0.0015-0.09022-0.0023-0.18052-7e-3 -0.27077-0.01392-0.09025-0.0069-0.18049-0.01617-0.2705-0.02755-0.0059-6.21e-4 -0.01164-2e-3 -0.01751-0.0027l-1.5943 2.7615c-0.18278 0.10205-1.0341 0.55087-1.8714 0.06749-0.83728-0.4834-0.87423-1.4452-0.87724-1.6544l2.3462-4.0638c0.14074-0.09991 0.9879-0.6758 1.9139-0.14117 0.16934 0.09777 0.30453 0.2121 0.4134 0.33426 0.02271-0.0047 0.04544-0.0092 0.0682-0.01469 0.03338-8e-3 0.06674-0.01688 0.10018-0.02662 0.03344-0.0097 0.06687-0.02038 0.10028-0.03169 0.0334-0.01131 0.06678-0.02345 0.10007-0.03622 0.03329-0.01279 0.06648-0.02612 0.09955-0.04023 0.03307-0.0141 0.06605-0.02885 0.09883-0.04418 0.06556-0.03066 0.13048-0.06361 0.19429-0.09843 0.06381-0.03483 0.12649-0.07154 0.18783-0.10958 0.06134-0.03805 0.12133-0.07744 0.17948-0.11777 0.05815-0.04032 0.11448-0.08162 0.1687-0.12328 0.03661-0.0281 0.07065-0.05651 0.10518-0.08486z" color="#000000" fill="#121212" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+   <path d="m93.117 92.376c0.23884 0.35863 0.57074 0.69684 1.0326 0.96353 1.8967 1.0951 3.7433-0.29899 3.7433-0.29899l0.12592-0.09568 2.7505-4.764 9e-3 -0.1903s0.12717-2.1816-1.679-3.2244c-1.8062-1.0428-3.6319 0.15816-3.6319 0.15816l-0.16036 0.10301-2.3268 4.0302c0.03668-0.0099 0.0735-0.01961 0.11043-0.02847 0.04337-0.01041 0.08685-0.02002 0.13055-0.02905 0.04371-9e-3 0.08749-0.01747 0.13148-0.02515 0.04401-0.0077 0.08822-0.0147 0.13247-0.02104 0.04426-0.0064 0.08859-0.01213 0.13307-0.01718 0.04449-0.0051 0.08903-0.0093 0.13371-0.01309 0.04467-0.0037 0.08954-0.0068 0.13438-0.0093 0.04483-0.0025 0.08974-0.0044 0.1347-0.0056 0.04496-0.0013 0.08998-0.0019 0.13503-0.0019 0.04505-4.3e-5 0.09005 3.87e-4 0.13517 0.0015 0.09022 0.0023 0.18052 7e-3 0.27077 0.01392 0.09025 0.0069 0.18049 0.01617 0.2705 0.02755 0.0059 6.21e-4 0.01164 2e-3 0.01751 0.0027l1.5943-2.7615c0.18278-0.10205 1.0341-0.55087 1.8714-0.06749 0.83728 0.48341 0.87423 1.4452 0.87724 1.6544l-2.3462 4.0638c-0.14074 0.09991-0.9879 0.6758-1.9139 0.14117-0.16934-0.09777-0.30453-0.2121-0.4134-0.33426-0.0227 0.0047-0.04544 0.0092-0.0682 0.01469-0.03337 0.0081-0.06674 0.01688-0.10018 0.02662-0.03344 0.0097-0.06686 0.02037-0.10028 0.03169-0.0334 0.01131-0.06678 0.02345-0.10007 0.03622-0.0333 0.01278-0.06648 0.02612-0.09956 0.04023-0.03307 0.0141-0.06605 0.02885-0.09883 0.04418-0.06556 0.03066-0.13048 0.06361-0.19429 0.09843-0.06381 0.03483-0.12649 0.07154-0.18783 0.10958-0.06134 0.03805-0.12133 0.07744-0.17948 0.11777-0.05815 0.04032-0.11448 0.08162-0.1687 0.12328-0.03661 0.0281-0.07065 0.05652-0.10518 0.08486z" color="#000000" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+  </g>
+  <path d="m98.02 85.182c-7.3967 0-10.443 7.1953-10.443 7.1953l-0.20703 0.49219v18.578l0.29492 0.57226s3.312 6.5957 10.355 6.5957c7.0435 0 10.355-6.5957 10.355-6.5957l0.29492-0.57226v-18.578l-0.20703-0.49219s-3.0467-7.1953-10.443-7.1953zm0 5.291c3.6112 0 5.1165 3.1147 5.3594 3.6445v15.848c-0.36228 0.60712-2.0944 3.3574-5.3594 3.3574-3.2651 0-4.9973-2.7506-5.3594-3.3574v-15.848c0.24291-0.52987 1.7482-3.6445 5.3594-3.6445z" color="#000000" display="none" style="-inkscape-stroke:none;paint-order:fill markers stroke"/>
+ </g>
+</svg>
+
+</span>
+ <span class="link-style">OnShape</span> </a>
+        
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    #play-button {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        transition: all .25s ease-in-out;
+    }
+
+    #play-button:hover {
+        transform-origin: center;
+        transform: scale(1.1) translate(-50%, -50%);
+    }
+</style>
+<div id="all-log-container">
+    <h2>Recent Logs</h2>
+    
+    
+    
+     
+    <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/robotarm\/verniercool\/'"
+        data-tags="mechanical,">
+
+        <div class="image-container" style="position: relative; display: block; ">
+            
+                 
+
+                
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/robotarm/verniercool/vernier_hufdf68a2bf6d746d1924d979496fc071d_916182_450x0_resize_q85_h3_box_3.webp"
+     class="batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+                
+            
+        </div>
+        <div class="log-container">
+            <div class="info-container">
+                <h3><span>#13</span> Vernier calipers are cool!</h3>
+                
+                    <h4 class="summary">And how to use them</h4>
+                
+                <div class="date-info">
+                    <h4>March 6, 2024</h4>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+ 
+    </div>
+  </div>
+</div>
+
+        </div>
+        
+<footer>
+    <div id="love">
+        <p>
+        Made with love
+        </p>
+
+        <span 
+     class="star-icon"  
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 23.168 20.232" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-101.93 -34.643)">
+  <path d="m108.77 37.95c-2.7926-0.0069-3.6384 2.4755-3.5284 4.7815 1.4308 6.5185 8.2134 9.0305 8.2134 9.0305s6.6452-2.3888 8.214-9.0305c0.53071-2.2468-0.88642-4.781-3.679-4.7741-3.5787 0.0088-4.5347 3.8324-4.5347 3.8324s-1.1067-3.831-4.6853-3.8398z" fill="#ff0003" stroke="#000" stroke-linecap="round" stroke-miterlimit="0" stroke-width="6.6146" style="paint-order:markers stroke fill"/>
+ </g>
+</svg>
+
+</span>
+ 
+    </div>
+    
+</footer>
+
+    </body>
+</html>

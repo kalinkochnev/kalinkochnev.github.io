@@ -334,7 +334,7 @@ my program state looks like. This struct contains the most useful objects to
 keep track of while running the program.</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="k">struct</span> <span class="nc">State</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span><span class="w">    </span><span class="c1">// bare minimum program state
-</span><span class="c1"></span><span class="w">    </span><span class="n">window</span>: <span class="nc">winit</span>::<span class="n">window</span>::<span class="n">Window</span><span class="p">,,</span><span class="w">
+</span><span class="c1"></span><span class="w">    </span><span class="n">window</span>: <span class="nc">winit</span>:<span class="err">🪟</span>:<span class="nc">Window</span><span class="p">,,</span><span class="w">
 </span><span class="w">    </span><span class="n">size</span>: <span class="nc">winit</span>::<span class="n">dpi</span>::<span class="n">PhysicalSize</span><span class="o">&lt;</span><span class="kt">u32</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
 </span><span class="w">    </span><span class="n">surface</span>: <span class="nc">wgpu</span>::<span class="n">Surface</span><span class="p">,</span><span class="w">
 </span><span class="w">    </span><span class="n">config</span>: <span class="nc">wgpu</span>::<span class="n">SurfaceConfiguration</span><span class="p">,</span><span class="w">
