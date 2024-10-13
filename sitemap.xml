@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kalinkochnev.com/journey/hacklab/</loc>
+    <lastmod>2023-12-30T12:36:03-04:00</lastmod>
+  </url><url>
     <loc>https://kalinkochnev.com/journey/stabilizingbike/</loc>
     <lastmod>2023-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kalinkochnev.com/journey/resonant/</loc>
-    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://kalinkochnev.com/journey/nasabigidea/</loc>
     <lastmod>2022-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey/resonant/</loc>
+    <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/blog_tags/</loc>
     <lastmod>2024-07-04T11:40:50-04:00</lastmod>
@@ -27,7 +30,7 @@
     <lastmod>2024-07-04T11:40:50-04:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey/</loc>
-    <lastmod>2024-05-16T10:52:54-04:00</lastmod>
+    <lastmod>2024-05-16T12:40:14-04:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey_tags/cad/</loc>
     <lastmod>2024-05-16T10:52:54-04:00</lastmod>
@@ -55,6 +58,9 @@
   </url><url>
     <loc>https://kalinkochnev.com/journey/robotarm/verniercool/</loc>
     <lastmod>2024-03-06T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/electronics/</loc>
+    <lastmod>2023-12-30T12:36:03-04:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey_tags/data-science/</loc>
     <lastmod>2023-11-12T12:33:16-05:00</lastmod>
@@ -185,9 +191,6 @@
     <loc>https://kalinkochnev.com/journey/nasabigidea/nasalog1/</loc>
     <lastmod>2022-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kalinkochnev.com/journey_tags/electronics/</loc>
-    <lastmod>2022-03-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://kalinkochnev.com/journey_tags/space/</loc>
     <lastmod>2022-03-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -256,8 +259,6 @@
   </url><url>
     <loc>https://kalinkochnev.com/journey_tags/wearable/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kalinkochnev.com/resume/</loc>
   </url><url>
     <loc>https://kalinkochnev.com/types/</loc>
   </url>

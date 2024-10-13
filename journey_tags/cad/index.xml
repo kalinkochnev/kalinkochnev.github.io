@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cad on Kalin Kochnev</title>
+    <title>CAD on Kalin Kochnev</title>
     <link>https://kalinkochnev.com/journey_tags/cad/</link>
-    <description>Recent content in cad on Kalin Kochnev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in CAD on Kalin Kochnev</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 May 2024 10:52:54 -0400</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/cad/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 May 2024 10:52:54 -0400</lastBuildDate>
+    <atom:link href="https://kalinkochnev.com/journey_tags/cad/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rembrot</title>
       <link>https://kalinkochnev.com/journey/robotarm/</link>
       <pubDate>Thu, 16 May 2024 10:52:54 -0400</pubDate>
-      
       <guid>https://kalinkochnev.com/journey/robotarm/</guid>
       <description>A 3 DOF robotic painter</description>
     </item>
-    
     <item>
       <title>Inverted pendulum construction</title>
       <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate2/</link>
       <pubDate>Wed, 14 Jun 2023 15:14:03 -0400</pubDate>
-      
       <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate2/</guid>
       <description>It&amp;rsquo;s mostly ready to wire up!</description>
     </item>
-    
   </channel>
 </rss>

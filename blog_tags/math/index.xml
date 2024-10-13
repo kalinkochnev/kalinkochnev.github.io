@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>math on Kalin Kochnev</title>
+    <title>Math on Kalin Kochnev</title>
     <link>https://kalinkochnev.com/blog_tags/math/</link>
-    <description>Recent content in math on Kalin Kochnev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Math on Kalin Kochnev</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Apr 2023 12:23:53 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/blog_tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Apr 2023 12:23:53 +0000</lastBuildDate>
+    <atom:link href="https://kalinkochnev.com/blog_tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Prove that the diagonals of Pascal&#39;s triangle sum to the Fibonacci sequence</title>
       <link>https://kalinkochnev.com/blog/pascalstriangle/</link>
       <pubDate>Sat, 08 Apr 2023 12:23:53 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog/pascalstriangle/</guid>
       <description>A neat little proof</description>
     </item>
-    
   </channel>
 </rss>

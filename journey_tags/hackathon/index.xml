@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hackathon on Kalin Kochnev</title>
+    <title>Hackathon on Kalin Kochnev</title>
     <link>https://kalinkochnev.com/journey_tags/hackathon/</link>
-    <description>Recent content in hackathon on Kalin Kochnev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Hackathon on Kalin Kochnev</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Nov 2023 12:33:16 -0500</lastBuildDate><atom:link href="https://kalinkochnev.com/journey_tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Nov 2023 12:33:16 -0500</lastBuildDate>
+    <atom:link href="https://kalinkochnev.com/journey_tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firefly</title>
       <link>https://kalinkochnev.com/journey/hack4delta2023/</link>
       <pubDate>Sun, 12 Nov 2023 12:33:16 -0500</pubDate>
-      
       <guid>https://kalinkochnev.com/journey/hack4delta2023/</guid>
       <description>Providing early detection of wildfires by using commercial airplanes as infrared aerial monitors. Won 2nd place at Hack4Delta 2023.</description>
     </item>
-    
   </channel>
 </rss>

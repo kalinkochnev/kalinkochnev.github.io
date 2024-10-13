@@ -476,7 +476,7 @@
 }
 .project-card .journey-img {
   height: 100%;
-  aspect-ratio: 6/5;
+  aspect-ratio: 5/5;
   border-radius: 8px;
   object-fit: cover;
 }

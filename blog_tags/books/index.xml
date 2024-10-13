@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>books on Kalin Kochnev</title>
+    <title>Books on Kalin Kochnev</title>
     <link>https://kalinkochnev.com/blog_tags/books/</link>
-    <description>Recent content in books on Kalin Kochnev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Books on Kalin Kochnev</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kalinkochnev.com/blog_tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kalinkochnev.com/blog_tags/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Paper is dead, long live paper</title>
       <link>https://kalinkochnev.com/blog/paperisdead/</link>
       <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog/paperisdead/</guid>
       <description>What we lose with digital media</description>
     </item>
-    
   </channel>
 </rss>
