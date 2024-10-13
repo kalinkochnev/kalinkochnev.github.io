@@ -4,98 +4,79 @@
     <title>Blog_tags on Kalin Kochnev</title>
     <link>https://kalinkochnev.com/blog_tags/</link>
     <description>Recent content in Blog_tags on Kalin Kochnev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jul 2024 11:40:50 -0400</lastBuildDate><atom:link href="https://kalinkochnev.com/blog_tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jul 2024 11:40:50 -0400</lastBuildDate>
+    <atom:link href="https://kalinkochnev.com/blog_tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>philosophy</title>
+      <title>Philosophy</title>
       <link>https://kalinkochnev.com/blog_tags/philosophy/</link>
       <pubDate>Thu, 04 Jul 2024 11:40:50 -0400</pubDate>
-      
       <guid>https://kalinkochnev.com/blog_tags/philosophy/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mindfulness</title>
+      <title>Mindfulness</title>
       <link>https://kalinkochnev.com/blog_tags/mindfulness/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog_tags/mindfulness/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>math</title>
+      <title>Math</title>
       <link>https://kalinkochnev.com/blog_tags/math/</link>
       <pubDate>Sat, 08 Apr 2023 12:23:53 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog_tags/math/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>productivity</title>
+      <title>Productivity</title>
       <link>https://kalinkochnev.com/blog_tags/productivity/</link>
       <pubDate>Wed, 08 Feb 2023 17:43:53 -0500</pubDate>
-      
       <guid>https://kalinkochnev.com/blog_tags/productivity/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>science</title>
+      <title>Science</title>
       <link>https://kalinkochnev.com/blog_tags/science/</link>
       <pubDate>Thu, 16 Dec 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog_tags/science/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>college</title>
+      <title>College</title>
       <link>https://kalinkochnev.com/blog_tags/college/</link>
       <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog_tags/college/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>books</title>
+      <title>Books</title>
       <link>https://kalinkochnev.com/blog_tags/books/</link>
       <pubDate>Sat, 09 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog_tags/books/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>education</title>
+      <title>Education</title>
       <link>https://kalinkochnev.com/blog_tags/education/</link>
       <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog_tags/education/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>life</title>
+      <title>Life</title>
       <link>https://kalinkochnev.com/blog_tags/life/</link>
       <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog_tags/life/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ai</title>
+      <title>Ai</title>
       <link>https://kalinkochnev.com/blog_tags/ai/</link>
       <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog_tags/ai/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

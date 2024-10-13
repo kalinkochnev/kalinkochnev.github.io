@@ -37,7 +37,7 @@
         
     
     <img
-    src="/images/face_hu03cb41ba356b0fd884adcc4944d0157c_969556_125x0_resize_q90_h2_box_3.webp"
+    src="/images/face_hu13438898370780653792.webp"
     
     
     
@@ -63,7 +63,7 @@
     <div id="right">
       <a href="/journey">journeys</a>
       <a href="/blog">blog</a>
-      <a href="/resume">resume</a>
+      <a href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
     </div>
   </nav>
 </header>
@@ -119,7 +119,7 @@
         
     
     <img
-    src="/journey/webportfolio/changelog3-9-23/fullpage_hud0b3751882cc2d1d0feb1203ba72d64a_8543014_1200x0_resize_q90_h2_box_3.webp"
+    src="/journey/webportfolio/changelog3-9-23/fullpage_hu405795704453711622.webp"
      class="batch-load" 
     
      alt="New web page" 
@@ -167,10 +167,10 @@
 <h1 id="battling-dart-sass-and-hugo">Battling Dart Sass and Hugo</h1>
 <p>I recently had been battling Syncthing conflicts between my desktop and laptop. Since the semester started, I&rsquo;ve been coding on my laptop almost exclusively.  I must have accidentally commited to my version control on my desktop with outstanding changes on my laptop, which effectively erased a bunch of work I had done.</p>
 <p>Then a few days ago while I was developing the mobile layout, all of a sudden my hugo build stopped working. I suspected was residual issues from syncthing, but I could not figure it out.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">Error: Error building site: TOCSS-DART: failed to transform <span class="s2">&#34;scss/main.scss&#34;</span> <span class="o">(</span>text/x-scss<span class="o">)</span>: got 
-unexpected EOF when executing <span class="s2">&#34;dart-sass-embedded&#34;</span>. The user running hugo must have <span class="nb">read</span> and
- execute permissions on this program. With execute permissions only, this error is thrown.
-</code></pre></div><p>I had seen this error before, which was resolved by either</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Error: Error building site: TOCSS-DART: failed to transform <span class="s2">&#34;scss/main.scss&#34;</span> <span class="o">(</span>text/x-scss<span class="o">)</span>: got 
+</span></span><span class="line"><span class="cl">unexpected EOF when executing <span class="s2">&#34;dart-sass-embedded&#34;</span>. The user running hugo must have <span class="nb">read</span> and
+</span></span><span class="line"><span class="cl"> execute permissions on this program. With execute permissions only, this error is thrown.
+</span></span></code></pre></div><p>I had seen this error before, which was resolved by either</p>
 <ol>
 <li>Installing the <code>--extended</code> snap for hugo</li>
 <li>Use the <code>dart-sass-embedded</code> snap instead of the bundled NodeSass (which has been deprecated for several years)</li>

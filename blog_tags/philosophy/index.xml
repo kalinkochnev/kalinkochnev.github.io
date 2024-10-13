@@ -1,47 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>philosophy on Kalin Kochnev</title>
+    <title>Philosophy on Kalin Kochnev</title>
     <link>https://kalinkochnev.com/blog_tags/philosophy/</link>
-    <description>Recent content in philosophy on Kalin Kochnev</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Philosophy on Kalin Kochnev</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jul 2024 11:40:50 -0400</lastBuildDate><atom:link href="https://kalinkochnev.com/blog_tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Jul 2024 11:40:50 -0400</lastBuildDate>
+    <atom:link href="https://kalinkochnev.com/blog_tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dreams were meant to be crushed</title>
       <link>https://kalinkochnev.com/blog/dreamsmeanttobe/</link>
       <pubDate>Thu, 04 Jul 2024 11:40:50 -0400</pubDate>
-      
       <guid>https://kalinkochnev.com/blog/dreamsmeanttobe/</guid>
       <description>Suspend your disbelief</description>
     </item>
-    
     <item>
       <title>Fear is the mind killer</title>
       <link>https://kalinkochnev.com/blog/fearmindkiller/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog/fearmindkiller/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Improvement ≠ Happiness</title>
       <link>https://kalinkochnev.com/blog/improvementhapp/</link>
       <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog/improvementhapp/</guid>
       <description>What happens when our identity and fulfillment rests solely on becoming better?</description>
     </item>
-    
     <item>
       <title>Staircases</title>
       <link>https://kalinkochnev.com/blog/staircases/</link>
       <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://kalinkochnev.com/blog/staircases/</guid>
       <description>Nobody knows what they are doing</description>
     </item>
-    
   </channel>
 </rss>
