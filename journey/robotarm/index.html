@@ -59,7 +59,7 @@
         
     
     <img
-    src="/images/face_hu13438898370780653792.webp"
+    src="/images/face_hu03cb41ba356b0fd884adcc4944d0157c_969556_125x0_resize_q90_h2_box_3.webp"
     
     
     
@@ -137,7 +137,7 @@ The robot assembly and 3D models have parameterized dimensions to account for pr
             
         
         <img
-        src="/journey/robotarm/armsketch_hu16022657079494658756.webp"
+        src="/journey/robotarm/armsketch_hu4abd6c113b91aa4a8fb00b14cfa4cd19_2390346_1200x0_resize_q90_h2_box_3.webp"
          class="batch-load" 
         
          alt="Sketch of robot" 
@@ -172,7 +172,7 @@ The robot assembly and 3D models have parameterized dimensions to account for pr
             
         
         <img
-        src="/journey/robotarm/arm_hu7365950513258121461.webp"
+        src="/journey/robotarm/arm_hu60cba8403fd1fdf7d16232438c76e3f2_316539_1200x0_resize_q90_h2_box_3.webp"
          class="batch-load" 
         
          alt="OnShape assembly (available in the links section)" 
@@ -201,12 +201,9 @@ The robot assembly and 3D models have parameterized dimensions to account for pr
 <p>Also consider purchasing some threaded inserts for screw holes. It will save you from throwing out your parts after a few re-assemblies.</p>
 <p>My love hate relationship with 3D printing reached a breaking point. I could not bring myself to tweak my Ender 3 for the 5,000th time in order to <em>maybe</em> have a part that works. I realized that I like to 3D print, not fix my 3D printer. My soul could only take so many failed prints before I lose interest in a project all together. So I plunked down the money for a Bambu P1S. And boy does it crank out flawless parts with minimal effort. Not to mention that printing times are a third of my ender. It certaintly helped me embrace the <em>iterate fast, break things quickly</em> mantra.</p>
 <p>
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/SO-_E8I95Ps?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/SO-_E8I95Ps" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 
 <figure  ><div class="image-container">
             
@@ -221,7 +218,7 @@ The robot assembly and 3D models have parameterized dimensions to account for pr
         
     
     <img
-    src="/journey/robotarm/parts_hu6264783265220193949.webp"
+    src="/journey/robotarm/parts_hub159e3b2d24109ca0a73bfdb77f77b5a_782106_1200x0_resize_q90_h2_box_3.webp"
      class="batch-load" 
     
      alt="Fail fast. Print faster!" 
@@ -257,7 +254,7 @@ The robot assembly and 3D models have parameterized dimensions to account for pr
         
     
     <img
-    src="/journey/robotarm/builtarm_hu17389350370639667313.webp"
+    src="/journey/robotarm/builtarm_hu369eca3cff7f475408a8d95ce3892f87_1386469_1200x0_resize_q90_h2_box.webp"
      class="batch-load" 
     
      alt="Final product" 
@@ -293,7 +290,7 @@ The robot assembly and 3D models have parameterized dimensions to account for pr
         
     
     <img
-    src="/journey/robotarm/car_hu4357889915912309213.webp"
+    src="/journey/robotarm/car_huf53310c4a1a3939b7fc2dda2ac71f239_208647_1200x0_resize_q90_h2_box_3.webp"
      class="batch-load" 
     
      alt="You can&#39;t see the car? Oh well." 
@@ -319,46 +316,43 @@ The robot assembly and 3D models have parameterized dimensions to account for pr
 <p>For someone who may not have covered how to mathematically model a robot, the rest of this section will look like absolute gibberish. But if you are just getting started with robotics I highly encourage you to try and use plain old trigonometry. That is all you really need. With that said, let&rsquo;s continue on.</p>
 <p>If you apply the Denavit–Hartenberg convention you get a table that looks something like this</p>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: left">link #</th>
-          <th style="text-align: left">$\theta_i$</th>
-          <th style="text-align: left">$d_i$</th>
-          <th style="text-align: left">$\alpha_i$</th>
-          <th style="text-align: left">$a_i$</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: left">1</td>
-          <td style="text-align: left">$\theta_1$</td>
-          <td style="text-align: left">$l_1$</td>
-          <td style="text-align: left">90</td>
-          <td style="text-align: left">0</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">2</td>
-          <td style="text-align: left">$\theta_2$</td>
-          <td style="text-align: left">0</td>
-          <td style="text-align: left">$l_2$</td>
-          <td style="text-align: left">0</td>
-      </tr>
-      <tr>
-          <td style="text-align: left">3</td>
-          <td style="text-align: left">$\theta_3$</td>
-          <td style="text-align: left">0</td>
-          <td style="text-align: left">$l_3$</td>
-          <td style="text-align: left">0</td>
-      </tr>
-  </tbody>
+<thead>
+<tr>
+<th>link #</th>
+<th>$\theta_i$</th>
+<th>$d_i$</th>
+<th>$\alpha_i$</th>
+<th>$a_i$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>$\theta_1$</td>
+<td>$l_1$</td>
+<td>90</td>
+<td>0</td>
+</tr>
+<tr>
+<td>2</td>
+<td>$\theta_2$</td>
+<td>0</td>
+<td>$l_2$</td>
+<td>0</td>
+</tr>
+<tr>
+<td>3</td>
+<td>$\theta_3$</td>
+<td>0</td>
+<td>$l_3$</td>
+<td>0</td>
+</tr>
+</tbody>
 </table>
 <p>Here is a fantastic visualization of what each of the parameters mean 
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/rA9tm0gTln8?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
-    </div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/rA9tm0gTln8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 </p>
 <p>Note to self. The row describes how to modify the frame of reference from the start of the link in order to get the frame of reference at the end of the link.</p>
 <p>Let $A_i$ represent the total transformation from frame $F_{i-1}$ to $F_{i}$. To get the actual transformation for a single link using the DH convention we use</p>
@@ -510,7 +504,7 @@ $$</p>
         
     
     <img
-    src="/journey/robotarm/verniercool/vernier_hu15219695207676879556.webp"
+    src="/journey/robotarm/verniercool/vernier_hufdf68a2bf6d746d1924d979496fc071d_916182_450x0_resize_q85_h3_box_3.webp"
      class="batch-load" 
     
     
