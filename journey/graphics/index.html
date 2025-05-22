@@ -2,10 +2,14 @@
 <html>
 
 
+
 <link rel="stylesheet" href="/scss/main.css" />
 
 
 <script src="/js/batch-load.js"></script>
+
+
+<script src="/js/responsive-navbar.js"></script>
 <noscript>
     <style>
         .image-container {
@@ -22,14 +26,12 @@
  <title>Kalin Kochnev</title>
  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
-<body>
-        <div id="content">
 <header>
-  <nav class="navbar" role="navigation">
-    <div id="face-icon">
+  <nav class="navbar" id="navbar" role="navigation">
+    <div id="left">
 
-      <a href="/">
-        
+        <a id="face-icon" href="/">
+          
 
 
 
@@ -38,7 +40,7 @@
         
     
     <img
-    src="/images/face_hu13438898370780653792.webp"
+    src="/images/face_hu_ef5e230e6ad4c8a9.webp"
     
     
     
@@ -53,23 +55,58 @@
 
 
 
+        </a>
+
+        <div id="name">
+          
+          <a href="/">kalin kochnev</a>
+          
+        </div>
+
+      <a id="hamburger" href="javascript:void(0);" onclick="triggerHamburger()">
+        <span 
+     
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 7.9375 6.0704" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-49.416 -74.36)" stroke-linecap="round" stroke-width="1.3229">
+  <rect x="49.416" y="74.36" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="76.604" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="78.848" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+ </g>
+</svg>
+
+</span>
+
       </a>
-      <div id="name">
-        
-        <a href="/">kalin kochnev</a>
-        
-        <p id="subtitle">journeys</p>
-        
+    </div>
+    <div id="right">
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/journey">
+          journeys
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/blog">
+          blog
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn"
+          href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
       </div>
     </div>
 
-    <div id="right">
-      <a href="/journey">journeys</a>
-      <a href="/blog">blog</a>
-      <a href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
-    </div>
   </nav>
 </header>
+
+<body>
+        <div id="content">
+
+
 <div id="journey-single-container">
   <div id="journey-single-grid">
     <div id="description-col">
@@ -88,7 +125,7 @@
         
     
     <img
-    src="/journey/graphics/webgpu-triangle_hu2800115514200419831.webp"
+    src="/journey/graphics/webgpu-triangle_hu_1a242a7bf8f521b4.webp"
      class="batch-load" 
     
     
@@ -176,7 +213,9 @@ are relatively young, WebGPU debugging could be a helpful skill to have.</p>
       <div id="links">
         
       </div>
-      
+      <div id="log-col">
+        <h2>Recent logs</h2>
+        
 
 
 
@@ -229,7 +268,6 @@ are relatively young, WebGPU debugging could be a helpful skill to have.</p>
     }
 </style>
 <div id="all-log-container">
-    <h2>Recent Logs</h2>
     
     
     
@@ -284,6 +322,7 @@ are relatively young, WebGPU debugging could be a helpful skill to have.</p>
 </div>
 
  
+      </div>
     </div>
   </div>
 </div>

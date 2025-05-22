@@ -2,10 +2,14 @@
 <html>
 
 
+
 <link rel="stylesheet" href="/scss/main.css" />
 
 
 <script src="/js/batch-load.js"></script>
+
+
+<script src="/js/responsive-navbar.js"></script>
 <noscript>
     <style>
         .image-container {
@@ -35,13 +39,12 @@
  <title>Kalin Kochnev</title>
  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
-<body>
-        <div id="content"><header>
-  <nav class="navbar" role="navigation">
-    <div id="face-icon">
+<header>
+  <nav class="navbar" id="navbar" role="navigation">
+    <div id="left">
 
-      <a href="/">
-        
+        <a id="face-icon" href="/">
+          
 
 
 
@@ -50,7 +53,7 @@
         
     
     <img
-    src="/images/face_hu13438898370780653792.webp"
+    src="/images/face_hu_ef5e230e6ad4c8a9.webp"
     
     
     
@@ -65,21 +68,57 @@
 
 
 
+        </a>
+
+        <div id="name">
+          
+          <a href="/">kalin kochnev</a>
+          
+        </div>
+
+      <a id="hamburger" href="javascript:void(0);" onclick="triggerHamburger()">
+        <span 
+     
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 7.9375 6.0704" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-49.416 -74.36)" stroke-linecap="round" stroke-width="1.3229">
+  <rect x="49.416" y="74.36" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="76.604" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="78.848" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+ </g>
+</svg>
+
+</span>
+
       </a>
-      <div id="name">
-        
-        <a href="/">kalin kochnev</a>
-        
+    </div>
+    <div id="right">
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/journey">
+          journeys
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/blog">
+          blog
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn"
+          href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
       </div>
     </div>
 
-    <div id="right">
-      <a href="/journey">journeys</a>
-      <a href="/blog">blog</a>
-      <a href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
-    </div>
   </nav>
 </header>
+
+<body>
+        <div id="content">
+
 
 <div class="single-container">
     <div class="post-page">
@@ -124,7 +163,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/3Dprinterdramatic_hu11106339603625736349.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/3Dprinterdramatic_hu_a4c82213fedc2fed.webp"
      class="batch-load" 
     
      alt="Wanhao Duplicator 6 after maintenance" 
@@ -167,7 +206,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/ip_diagram_hu16609362194215347952.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/ip_diagram_hu_80aeeb884e7638c5.webp"
      class="batch-load" 
     
      alt="Bikes can be modeled as inverted pendulums" 
@@ -203,7 +242,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/rail_ip_hu17605030025530101646.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/rail_ip_hu_2d1d9cccc98106f6.webp"
      class="batch-load" 
     
      alt="Credit KousheekC" 
@@ -242,7 +281,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/cad_ip_hu1280742706425672594.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/cad_ip_hu_4e79a90eaec84dd0.webp"
      class="batch-load" 
     
      alt="My inverted pendulum design" 
@@ -279,7 +318,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/tolerance_tester_hu16739136427386744616.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/tolerance_tester_hu_1c21e268f2cb831a.webp"
      class="batch-load" 
     
      alt="A tool to test the tolerance of my printer" 
@@ -315,7 +354,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/snap_fit_flywheel_hu8529465449923270201.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/snap_fit_flywheel_hu_c5a3d272c1ac4c79.webp"
      class="batch-load" 
     
      alt="My flywheel assembly with a snap fit" 
@@ -352,7 +391,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/shaft_collar_forces_hu14564751247022662248.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/shaft_collar_forces_hu_d9e06f659577a600.webp"
      class="batch-load" 
     
      alt="Forces experienced by different types of shaft collars" 
@@ -395,7 +434,7 @@
          
      
      <img
-     src="/journey/stabilizingbike/logs/weeklyupdate2/ring_printing_hu16671086247867372707.webp"
+     src="/journey/stabilizingbike/logs/weeklyupdate2/ring_printing_hu_a02b29e5b7aceab3.webp"
       class="batch-load" 
      
       alt=" " 
@@ -433,7 +472,7 @@
          
      
      <img
-     src="/journey/stabilizingbike/logs/weeklyupdate2/base_arm_print_hu1880959736538549093.webp"
+     src="/journey/stabilizingbike/logs/weeklyupdate2/base_arm_print_hu_612362f6c86c6111.webp"
       class="batch-load" 
      
       alt=" " 
@@ -471,7 +510,7 @@
          
      
      <img
-     src="/journey/stabilizingbike/logs/weeklyupdate2/flywheel_supports_hu8605260547534232242.webp"
+     src="/journey/stabilizingbike/logs/weeklyupdate2/flywheel_supports_hu_3daa0fa7d74fdb85.webp"
       class="batch-load" 
      
       alt=" " 
@@ -515,7 +554,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/assembled_ip_hu4061158955485242723.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/assembled_ip_hu_65f69de537019341.webp"
      class="batch-load" 
     
     
@@ -551,7 +590,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/bearings_hu15349742814563581813.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/bearings_hu_435fb5ea07ef0df8.webp"
      class="batch-load" 
     
     
@@ -583,7 +622,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/closeup_assembled_ip_hu4046298844984455405.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/closeup_assembled_ip_hu_48a4804e1addd586.webp"
      class="batch-load" 
     
     
@@ -615,7 +654,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/smh_advice_hu104206682917787753.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/smh_advice_hu_46875f3a4b286d6b.webp"
      class="batch-load" 
     
     
@@ -650,7 +689,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/pendulumarm_hu13034661063435043863.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/pendulumarm_hu_5d6edc45b8da71f9.webp"
      class="batch-load" 
     
     
@@ -674,76 +713,76 @@
 <table>
   <thead>
       <tr>
-          <th style="text-align: left">Quantity</th>
-          <th style="text-align: left">Part</th>
-          <th style="text-align: left">Where to acquire</th>
+          <th>Quantity</th>
+          <th>Part</th>
+          <th>Where to acquire</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td style="text-align: left">1</td>
-          <td style="text-align: left">Flywheel</td>
-          <td style="text-align: left">CAD/3D print</td>
+          <td>1</td>
+          <td>Flywheel</td>
+          <td>CAD/3D print</td>
       </tr>
       <tr>
-          <td style="text-align: left">1</td>
-          <td style="text-align: left">Flywheel support</td>
-          <td style="text-align: left">CAD/3D print</td>
+          <td>1</td>
+          <td>Flywheel support</td>
+          <td>CAD/3D print</td>
       </tr>
       <tr>
-          <td style="text-align: left">1</td>
-          <td style="text-align: left">Pendulum arm</td>
-          <td style="text-align: left">CAD/3D print</td>
+          <td>1</td>
+          <td>Pendulum arm</td>
+          <td>CAD/3D print</td>
       </tr>
       <tr>
-          <td style="text-align: left">1</td>
-          <td style="text-align: left">Pendulum base</td>
-          <td style="text-align: left">CAD/3D print</td>
+          <td>1</td>
+          <td>Pendulum base</td>
+          <td>CAD/3D print</td>
       </tr>
       <tr>
-          <td style="text-align: left">1</td>
-          <td style="text-align: left">8mm x (approximately 100mm) motor shaft</td>
-          <td style="text-align: left"><a href="https://a.co/d/4y3TmLB">Amazon</a></td>
+          <td>1</td>
+          <td>8mm x (approximately 100mm) motor shaft</td>
+          <td><a href="https://a.co/d/4y3TmLB">Amazon</a></td>
       </tr>
       <tr>
-          <td style="text-align: left">2</td>
-          <td style="text-align: left">8mm Skater bearings (608RS)</td>
-          <td style="text-align: left"><a href="https://a.co/d/9Fg0ZEk">Amazon</a></td>
+          <td>2</td>
+          <td>8mm Skater bearings (608RS)</td>
+          <td><a href="https://a.co/d/9Fg0ZEk">Amazon</a></td>
       </tr>
       <tr>
-          <td style="text-align: left">1</td>
-          <td style="text-align: left">Assorted M3x0.5 screws - 6mm (x4), 12mm (x6), 16mm (x4)</td>
-          <td style="text-align: left"><a href="https://a.co/d/0DyEKKy">Amazon</a></td>
+          <td>1</td>
+          <td>Assorted M3x0.5 screws - 6mm (x4), 12mm (x6), 16mm (x4)</td>
+          <td><a href="https://a.co/d/0DyEKKy">Amazon</a></td>
       </tr>
       <tr>
-          <td style="text-align: left">1</td>
-          <td style="text-align: left">8mm inner diameter shaft collar</td>
-          <td style="text-align: left"><a href="https://a.co/d/dmFcoIC">Amazon</a></td>
+          <td>1</td>
+          <td>8mm inner diameter shaft collar</td>
+          <td><a href="https://a.co/d/dmFcoIC">Amazon</a></td>
       </tr>
       <tr>
-          <td style="text-align: left">1</td>
-          <td style="text-align: left">Antigravity KV300 Motor (or any other BLDC motor)</td>
-          <td style="text-align: left"><a href="https://store.tmotor.com/goods.php?id=438">TMotor Store</a></td>
+          <td>1</td>
+          <td>Antigravity KV300 Motor (or any other BLDC motor)</td>
+          <td><a href="https://store.tmotor.com/goods.php?id=438">TMotor Store</a></td>
       </tr>
       <tr>
-          <td style="text-align: left">2</td>
-          <td style="text-align: left">AMT102-V Rotary Encoder (these things are awesome!)</td>
-          <td style="text-align: left"><a href="https://www.digikey.com/short/d2hc0nnm">Digikey</a></td>
+          <td>2</td>
+          <td>AMT102-V Rotary Encoder (these things are awesome!)</td>
+          <td><a href="https://www.digikey.com/short/d2hc0nnm">Digikey</a></td>
       </tr>
       <tr>
-          <td style="text-align: left">2</td>
-          <td style="text-align: left">Bar clamps (anything will do)</td>
-          <td style="text-align: left">Any hardware store</td>
+          <td>2</td>
+          <td>Bar clamps (anything will do)</td>
+          <td>Any hardware store</td>
       </tr>
       <tr>
-          <td style="text-align: left">1</td>
-          <td style="text-align: left">1in x 4in x 2ft Wood plank</td>
-          <td style="text-align: left">Any hardware store</td>
+          <td>1</td>
+          <td>1in x 4in x 2ft Wood plank</td>
+          <td>Any hardware store</td>
       </tr>
       <tr>
-          <td style="text-align: left">4</td>
-          <td style="text-align: left">Wood Screws No. 8 x 1-1/2&quot;</td>
-          <td style="text-align: left">Any hardware store</td>
+          <td>4</td>
+          <td>Wood Screws No. 8 x 1-1/2&quot;</td>
+          <td>Any hardware store</td>
       </tr>
   </tbody>
 </table>
