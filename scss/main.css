@@ -30,29 +30,29 @@
   position: absolute;
   left: 60px;
   height: 100vh;
-}
-#welcome-container .navbar {
-  position: absolute;
-  top: 30px;
-  display: block;
-  margin-bottom: 50px;
-}
-#welcome-container .navbar a {
-  font-family: "Open Sans", sans-serif;
-  color: black;
-  font-weight: 600;
-  font-size: 35px;
-  text-decoration: none;
-}
-#welcome-container .navbar .left {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: stretch;
-  flex-wrap: nowrap;
-}
-#welcome-container .navbar .left a {
-  margin-right: 115px;
+  /*
+  .navbar {
+    position: absolute;
+    top: 30px;
+    display: block;
+    margin-bottom: 50px;
+    a {
+      font-family: $body-font;
+      color: $font-color;
+      font-weight: 600;
+      font-size: 35px;
+      text-decoration: none;
+    }
+
+    .left {
+      @include common.flex(row, flex-start);
+
+      a {
+        margin-right: 115px;
+      }
+    }
+  }
+  */
 }
 #welcome-container #welcome {
   width: 600px;
@@ -88,17 +88,6 @@
     display: block;
     height: fit-content;
     margin: 20px 40px;
-  }
-  #welcome-container .navbar {
-    position: unset;
-    display: block;
-  }
-  #welcome-container .navbar .left {
-    width: 100%;
-    justify-content: space-around;
-  }
-  #welcome-container .navbar .left a {
-    margin: 0px;
   }
   #welcome-container #welcome {
     width: 100%;
@@ -174,6 +163,10 @@
   flex-wrap: nowrap;
   width: 100%;
 }
+.blog-container #tag-container {
+  max-width: 1000px;
+  margin-bottom: 10px;
+}
 
 .post-container {
   display: grid;
@@ -184,7 +177,6 @@
   justify-self: center;
   max-width: 1000px;
   max-height: inherit;
-  margin-top: 15px;
 }
 .post-container .top {
   width: 100%;
@@ -201,7 +193,6 @@
 }
 .post-container .list-container {
   width: 100%;
-  overflow: auto;
   box-sizing: border-box;
   border-radius: 0px;
   background-color: #d7c9bb;
@@ -281,6 +272,10 @@
   width: 100%;
   padding: 0px;
   margin-bottom: 15px;
+  box-shadow: 0px 5px 0px 0px #855546;
+  padding: 10px;
+  border: 3.5px solid #855546;
+  border-radius: 10px;
 }
 .post-page #post-head .date {
   display: flex;
@@ -393,18 +388,22 @@
 }
 #journey-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   flex-wrap: nowrap;
   width: 100%;
+}
+#journey-container #tag-container {
+  max-width: 1000px;
+  margin-bottom: 10px;
 }
 #journey-container #journeys-multiple {
   display: grid;
   grid-template-columns: minmax(300px, 1.4fr) minmax(300px, 1fr);
-  column-gap: 50px;
+  column-gap: 30px;
   justify-self: center;
-  max-width: 1150px;
+  max-width: 1000px;
   height: fit-content;
 }
 #journey-container #journeys-multiple #project-col {
@@ -415,15 +414,11 @@
   flex-wrap: nowrap;
   height: 100%;
 }
-#journey-container #journeys-multiple #log-col {
-  position: sticky;
-  right: 0;
-}
 
 .project-card {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: nowrap;
   margin-bottom: 10px;
@@ -431,6 +426,7 @@
   box-sizing: border-box;
   padding: 12.5px;
   padding: 15px;
+  margin: 0px;
   margin-bottom: 10px;
   height: fit-content;
 }
@@ -468,11 +464,11 @@
   color: black;
 }
 .project-card .left {
-  padding-right: 15px;
-  padding-left: 10px;
+  padding-right: 10px;
+  padding-left: 15px;
 }
 .project-card .right {
-  height: 175px;
+  height: 115px;
 }
 .project-card .journey-img {
   height: 100%;
@@ -510,6 +506,7 @@
   align-items: stretch;
   flex-wrap: nowrap;
   box-sizing: border-box;
+  margin-top: 10px;
 }
 
 #journey-single-grid {
@@ -623,6 +620,21 @@
     column-gap: 20px;
   }
 }
+#log-col {
+  position: sticky;
+  right: 0;
+  height: min-content;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+#log-col h2 {
+  line-height: 1;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+}
+
 #all-log-container {
   display: flex;
   flex-direction: column;
@@ -1230,7 +1242,6 @@
   justify-content: flex-start;
   align-items: center;
   flex-wrap: nowrap;
-  margin: 29px 0px;
 }
 .content figure:first-child {
   margin-top: 0px;
@@ -1400,6 +1411,239 @@ footer span {
   flex-wrap: nowrap;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  background-color: #d7c9bb;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  padding: 0px;
+  margin: 10px 0px;
+  max-width: 1100px;
+  width: 100%;
+}
+.navbar #left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 0px;
+  font-size: 2rem;
+  line-height: 1;
+}
+.navbar #left #face-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.navbar #left #face-icon img {
+  width: 4rem;
+  height: 4rem;
+}
+.navbar #left #name {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  align-self: center;
+  margin: 0px;
+  margin-left: 10px;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 700;
+}
+.navbar #left #subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 0px;
+}
+.navbar #right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: unset;
+}
+.navbar #hamburger {
+  display: none;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  fill: black;
+}
+
+/* The dropdown container */
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  position: relative;
+  /* Fade in the dropdown menu on hover */
+}
+.dropdown .dropbtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  /* Remove any styling if we have only a drop button link */
+  max-width: 200px;
+  width: 120px;
+  padding: 5px 10px;
+  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  font-size: 1.7rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: inherit; /*$bg-color;*/
+}
+.dropdown:hover .dropbtn {
+  background-color: #855546;
+  font-weight: 600;
+  color: white;
+  transition: all 0.4s;
+}
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  display: block;
+  opacity: 100%;
+  visibility: visible;
+  transition: opacity 0.4s ease-in;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  visibility: hidden;
+  opacity: 0%;
+  position: absolute; /* Position absolutely relative to the parent */
+  top: 100%;
+  background-color: rgba(215, 201, 187, 0.85);
+  border-radius: 0px 0px 3.5px 3.5px;
+  width: 100%;
+  z-index: 1;
+  /* Links inside the dropdown */
+}
+.dropdown-content a {
+  display: block;
+  width: 100%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: black;
+  margin: 0px;
+  padding: 7.5px 5px;
+  border-radius: 2px;
+  transition: all 0.4s;
+  box-shadow: none;
+  /* adds the hover color underline animation */
+}
+.dropdown-content a:hover {
+  background-color: #c3ac95;
+  box-shadow: 0px 5px 0px 0px #855546;
+}
+
+/* When the screen is less than content width, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 775px) {
+  .navbar.responsive {
+    border-radius: 0px 0px 5px 5px;
+  }
+  .navbar.responsive .dropdown {
+    width: 100%;
+    opacity: 100%;
+    visibility: visible;
+  }
+  .navbar.responsive #right {
+    background-color: #c3ac95;
+    max-height: 500px; /* Starts at 0 and expands out */
+    transition: all 0.3s ease-in-out;
+  }
+  .dropdown.section-clicked .dropdown-content {
+    display: block;
+    visibility: visible;
+    opacity: 100%;
+    position: inherit;
+  }
+  .dropdown.section-clicked .dropbtn {
+    font-weight: 600;
+    background-color: #855546;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    transition: background-color 0.3s ease-in;
+  }
+  .navbar .dropdown {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    opacity: 0%;
+    transition: opacity 0.3s ease-in;
+  }
+  .navbar .dropdown .dropbtn {
+    max-width: none;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .navbar #left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .navbar #left #hamburger {
+    display: inline-block;
+    max-width: 2rem;
+    max-height: 2rem;
+  }
+  .navbar #right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-height: 0px; /* Right side is shrunk. Has expand transition on hamburger click */
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+}
 #content {
   height: 100%;
   overflow: hidden;
@@ -1421,78 +1665,39 @@ body {
   height: 100%;
 }
 
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: nowrap;
-  padding: 20px;
-  background-color: #d7c9bb;
-}
-
+/*
 .navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: nowrap;
+  @include common.flex(row, space-around, center);
+
   max-width: 1200px;
   width: 100%;
-}
-.navbar a {
-  text-decoration: none;
-  color: black;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
-  font-size: 2rem;
-}
-.navbar #face-icon {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-.navbar #face-icon img {
-  margin-right: 10px;
-  width: 4rem;
-  height: 4rem;
-}
-.navbar #name {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  flex-wrap: nowrap;
-  align-self: center;
-  margin: 0px;
-  font-size: 2rem;
-  line-height: 1;
-}
-.navbar #name #subtitle {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  font-size: 2rem;
-  margin: 0px;
-}
-.navbar #right {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch;
-  flex-wrap: nowrap;
-  align-self: center;
-  width: 175px;
-}
-.navbar #right a {
-  margin: 0px;
-  margin-right: 17.5px;
-  padding: 0px;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
 
+  a {
+    text-decoration: none;
+    color: $font-color;
+    font-family: $body-font;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+
+
+  #right {
+    @include common.flex(row, space-between);
+    align-self: center;
+
+    width: 175px;
+
+    a {
+      margin: 0px;
+      margin-right: 17.5px;
+      padding: 0px;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  }
+}
+*/
 a {
   text-decoration: none;
   color: inherit;
@@ -1512,11 +1717,14 @@ a {
   background-color: inherit;
   transition: all 0.4s;
   box-shadow: none;
+  border: 2.5px solid #855546;
 }
 
 .hover:hover {
+  cursor: pointer;
   background-color: #c3ac95;
   box-shadow: 0px 5px 0px 0px #855546;
+  transform: translate(5px, -5px);
 }
 
 @keyframes fadeIn {
@@ -1557,6 +1765,7 @@ a {
   font-weight: 400;
   display: inline-block;
   margin-bottom: 4px;
+  margin-right: 5px;
   font-weight: normal;
 }
 

@@ -2,10 +2,14 @@
 <html>
 
 
+
 <link rel="stylesheet" href="/scss/main.css" />
 
 
 <script src="/js/batch-load.js"></script>
+
+
+<script src="/js/responsive-navbar.js"></script>
 <noscript>
     <style>
         .image-container {
@@ -22,13 +26,12 @@
  <title>Kalin Kochnev</title>
  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
-<body>
-        <div id="content"><header>
-  <nav class="navbar" role="navigation">
-    <div id="face-icon">
+<header>
+  <nav class="navbar" id="navbar" role="navigation">
+    <div id="left">
 
-      <a href="/">
-        
+        <a id="face-icon" href="/">
+          
 
 
 
@@ -37,7 +40,7 @@
         
     
     <img
-    src="/images/face_hu13438898370780653792.webp"
+    src="/images/face_hu_ef5e230e6ad4c8a9.webp"
     
     
     
@@ -52,21 +55,57 @@
 
 
 
+        </a>
+
+        <div id="name">
+          
+          <a href="/">kalin kochnev</a>
+          
+        </div>
+
+      <a id="hamburger" href="javascript:void(0);" onclick="triggerHamburger()">
+        <span 
+     
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 7.9375 6.0704" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-49.416 -74.36)" stroke-linecap="round" stroke-width="1.3229">
+  <rect x="49.416" y="74.36" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="76.604" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="78.848" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+ </g>
+</svg>
+
+</span>
+
       </a>
-      <div id="name">
-        
-        <a href="/">kalin kochnev</a>
-        
+    </div>
+    <div id="right">
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/journey">
+          journeys
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/blog">
+          blog
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn"
+          href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
       </div>
     </div>
 
-    <div id="right">
-      <a href="/journey">journeys</a>
-      <a href="/blog">blog</a>
-      <a href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
-    </div>
   </nav>
 </header>
+
+<body>
+        <div id="content">
+
 
 <div class="single-container">
     <div class="post-page">
@@ -109,7 +148,7 @@
         
     
     <img
-    src="/blog/asunsetaday/sunset1_hu5278460588026983760.webp"
+    src="/blog/asunsetaday/sunset1_hu_bd5a2a21ecfb8bdc.webp"
      class="batch-load" 
     
      alt="First sunset" 
@@ -149,7 +188,7 @@
         
     
     <img
-    src="/blog/asunsetaday/sunset2_hu17065353749754219159.webp"
+    src="/blog/asunsetaday/sunset2_hu_74169cc47688264.webp"
      class="batch-load" 
     
      alt="My third day of sun-setting" 
@@ -187,7 +226,7 @@
         
     
     <img
-    src="/blog/asunsetaday/sunset3_hu5786516763956513283.webp"
+    src="/blog/asunsetaday/sunset3_hu_8bc77dc383f39169.webp"
      class="batch-load" 
     
      alt="The sunset at Prudence Island,RI" 
@@ -224,7 +263,7 @@
         
     
     <img
-    src="/blog/asunsetaday/sunset4_hu6240043894034262023.webp"
+    src="/blog/asunsetaday/sunset4_hu_8387448b77d22bf2.webp"
      class="batch-load" 
     
      alt="The sunset at Aruba" 

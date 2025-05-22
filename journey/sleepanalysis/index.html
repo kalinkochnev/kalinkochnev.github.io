@@ -2,10 +2,14 @@
 <html>
 
 
+
 <link rel="stylesheet" href="/scss/main.css" />
 
 
 <script src="/js/batch-load.js"></script>
+
+
+<script src="/js/responsive-navbar.js"></script>
 <noscript>
     <style>
         .image-container {
@@ -56,14 +60,12 @@
  <title>Kalin Kochnev</title>
  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
-<body>
-        <div id="content">
 <header>
-  <nav class="navbar" role="navigation">
-    <div id="face-icon">
+  <nav class="navbar" id="navbar" role="navigation">
+    <div id="left">
 
-      <a href="/">
-        
+        <a id="face-icon" href="/">
+          
 
 
 
@@ -72,7 +74,7 @@
         
     
     <img
-    src="/images/face_hu13438898370780653792.webp"
+    src="/images/face_hu_ef5e230e6ad4c8a9.webp"
     
     
     
@@ -87,23 +89,58 @@
 
 
 
+        </a>
+
+        <div id="name">
+          
+          <a href="/">kalin kochnev</a>
+          
+        </div>
+
+      <a id="hamburger" href="javascript:void(0);" onclick="triggerHamburger()">
+        <span 
+     
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 7.9375 6.0704" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-49.416 -74.36)" stroke-linecap="round" stroke-width="1.3229">
+  <rect x="49.416" y="74.36" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="76.604" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="78.848" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+ </g>
+</svg>
+
+</span>
+
       </a>
-      <div id="name">
-        
-        <a href="/">kalin kochnev</a>
-        
-        <p id="subtitle">journeys</p>
-        
+    </div>
+    <div id="right">
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/journey">
+          journeys
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/blog">
+          blog
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn"
+          href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
       </div>
     </div>
 
-    <div id="right">
-      <a href="/journey">journeys</a>
-      <a href="/blog">blog</a>
-      <a href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
-    </div>
   </nav>
 </header>
+
+<body>
+        <div id="content">
+
+
 <div id="journey-single-container">
   <div id="journey-single-grid">
     <div id="description-col">
@@ -127,7 +164,7 @@
          
      
      <img
-     src="/journey/sleepanalysis/histogram_hu16573594022211680471.webp"
+     src="/journey/sleepanalysis/histogram_hu_de7a082587cb9307.webp"
       class="batch-load" 
      
       alt="Histogram of hours slept (AP Stats)" 
@@ -165,7 +202,7 @@
          
      
      <img
-     src="/journey/sleepanalysis/probabilityplot_hu17689140783627944155.webp"
+     src="/journey/sleepanalysis/probabilityplot_hu_a56f2d0667c605fb.webp"
       class="batch-load" 
      
       alt="Probability plot of hours slept (AP Stats)" 
@@ -198,7 +235,7 @@
 <p>This project began during my junior year of high school. My AP Statistics teacher wanted us to apply what we learned in class to something relevant in our lives. I had recently gotten a Fitbit, so it was the natural choice for me to analyze my sleep data.</p>
 <p>I think wearable sensing is a really awesome application for monitoring health. It is an opportunity ripe for gameification.</p>
 <p>When I submitted my initial project, I was only investigating if the amount of hours I slept followed a normal distribution. It looked pretty dang close with only 50 samples, considering the linear trend of the probability plot.</p>
-<h2 id="why-we-sleephttpswwwsleepdiplomatcomauthor"><a href="https://www.sleepdiplomat.com/author">&ldquo;Why we sleep&rdquo;</a></h2>
+<h2 id="heading"><a href="https://www.sleepdiplomat.com/author">&ldquo;Why we sleep&rdquo;</a></h2>
 <p>I read this book during my freshman year of college. This really ignited my interest in sleep and made me realize its importance. Getting enough sleep is one of the simplest ways we can improve out health. There is no bodily function that sleep doesn&rsquo;t affect. And from my own experience, quality of life goes through the roof when I feel rested and awake. I could experience the best day of my life, but as long as I was tired, it would have felt awful.</p>
 <h2 id="what-is-my-optimal-bedtime">What is my optimal bedtime?</h2>
 <p>I spent a significant amount of time pondering how I would go about this. There are so many factors that affect the quality of sleep like temperature, diet, exercise, time of day, and more. Some of those I do have control over, but it would be incredibly difficult to collect a dataset. I would be conducting an experiment on myself for months.</p>
@@ -224,7 +261,7 @@
         
     
     <img
-    src="/journey/sleepanalysis/bayesianexample_hu3160919139505884831.webp"
+    src="/journey/sleepanalysis/bayesianexample_hu_48a641350675238d.webp"
      class="batch-load" 
     
      alt="Probability of getting enough sleep if I wake up at 8 AM" 
@@ -264,7 +301,7 @@
         
     
     <img
-    src="/journey/sleepanalysis/bayesianall_hu6956269506948573074.webp"
+    src="/journey/sleepanalysis/bayesianall_hu_3645c226d0718688.webp"
      class="batch-load" 
     
      alt="For all wake up times" 
@@ -330,7 +367,9 @@ When I saw this graph, I became very excited!</p>
       <div id="links">
         
       </div>
-      
+      <div id="log-col">
+        <h2>Recent logs</h2>
+        
 
 
 
@@ -366,6 +405,7 @@ When I saw this graph, I became very excited!</p>
 
 
  
+      </div>
     </div>
   </div>
 </div>

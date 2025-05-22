@@ -2,35 +2,14 @@
 <html>
 
 
-<link rel="stylesheet" href="/scss/main.css" />
-
-
-<script src="/js/batch-load.js"></script>
-<noscript>
-    <style>
-        .image-container {
-            opacity: 1 !important;
-        }
-    </style>
-</noscript>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-<head>
- <title>Kalin Kochnev</title>
- <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-</head>
-<body>
-        <div id="content">
-
-
 
 <link rel="stylesheet" href="/scss/main.css" />
 
 
 <script src="/js/batch-load.js"></script>
+
+
+<script src="/js/responsive-navbar.js"></script>
 <noscript>
     <style>
         .image-container {
@@ -48,11 +27,11 @@
  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <header>
-  <nav class="navbar" role="navigation">
-    <div id="face-icon">
+  <nav class="navbar" id="navbar" role="navigation">
+    <div id="left">
 
-      <a href="/">
-        
+        <a id="face-icon" href="/">
+          
 
 
 
@@ -61,7 +40,7 @@
         
     
     <img
-    src="/images/face_hu13438898370780653792.webp"
+    src="/images/face_hu_ef5e230e6ad4c8a9.webp"
     
     
     
@@ -76,563 +55,67 @@
 
 
 
+        </a>
+
+        <div id="name">
+          
+          <a href="/">kalin kochnev</a>
+          
+        </div>
+
+      <a id="hamburger" href="javascript:void(0);" onclick="triggerHamburger()">
+        <span 
+     
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 7.9375 6.0704" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-49.416 -74.36)" stroke-linecap="round" stroke-width="1.3229">
+  <rect x="49.416" y="74.36" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="76.604" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="78.848" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+ </g>
+</svg>
+
+</span>
+
       </a>
-      <div id="name">
-        
-        <a href="/">kalin kochnev</a>
-        
-        <p id="subtitle">journeys</p>
-        
+    </div>
+    <div id="right">
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/journey">
+          journeys
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/blog">
+          blog
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn"
+          href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
       </div>
     </div>
 
-    <div id="right">
-      <a href="/journey">journeys</a>
-      <a href="/blog">blog</a>
-      <a href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
-    </div>
   </nav>
 </header>
+
+<body>
+        <div id="content">
+
+
 <script src="/js/filter.js" > </script>
 
 <div id="journey-container" >
-  <div id="journeys-multiple">
-    <div id="project-col">
-      
-      
-          <a class="tagable" href="https://kalinkochnev.com/journey/hacklab/" data-tags="electronics,">
-            <div class="project-card hover">
-              <div class="left">
-                <h3>Hacklab<span 
-     class="star-icon"  
+  <div id="tag-container">
+      <div style="display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;"
 >
-    
-<svg width="100%" height="100%" version="1.1" viewBox="0 0 33.502 34.617" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-1321.6 -236.47)"><g transform="matrix(1.4055 0 0 1.4055 601.33 -306.2)"><path d="m521.7 409.43c0.2524-0.0676 0.5145-0.20532 0.7739-0.41755l4.4139-4.2001 5.9227 1.4304c0.3306 0.0541 0.6266 0.0423 0.8788-0.0253 0.7821-0.20956 1.1477-0.95661 0.8425-1.9486l-2.2072-5.5373 2.7958-4.9969c0.5195-1.2711-0.1723-2.3001-1.5457-2.2985l-5.9842 0.61546-3.8988-4.4185c-0.5236-0.46869-1.1007-0.62034-1.6062-0.48491-0.4826 0.12931-0.8988 0.51982-1.1402 1.1456l-1.5517 5.9538-5.0077 2.2858c-1.1776 0.70619-1.2523 1.9602-0.1669 2.8013l4.9194 2.9293 0.8571 5.8989c0.2319 1.0125 0.9223 1.4766 1.7045 1.267z" fill="#ffdb00" stroke="#000" stroke-width="2"/></g></g></svg>
-
-</span>
-</h3>
-                <h4>Planting the seed for a hacker community at UConn</h4>
-                <div class="tag-container">
-                  
-                    <span class="tag">electronics </span>    
-                          
-                </div>
-              </div>
-              <div class="right image-container">
-                
-
-
-
-
-    
-    <img
-    src="/journey/hacklab/hacklablogo.svg"
-     class="journey-img batch-load" 
-    
-    
-    loading="lazy" 
-
-    style="
-         
-        
-        
-    "
-    />
-
-
-
-              </div>
-            </div>
-          </a>
-      
-          <a class="tagable" href="https://kalinkochnev.com/journey/stabilizingbike/" data-tags="hardware,robotics,controls,youtube,">
-            <div class="project-card hover">
-              <div class="left">
-                <h3>SLAM Bike<span 
-     class="star-icon"  
->
-    
-<svg width="100%" height="100%" version="1.1" viewBox="0 0 33.502 34.617" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-1321.6 -236.47)"><g transform="matrix(1.4055 0 0 1.4055 601.33 -306.2)"><path d="m521.7 409.43c0.2524-0.0676 0.5145-0.20532 0.7739-0.41755l4.4139-4.2001 5.9227 1.4304c0.3306 0.0541 0.6266 0.0423 0.8788-0.0253 0.7821-0.20956 1.1477-0.95661 0.8425-1.9486l-2.2072-5.5373 2.7958-4.9969c0.5195-1.2711-0.1723-2.3001-1.5457-2.2985l-5.9842 0.61546-3.8988-4.4185c-0.5236-0.46869-1.1007-0.62034-1.6062-0.48491-0.4826 0.12931-0.8988 0.51982-1.1402 1.1456l-1.5517 5.9538-5.0077 2.2858c-1.1776 0.70619-1.2523 1.9602-0.1669 2.8013l4.9194 2.9293 0.8571 5.8989c0.2319 1.0125 0.9223 1.4766 1.7045 1.267z" fill="#ffdb00" stroke="#000" stroke-width="2"/></g></g></svg>
-
-</span>
-</h3>
-                <h4>A self-stabilizing and autonomous bike project</h4>
-                <div class="tag-container">
-                  
-                    <span class="tag">hardware </span>    
-                  
-                    <span class="tag">robotics </span>    
-                  
-                    <span class="tag">controls </span>    
-                  
-                    <span class="tag">youtube </span>    
-                          
-                </div>
-              </div>
-              <div class="right image-container">
-                
-
-
-
-
-    
-        
-    
-    <img
-    src="/journey/stabilizingbike/bike_hu5821354564446679310.webp"
-     class="journey-img batch-load" 
-    
-    
-    loading="lazy" 
-
-    style="
-         
-        
-        
-    "
-    />
-
-
-
-              </div>
-            </div>
-          </a>
-      
-          <a class="tagable" href="https://kalinkochnev.com/journey/nasabigidea/" data-tags="robotics,space,systems engineering,electronics,">
-            <div class="project-card hover">
-              <div class="left">
-                <h3>2022 NASA BIG Idea Challenge</h3>
-                <h4>A hybrid quadruped/tank rover for extreme lunar terrain. Finalists at the 2022 NASA Big Idea Challenge</h4>
-                <div class="tag-container">
-                  
-                    <span class="tag">robotics </span>    
-                  
-                    <span class="tag">space </span>    
-                  
-                    <span class="tag">systems engineering </span>    
-                  
-                    <span class="tag">electronics </span>    
-                          
-                </div>
-              </div>
-              <div class="right image-container">
-                
-
-
-
-
-    
-        
-    
-    <img
-    src="/journey/nasabigidea/amberlogo_hu5781674182164633139.webp"
-     class="journey-img batch-load" 
-    
-    
-    loading="lazy" 
-
-    style="
-         
-        
-        
-    "
-    />
-
-
-
-              </div>
-            </div>
-          </a>
-      
-          <a class="tagable" href="https://kalinkochnev.com/journey/resonant/" data-tags="signal processing,electronics,wearable,">
-            <div class="project-card hover">
-              <div class="left">
-                <h3>Resonant</h3>
-                <h4>An exploration of audio localization and identification through accessibility and sensing projects</h4>
-                <div class="tag-container">
-                  
-                    <span class="tag">signal processing </span>    
-                  
-                    <span class="tag">electronics </span>    
-                  
-                    <span class="tag">wearable </span>    
-                          
-                </div>
-              </div>
-              <div class="right image-container">
-                
-
-
-
-
-    
-        
-    
-    <img
-    src="/journey/resonant/resonant_hu12209142035475837868.webp"
-     class="journey-img batch-load" 
-    
-    
-    loading="lazy" 
-
-    style="
-         
-        
-        
-    "
-    />
-
-
-
-              </div>
-            </div>
-          </a>
-      
-          <a class="tagable" href="https://kalinkochnev.com/journey/robotarm/" data-tags="robotics,college,mechanical,cad,">
-            <div class="project-card hover">
-              <div class="left">
-                <h3>Rembrot</h3>
-                <h4>A 3 DOF robotic painter</h4>
-                <div class="tag-container">
-                  
-                    <span class="tag">robotics </span>    
-                  
-                    <span class="tag">college </span>    
-                  
-                    <span class="tag">mechanical </span>    
-                  
-                    <span class="tag">cad </span>    
-                          
-                </div>
-              </div>
-              <div class="right image-container">
-                
-
-
-
-
-    
-    <img
-    src="/journey/robotarm/armicon.svg"
-     class="journey-img batch-load" 
-    
-    
-    loading="lazy" 
-
-    style="
-         
-        
-        
-    "
-    />
-
-
-
-              </div>
-            </div>
-          </a>
-      
-          <a class="tagable" href="https://kalinkochnev.com/journey/hack4delta2023/" data-tags="hackathon,data-science,">
-            <div class="project-card hover">
-              <div class="left">
-                <h3>Firefly</h3>
-                <h4>Providing early detection of wildfires by using commercial airplanes as infrared aerial monitors. Won 2nd place at Hack4Delta 2023.</h4>
-                <div class="tag-container">
-                  
-                    <span class="tag">hackathon </span>    
-                  
-                    <span class="tag">data-science </span>    
-                          
-                </div>
-              </div>
-              <div class="right image-container">
-                
-
-
-
-
-    
-    <img
-    src="/journey/hack4delta2023/fireflylogo.svg"
-     class="journey-img batch-load" 
-    
-    
-    loading="lazy" 
-
-    style="
-         
-        
-        
-    "
-    />
-
-
-
-              </div>
-            </div>
-          </a>
-      
-          <a class="tagable" href="https://kalinkochnev.com/journey/foundations/" data-tags="machining,mechanical,">
-            <div class="project-card hover">
-              <div class="left">
-                <h3>Foundations of Fabrication</h3>
-                <h4>A 6 month introduction to methods of fabrication</h4>
-                <div class="tag-container">
-                  
-                    <span class="tag">machining </span>    
-                  
-                    <span class="tag">mechanical </span>    
-                          
-                </div>
-              </div>
-              <div class="right image-container">
-                
-
-
-
-
-    
-        
-    
-    <img
-    src="/journey/foundations/bridgeports_hu5132444215380892166.webp"
-     class="journey-img batch-load" 
-    
-    
-    loading="lazy" 
-
-    style="
-         
-        
-        
-    "
-    />
-
-
-
-              </div>
-            </div>
-          </a>
-      
-          <a class="tagable" href="https://kalinkochnev.com/journey/graphics/" data-tags="gpu,rust,">
-            <div class="project-card hover">
-              <div class="left">
-                <h3>GPU Programming</h3>
-                <h4>Learning graphics programming with WebGPU and Rust</h4>
-                <div class="tag-container">
-                  
-                    <span class="tag">gpu </span>    
-                  
-                    <span class="tag">rust </span>    
-                          
-                </div>
-              </div>
-              <div class="right image-container">
-                
-
-
-
-
-    
-        
-    
-    <img
-    src="/journey/graphics/webgpu-triangle_hu5406144611488944838.webp"
-     class="journey-img batch-load" 
-    
-    
-    loading="lazy" 
-
-    style="
-         
-        
-        
-    "
-    />
-
-
-
-              </div>
-            </div>
-          </a>
-      
-          <a class="tagable" href="https://kalinkochnev.com/journey/quantumblackhole/" data-tags="quantum,physics,">
-            <div class="project-card hover">
-              <div class="left">
-                <h3>Holographic Wormholes on a Quantum Circuit</h3>
-                <h4>An introductory report for quantum computing students</h4>
-                <div class="tag-container">
-                  
-                    <span class="tag">quantum </span>    
-                  
-                    <span class="tag">physics </span>    
-                          
-                </div>
-              </div>
-              <div class="right image-container">
-                
-
-
-
-
-    
-        
-    
-    <img
-    src="/journey/quantumblackhole/bloch_sphere_hu13710553806660730060.webp"
-     class="journey-img batch-load" 
-    
-    
-    loading="lazy" 
-
-    style="
-         
-        
-        
-    "
-    />
-
-
-
-              </div>
-            </div>
-          </a>
-      
-          <a class="tagable" href="https://kalinkochnev.com/journey/sleepanalysis/" data-tags="jupyter,python,data-science,">
-            <div class="project-card hover">
-              <div class="left">
-                <h3>Sleep Analysis</h3>
-                <h4>A statistical analysis of sleep records from a Fitbit</h4>
-                <div class="tag-container">
-                  
-                    <span class="tag">jupyter </span>    
-                  
-                    <span class="tag">python </span>    
-                  
-                    <span class="tag">data-science </span>    
-                          
-                </div>
-              </div>
-              <div class="right image-container">
-                
-
-
-
-
-    
-        
-    
-    <img
-    src="/journey/sleepanalysis/sleepanalyzerlogo_hu3613939227575800169.webp"
-     class="journey-img batch-load" 
-    
-    
-    loading="lazy" 
-
-    style="
-         
-        
-        
-    "
-    />
-
-
-
-              </div>
-            </div>
-          </a>
-      
-          <a class="tagable" href="https://kalinkochnev.com/journey/webportfolio/" data-tags="web,hugo,sass,">
-            <div class="project-card hover">
-              <div class="left">
-                <h3>Online Portfolio</h3>
-                <h4>My portfolio to showcase my journeys and writings</h4>
-                <div class="tag-container">
-                  
-                    <span class="tag">web </span>    
-                  
-                    <span class="tag">hugo </span>    
-                  
-                    <span class="tag">sass </span>    
-                          
-                </div>
-              </div>
-              <div class="right image-container">
-                
-
-
-
-
-    
-        
-    
-    <img
-    src="/journey/webportfolio/landingpage_hu11996328592491587464.webp"
-     class="journey-img batch-load" 
-    
-    
-    loading="lazy" 
-
-    style="
-         
-        
-        
-    "
-    />
-
-
-
-              </div>
-            </div>
-          </a>
-      
-          <a class="tagable" href="https://kalinkochnev.com/journey/rustbackprop/" data-tags="rust,ml,">
-            <div class="project-card hover">
-              <div class="left">
-                <h3>Backpropagation Neural Network</h3>
-                <h4>A Rust implementation of a backpropagation neural network</h4>
-                <div class="tag-container">
-                  
-                    <span class="tag">rust </span>    
-                  
-                    <span class="tag">ml </span>    
-                          
-                </div>
-              </div>
-              <div class="right image-container">
-                
-
-
-
-
-    
-        
-    
-    <img
-    src="/journey/rustbackprop/rustneuralnet_hu17758709491688123194.webp"
-     class="journey-img batch-load" 
-    
-    
-    loading="lazy" 
-
-    style="
-         
-        
-        
-    "
-    />
-
-
-
-              </div>
-            </div>
-          </a>
-      
-    </div>
-    <div id="log-col">
-      
-      
-      <div>
   
   
    
@@ -665,6 +148,26 @@
     <span class="tag"><a href="?tag=college">college <b>(1)</b></a></span>
    
     <span class="tag"><a href="?tag=design">design <b>(1)</b></a></span>
+   
+    <span class="tag"><a href="?tag=hackathon">hackathon <b>(1)</b></a></span>
+   
+    <span class="tag"><a href="?tag=hardware">hardware <b>(1)</b></a></span>
+   
+    <span class="tag"><a href="?tag=jupyter">jupyter <b>(1)</b></a></span>
+   
+    <span class="tag"><a href="?tag=machining">machining <b>(1)</b></a></span>
+   
+    <span class="tag"><a href="?tag=ml">ml <b>(1)</b></a></span>
+   
+    <span class="tag"><a href="?tag=notetaking">notetaking <b>(1)</b></a></span>
+   
+    <span class="tag"><a href="?tag=python">python <b>(1)</b></a></span>
+   
+    <span class="tag"><a href="?tag=quantum">quantum <b>(1)</b></a></span>
+   
+    <span class="tag"><a href="?tag=sass">sass <b>(1)</b></a></span>
+   
+    <span class="tag"><a href="?tag=space">space <b>(1)</b></a></span>
   
   
   
@@ -672,19 +175,461 @@
     <a href="/journey" class="link-style">clear filters</a>
   
 </div>
+
+  </div>
+
+  <div id="journeys-multiple">
+
+
+    <div id="project-col">
       
+      
+          <a class="tagable" href="https://kalinkochnev.com/journey/hacklab/" data-tags="electronics,">
+            <div class="project-card hover">
+              <div class="right image-container">
+                
 
 
 
 
+    
+    <img
+    src="/journey/hacklab/hacklablogo.svg"
+     class="journey-img batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+              </div>
+              <div class="left">
+                <h3>Hacklab<span 
+     class="star-icon"  
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 33.502 34.617" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-1321.6 -236.47)"><g transform="matrix(1.4055 0 0 1.4055 601.33 -306.2)"><path d="m521.7 409.43c0.2524-0.0676 0.5145-0.20532 0.7739-0.41755l4.4139-4.2001 5.9227 1.4304c0.3306 0.0541 0.6266 0.0423 0.8788-0.0253 0.7821-0.20956 1.1477-0.95661 0.8425-1.9486l-2.2072-5.5373 2.7958-4.9969c0.5195-1.2711-0.1723-2.3001-1.5457-2.2985l-5.9842 0.61546-3.8988-4.4185c-0.5236-0.46869-1.1007-0.62034-1.6062-0.48491-0.4826 0.12931-0.8988 0.51982-1.1402 1.1456l-1.5517 5.9538-5.0077 2.2858c-1.1776 0.70619-1.2523 1.9602-0.1669 2.8013l4.9194 2.9293 0.8571 5.8989c0.2319 1.0125 0.9223 1.4766 1.7045 1.267z" fill="#ffdb00" stroke="#000" stroke-width="2"/></g></g></svg>
+
+</span>
+</h3>
+                <h4>Planting the seed for a hacker community at UConn</h4>
+                
+              </div>
+            </div>
+          </a>
+      
+          <a class="tagable" href="https://kalinkochnev.com/journey/stabilizingbike/" data-tags="hardware,robotics,controls,youtube,">
+            <div class="project-card hover">
+              <div class="right image-container">
+                
 
 
 
 
+    
+        
+    
+    <img
+    src="/journey/stabilizingbike/bike_hu_241876226ed82f17.webp"
+     class="journey-img batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+              </div>
+              <div class="left">
+                <h3>SLAM Bike<span 
+     class="star-icon"  
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 33.502 34.617" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-1321.6 -236.47)"><g transform="matrix(1.4055 0 0 1.4055 601.33 -306.2)"><path d="m521.7 409.43c0.2524-0.0676 0.5145-0.20532 0.7739-0.41755l4.4139-4.2001 5.9227 1.4304c0.3306 0.0541 0.6266 0.0423 0.8788-0.0253 0.7821-0.20956 1.1477-0.95661 0.8425-1.9486l-2.2072-5.5373 2.7958-4.9969c0.5195-1.2711-0.1723-2.3001-1.5457-2.2985l-5.9842 0.61546-3.8988-4.4185c-0.5236-0.46869-1.1007-0.62034-1.6062-0.48491-0.4826 0.12931-0.8988 0.51982-1.1402 1.1456l-1.5517 5.9538-5.0077 2.2858c-1.1776 0.70619-1.2523 1.9602-0.1669 2.8013l4.9194 2.9293 0.8571 5.8989c0.2319 1.0125 0.9223 1.4766 1.7045 1.267z" fill="#ffdb00" stroke="#000" stroke-width="2"/></g></g></svg>
+
+</span>
+</h3>
+                <h4>A self-stabilizing and autonomous bike project</h4>
+                
+              </div>
+            </div>
+          </a>
+      
+          <a class="tagable" href="https://kalinkochnev.com/journey/nasabigidea/" data-tags="robotics,space,systems engineering,electronics,">
+            <div class="project-card hover">
+              <div class="right image-container">
+                
 
 
 
 
+    
+        
+    
+    <img
+    src="/journey/nasabigidea/amberlogo_hu_d2fe411a6f76d61f.webp"
+     class="journey-img batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+              </div>
+              <div class="left">
+                <h3>2022 NASA BIG Idea Challenge</h3>
+                <h4>A hybrid quadruped/tank rover for extreme lunar terrain. Finalists at the 2022 NASA Big Idea Challenge</h4>
+                
+              </div>
+            </div>
+          </a>
+      
+          <a class="tagable" href="https://kalinkochnev.com/journey/resonant/" data-tags="signal processing,electronics,wearable,">
+            <div class="project-card hover">
+              <div class="right image-container">
+                
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/resonant/resonant_hu_e151118967038b8d.webp"
+     class="journey-img batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+              </div>
+              <div class="left">
+                <h3>Resonant</h3>
+                <h4>An exploration of audio localization and identification through accessibility and sensing projects</h4>
+                
+              </div>
+            </div>
+          </a>
+      
+          <a class="tagable" href="https://kalinkochnev.com/journey/robotarm/" data-tags="robotics,college,mechanical,cad,">
+            <div class="project-card hover">
+              <div class="right image-container">
+                
+
+
+
+
+    
+    <img
+    src="/journey/robotarm/armicon.svg"
+     class="journey-img batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+              </div>
+              <div class="left">
+                <h3>Rembrot</h3>
+                <h4>A 3 DOF robotic painter</h4>
+                
+              </div>
+            </div>
+          </a>
+      
+          <a class="tagable" href="https://kalinkochnev.com/journey/hack4delta2023/" data-tags="hackathon,data-science,">
+            <div class="project-card hover">
+              <div class="right image-container">
+                
+
+
+
+
+    
+    <img
+    src="/journey/hack4delta2023/fireflylogo.svg"
+     class="journey-img batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+              </div>
+              <div class="left">
+                <h3>Firefly</h3>
+                <h4>Providing early detection of wildfires by using commercial airplanes as infrared aerial monitors. Won 2nd place at Hack4Delta 2023.</h4>
+                
+              </div>
+            </div>
+          </a>
+      
+          <a class="tagable" href="https://kalinkochnev.com/journey/foundations/" data-tags="machining,mechanical,">
+            <div class="project-card hover">
+              <div class="right image-container">
+                
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/foundations/bridgeports_hu_c0ce752ce24712fa.webp"
+     class="journey-img batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+              </div>
+              <div class="left">
+                <h3>Foundations of Fabrication</h3>
+                <h4>A 6 month introduction to methods of fabrication</h4>
+                
+              </div>
+            </div>
+          </a>
+      
+          <a class="tagable" href="https://kalinkochnev.com/journey/graphics/" data-tags="gpu,rust,">
+            <div class="project-card hover">
+              <div class="right image-container">
+                
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/graphics/webgpu-triangle_hu_568b66c98e7b1614.webp"
+     class="journey-img batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+              </div>
+              <div class="left">
+                <h3>GPU Programming</h3>
+                <h4>Learning graphics programming with WebGPU and Rust</h4>
+                
+              </div>
+            </div>
+          </a>
+      
+          <a class="tagable" href="https://kalinkochnev.com/journey/quantumblackhole/" data-tags="quantum,physics,">
+            <div class="project-card hover">
+              <div class="right image-container">
+                
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/quantumblackhole/bloch_sphere_hu_168c058bee4a9b7e.webp"
+     class="journey-img batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+              </div>
+              <div class="left">
+                <h3>Holographic Wormholes on a Quantum Circuit</h3>
+                <h4>An introductory report for quantum computing students</h4>
+                
+              </div>
+            </div>
+          </a>
+      
+          <a class="tagable" href="https://kalinkochnev.com/journey/sleepanalysis/" data-tags="jupyter,python,data-science,">
+            <div class="project-card hover">
+              <div class="right image-container">
+                
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/sleepanalysis/sleepanalyzerlogo_hu_c9177c1339cfc76c.webp"
+     class="journey-img batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+              </div>
+              <div class="left">
+                <h3>Sleep Analysis</h3>
+                <h4>A statistical analysis of sleep records from a Fitbit</h4>
+                
+              </div>
+            </div>
+          </a>
+      
+          <a class="tagable" href="https://kalinkochnev.com/journey/webportfolio/" data-tags="web,hugo,sass,">
+            <div class="project-card hover">
+              <div class="right image-container">
+                
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/webportfolio/landingpage_hu_12a609d0472d56f9.webp"
+     class="journey-img batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+              </div>
+              <div class="left">
+                <h3>Online Portfolio</h3>
+                <h4>My portfolio to showcase my journeys and writings</h4>
+                
+              </div>
+            </div>
+          </a>
+      
+          <a class="tagable" href="https://kalinkochnev.com/journey/rustbackprop/" data-tags="rust,ml,">
+            <div class="project-card hover">
+              <div class="right image-container">
+                
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/rustbackprop/rustneuralnet_hu_f4ece64162bd29a3.webp"
+     class="journey-img batch-load" 
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+              </div>
+              <div class="left">
+                <h3>Backpropagation Neural Network</h3>
+                <h4>A Rust implementation of a backpropagation neural network</h4>
+                
+              </div>
+            </div>
+          </a>
+      
+    </div>
+    <div id="log-col">
+      <h2>Recent Logs</h2>
+      
+      
+      
 
 
 
@@ -758,7 +703,6 @@
     }
 </style>
 <div id="all-log-container">
-    <h2>Recent Logs</h2>
     
     
     
@@ -804,7 +748,7 @@
         
     
     <img
-    src="/journey/robotarm/verniercool/vernier_hu15219695207676879556.webp"
+    src="/journey/robotarm/verniercool/vernier_hu_94eb39f0e5d9d541.webp"
      class="batch-load" 
     
     
@@ -908,7 +852,7 @@
         
     
     <img
-    src="/journey/foundations/log1/ytthumb_hu14010363514179797675.webp"
+    src="/journey/foundations/log1/ytthumb_hu_7c72e4ff10ab5e34.webp"
      class="batch-load" 
     
     
@@ -976,7 +920,7 @@
         
     
     <img
-    src="/journey/stabilizingbike/logs/weeklyupdate2/3Dprinterdramatic_hu18085571239910976904.webp"
+    src="/journey/stabilizingbike/logs/weeklyupdate2/3Dprinterdramatic_hu_ef1e74a44500399b.webp"
      class="batch-load" 
     
     
@@ -1080,106 +1024,6 @@
 
                     
                     <a class="link-style" href="https://kalinkochnev.com/journey/stabilizingbike/">SLAM Bike</a>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-     
-    <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/webportfolio\/changelog4-8-23\/'"
-        data-tags="web,hugo,">
-
-        <div class="image-container" style="position: relative; display: block; ">
-            
-        </div>
-        <div class="log-container">
-            <div class="info-container">
-                <h3><span>#6</span> Changelog</h3>
-                
-                    <h4 class="summary">Bug fixes and responsiveness</h4>
-                
-                <div class="date-info">
-                    <h4>April 8, 2023</h4>
-
-                    
-                    <a class="link-style" href="https://kalinkochnev.com/journey/webportfolio/">Online Portfolio</a>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-     
-    <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/resonant\/v2plan\/'"
-        data-tags="signal-processing,">
-
-        <div class="image-container" style="position: relative; display: block; ">
-            
-        </div>
-        <div class="log-container">
-            <div class="info-container">
-                <h3><span>#5</span> Resonant V2 Plans!</h3>
-                
-                    <h4 class="summary">There&rsquo;s plenty of unfinished business</h4>
-                
-                <div class="date-info">
-                    <h4>March 10, 2023</h4>
-
-                    
-                    <a class="link-style" href="https://kalinkochnev.com/journey/resonant/">Resonant</a>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-     
-    <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/webportfolio\/changelog3-9-23\/'"
-        data-tags="web,hugo,">
-
-        <div class="image-container" style="position: relative; display: block; ">
-            
-        </div>
-        <div class="log-container">
-            <div class="info-container">
-                <h3><span>#4</span> The website is responsive! (almost)</h3>
-                
-                    <h4 class="summary">Sometimes when you&rsquo;re code doesn&rsquo;t compile, it&rsquo;s not you&rsquo;re fault!</h4>
-                
-                <div class="date-info">
-                    <h4>March 9, 2023</h4>
-
-                    
-                    <a class="link-style" href="https://kalinkochnev.com/journey/webportfolio/">Online Portfolio</a>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    
-     
-    <div class="log hover tagable" onclick="window.location='https:\/\/kalinkochnev.com\/journey\/webportfolio\/learninginpublic\/'"
-        data-tags="web,notetaking,">
-
-        <div class="image-container" style="position: relative; display: block; ">
-            
-        </div>
-        <div class="log-container">
-            <div class="info-container">
-                <h3><span>#3</span> Learning in public</h3>
-                
-                    <h4 class="summary">A completely different way of thinking about learning</h4>
-                
-                <div class="date-info">
-                    <h4>February 15, 2023</h4>
-
-                    
-                    <a class="link-style" href="https://kalinkochnev.com/journey/webportfolio/">Online Portfolio</a>
                     
                 </div>
             </div>

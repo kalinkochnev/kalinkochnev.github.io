@@ -2,10 +2,14 @@
 <html>
 
 
+
 <link rel="stylesheet" href="/scss/main.css" />
 
 
 <script src="/js/batch-load.js"></script>
+
+
+<script src="/js/responsive-navbar.js"></script>
 <noscript>
     <style>
         .image-container {
@@ -35,14 +39,12 @@
  <title>Kalin Kochnev</title>
  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
-<body>
-        <div id="content">
 <header>
-  <nav class="navbar" role="navigation">
-    <div id="face-icon">
+  <nav class="navbar" id="navbar" role="navigation">
+    <div id="left">
 
-      <a href="/">
-        
+        <a id="face-icon" href="/">
+          
 
 
 
@@ -51,7 +53,7 @@
         
     
     <img
-    src="/images/face_hu13438898370780653792.webp"
+    src="/images/face_hu_ef5e230e6ad4c8a9.webp"
     
     
     
@@ -66,23 +68,58 @@
 
 
 
+        </a>
+
+        <div id="name">
+          
+          <a href="/">kalin kochnev</a>
+          
+        </div>
+
+      <a id="hamburger" href="javascript:void(0);" onclick="triggerHamburger()">
+        <span 
+     
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 7.9375 6.0704" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-49.416 -74.36)" stroke-linecap="round" stroke-width="1.3229">
+  <rect x="49.416" y="74.36" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="76.604" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="78.848" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+ </g>
+</svg>
+
+</span>
+
       </a>
-      <div id="name">
-        
-        <a href="/">kalin kochnev</a>
-        
-        <p id="subtitle">journeys</p>
-        
+    </div>
+    <div id="right">
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/journey">
+          journeys
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/blog">
+          blog
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn"
+          href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
       </div>
     </div>
 
-    <div id="right">
-      <a href="/journey">journeys</a>
-      <a href="/blog">blog</a>
-      <a href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
-    </div>
   </nav>
 </header>
+
+<body>
+        <div id="content">
+
+
 <div id="journey-single-container">
   <div id="journey-single-grid">
     <div id="description-col">
@@ -106,7 +143,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide1_hu6459459626001993630.webp"
+     src="/journey/hack4delta2023/slide1_hu_6d3f373a7ce1aac1.webp"
       class="batch-load" 
      
      
@@ -140,7 +177,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide2_hu10296410863517539409.webp"
+     src="/journey/hack4delta2023/slide2_hu_66e1a02974607533.webp"
       class="batch-load" 
      
      
@@ -174,7 +211,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide3_hu2791866207429208828.webp"
+     src="/journey/hack4delta2023/slide3_hu_b0ccd08f8b3dee95.webp"
       class="batch-load" 
      
      
@@ -208,7 +245,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide4_hu17121875933256415428.webp"
+     src="/journey/hack4delta2023/slide4_hu_449e29007eaa9937.webp"
       class="batch-load" 
      
      
@@ -242,7 +279,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide5_hu6504485879514512634.webp"
+     src="/journey/hack4delta2023/slide5_hu_38bb51c6db9275d0.webp"
       class="batch-load" 
      
      
@@ -276,7 +313,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide6_hu7081233774595119123.webp"
+     src="/journey/hack4delta2023/slide6_hu_7eeb21e91001550a.webp"
       class="batch-load" 
      
      
@@ -310,7 +347,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide7_hu9324131385419515058.webp"
+     src="/journey/hack4delta2023/slide7_hu_4b548ea97a92e0f9.webp"
       class="batch-load" 
      
      
@@ -344,7 +381,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide8_hu787095263936702086.webp"
+     src="/journey/hack4delta2023/slide8_hu_68c95c88b2919b9d.webp"
       class="batch-load" 
      
      
@@ -378,7 +415,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide9_hu718610788187762109.webp"
+     src="/journey/hack4delta2023/slide9_hu_d568ad57187742eb.webp"
       class="batch-load" 
      
      
@@ -412,7 +449,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide10_hu15566589149840738274.webp"
+     src="/journey/hack4delta2023/slide10_hu_7353db8f38ff0da7.webp"
       class="batch-load" 
      
      
@@ -446,7 +483,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide11_hu11978690487654448680.webp"
+     src="/journey/hack4delta2023/slide11_hu_72328e63786190b2.webp"
       class="batch-load" 
      
      
@@ -480,7 +517,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide12_hu1129388249122275401.webp"
+     src="/journey/hack4delta2023/slide12_hu_953e50dfa3fae03d.webp"
       class="batch-load" 
      
      
@@ -514,7 +551,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide13_hu3073707755635822793.webp"
+     src="/journey/hack4delta2023/slide13_hu_6dd7649807096df.webp"
       class="batch-load" 
      
      
@@ -548,7 +585,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/slide14_hu4142863817375003912.webp"
+     src="/journey/hack4delta2023/slide14_hu_7269436be271d77e.webp"
       class="batch-load" 
      
      
@@ -579,22 +616,14 @@
 <h1 id="project-background">Project background</h1>
 <p>The types of projects that really capture my imagination are ones that are opportunistic: making use of a pre-exising resource in a way that was never considered before. More succinctly, you can think of it as smart piggybacking.</p>
 <p>For instance, the Laser Interferometer Gravitational Observatory <a href="https://www.ligo.caltech.edu/">(LIGO)</a> has miles upon miles of high precision detector equipment dedicated to detecting graviational waves from black hole mergers. It accomplishes the job. However a new scientific experiment known as <a href="https://nanograv.org/">NANOGrav</a> does away with the dedicated detectors and instead uses clever measurement of pulsar timings. You can learn more about it in this video I made.</p>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/82uVgwsY73E?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/82uVgwsY73E?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
     </div>
 
 <p>Another great example is a <a href="https://www.theverge.com/2023/7/24/23805652/google-maps-fuel-efficient-routes-transportation-emissions">recent feature by Google maps</a> to route people along the most fuel effcient path. The feature was calculated to have been equivalent to taking of 250,000 cars off the road, just by changing how the GPS navigates people.</p>
 <p>A personal favorite of mine is Ecosia, which is a search engine that plants trees with ad revenue. I&rsquo;ve been using it for the past 3 years and I have planted between 50 and 100 trees at no cost to me (it&rsquo;s hard to estimate since they only recently started tracking across accounts). I highly recommend this service. They do terrific boots on the ground work.</p>
-
-
-    
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/KFQICxy6BYM?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
-      ></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/KFQICxy6BYM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
     </div>
 
 <p>What&rsquo;s cool about an idea like this is that virtually no extra resources need to be allocated. These solutions are low hanging fruit, but we need to take advantage of everything if we want to address climate change.</p>
@@ -619,7 +648,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/table2_hu18436664222776678244.webp"
+     src="/journey/hack4delta2023/table2_hu_306f057fbca0536.webp"
       class="batch-load" 
      
      
@@ -653,7 +682,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/table1_hu10106277563572687560.webp"
+     src="/journey/hack4delta2023/table1_hu_ede40e02c488af17.webp"
       class="batch-load" 
      
      
@@ -700,7 +729,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/whiteboard1_hu14594720085325434613.webp"
+     src="/journey/hack4delta2023/whiteboard1_hu_88490db06f5e40b.webp"
       class="batch-load" 
      
       alt="Napkin calculations" 
@@ -738,7 +767,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/whiteboard2_hu5640680113429727123.webp"
+     src="/journey/hack4delta2023/whiteboard2_hu_56dc8aea046664b7.webp"
       class="batch-load" 
      
       alt="Project discussion" 
@@ -776,7 +805,7 @@
          
      
      <img
-     src="/journey/hack4delta2023/whiteboard3_hu6000441926757387985.webp"
+     src="/journey/hack4delta2023/whiteboard3_hu_f199426240d27f7c.webp"
       class="batch-load" 
      
       alt="Data visualization ideas" 
@@ -821,7 +850,7 @@
         
     
     <img
-    src="/journey/hack4delta2023/flights1_hu7229398473021739478.webp"
+    src="/journey/hack4delta2023/flights1_hu_79ad9625e85e005a.webp"
      class="batch-load" 
     
      alt="Visualization of flights over California at high risk areas" 
@@ -926,7 +955,9 @@ To address climate change requires working with communities that are directly im
  <span class="link-style">Hack4Delta</span> </a>
         
       </div>
-      
+      <div id="log-col">
+        <h2>Recent logs</h2>
+        
 
 
 
@@ -962,6 +993,7 @@ To address climate change requires working with communities that are directly im
 
 
  
+      </div>
     </div>
   </div>
 </div>

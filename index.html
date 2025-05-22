@@ -2,10 +2,14 @@
 <html lang="en">
 
 
+
 <link rel="stylesheet" href="/scss/main.css" />
 
 
 <script src="/js/batch-load.js"></script>
+
+
+<script src="/js/responsive-navbar.js"></script>
 <noscript>
     <style>
         .image-container {
@@ -19,30 +23,65 @@
 
 
 <head>
-	<meta name="generator" content="Hugo 0.135.0">
+	<meta name="generator" content="Hugo 0.147.3">
  <title>Kalin Kochnev</title>
  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
     <div class="landing-layout">
         <div id="welcome-container">
-            <nav class="navbar" role="navigation">
-                <div class="left">
-                    <a href="/journey">journeys</a>
-                    <a href="/blog">blog</a>
-                    <a href="https://docs.google.com/document/d/1-LjV2HqOOFs0I2y9u0LmzWZSBj2DzTw3dlonxePPOpg/edit?usp=sharing">resume</a>
+            <nav class="navbar responsive" id="navbar" role="navigation">
+                <div id="right">
+
+                    <a id="hamburger" href="javascript:void(0);" onclick="triggerHamburger()">
+                        <span 
+     
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 7.9375 6.0704" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-49.416 -74.36)" stroke-linecap="round" stroke-width="1.3229">
+  <rect x="49.416" y="74.36" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="76.604" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="78.848" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+ </g>
+</svg>
+
+</span>
+
+                    </a>
+
+
+                    <div class="dropdown">
+                        <a class="dropbtn" href="/journey">
+                            journeys
+                        </a>
+                    </div>
+
+                    <div class="dropdown">
+                        <a class="dropbtn" href="/blog">
+                            blog
+                        </a>
+                    </div>
+
+                    <div class="dropdown">
+                        <a class="dropbtn"
+                            href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
+                    </div>
                 </div>
+
             </nav>
             <div id="welcome">
                 <h1>Hi, I'm Kalin</h1>
                 <h3>
-                    I am a Robotics Engineering student at the University of Connecticut. In my spare time, I am a hacker,
+                    I am a Robotics Engineering student at the University of Connecticut. In my spare time, I am a
+                    hacker,
                     inventor, creator, and writer. </br></br>
 
-                    My passion is integrating hardware, software, design, and math in a cohesive manner to realize ideas. </br>
+                    My passion is integrating hardware, software, design, and math in a cohesive manner to realize
+                    ideas. </br>
                 </h3>
                 <div id="contact">
-                    <a href="https://www.linkedin.com/in/kalinkochnev/"> 
+                    <a href="https://www.linkedin.com/in/kalinkochnev/">
                         <span 
      class="star-icon"  
 >
@@ -53,10 +92,10 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" fill="#0F0F0F"/>
 
 </span>
- 
+
                         LinkedIn
                     </a>
-                    <a href="mailto:kalin.kochnev@gmail.com"> 
+                    <a href="mailto:kalin.kochnev@gmail.com">
                         <span 
      class="star-icon"  
 >
@@ -66,7 +105,7 @@
 </svg>
 
 </span>
- 
+
                         Contact
                     </a>
                 </div>
@@ -83,7 +122,7 @@
         
     
     <img
-    src="/images/portrait2_hu6956673840427547825.webp"
+    src="/images/portrait2_hu_772eabbd9d92baf7.webp"
     
      id="portrait" 
     
@@ -102,4 +141,5 @@
     </div>
 
 </body>
+
 </html>
