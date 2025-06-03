@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kalinkochnev.com/journey/sf2025/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://kalinkochnev.com/journey/hacklab/</loc>
     <lastmod>2023-12-30T12:36:03-04:00</lastmod>
   </url><url>
@@ -14,13 +17,31 @@
     <loc>https://kalinkochnev.com/journey/resonant/</loc>
     <lastmod>2021-02-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://kalinkochnev.com/journey/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey/sf2025/day12/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/growth/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/internship/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kalinkochnev.com/journey_tags/life/</loc>
+    <lastmod>2025-06-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://kalinkochnev.com/blog/a-life-unlived/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/blog_tags/</loc>
-    <lastmod>2025-05-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kalinkochnev.com/</loc>
     <lastmod>2025-05-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/blog_tags/mindfulness/</loc>
@@ -38,13 +59,7 @@
     <loc>https://kalinkochnev.com/blog/flickersofgreatness/</loc>
     <lastmod>2024-12-29T13:17:00+00:00</lastmod>
   </url><url>
-    <loc>https://kalinkochnev.com/journey/</loc>
-    <lastmod>2024-10-13T17:55:52-04:00</lastmod>
-  </url><url>
     <loc>https://kalinkochnev.com/journey_tags/electronics/</loc>
-    <lastmod>2024-10-13T17:55:52-04:00</lastmod>
-  </url><url>
-    <loc>https://kalinkochnev.com/journey_tags/</loc>
     <lastmod>2024-10-13T17:55:52-04:00</lastmod>
   </url><url>
     <loc>https://kalinkochnev.com/journey_tags/mechanical/</loc>

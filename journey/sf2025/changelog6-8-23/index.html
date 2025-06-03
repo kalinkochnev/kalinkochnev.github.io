@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><link rel="stylesheet" href="/scss/main.css" />
+
+
+<script src="/js/batch-load.js"></script>
+
+
+<script src="/js/responsive-navbar.js"></script>
+<noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+<head>
+ <title>Kalin Kochnev</title>
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<header>
+  <nav class="navbar" id="navbar" role="navigation">
+    <div id="left">
+
+        <a id="face-icon" href="/">
+          
+
+
+
+
+    
+        
+    
+    <img
+    src="/images/face_hu_ef5e230e6ad4c8a9.webp"
+    
+    
+    
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+        </a>
+
+        <div id="name">
+          
+          <a href="/">kalin kochnev</a>
+          
+        </div>
+
+      <a id="hamburger" href="javascript:void(0);" onclick="triggerHamburger()">
+        <span 
+     
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 7.9375 6.0704" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-49.416 -74.36)" stroke-linecap="round" stroke-width="1.3229">
+  <rect x="49.416" y="74.36" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="76.604" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="78.848" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+ </g>
+</svg>
+
+</span>
+
+      </a>
+    </div>
+    <div id="right">
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/journey">
+          journeys
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/blog">
+          blog
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn"
+          href="https://docs.google.com/document/d/1FXmMWEolckjuU6kRzWDw5hp8Wdx4OKgeXBfyINB-kUM/edit?usp=sharing">resume</a>
+      </div>
+    </div>
+
+  </nav>
+</header>
+
+<body>
+        <div id="content">
+
+
+<div class="single-container">
+    <div class="post-page">
+        <a href="http://localhost:1313/journey/sf2025/" id="nav-parent" class="link-style"> <span 
+     
+>
+    <svg width="18.167" height="30" xmlns="http://www.w3.org/2000/svg"><g color="#000"><path d="M46.411 51.77a4.868 4.868 0 0 0 0 6.9L67.11 79.369c1.911 1.91 4.988 1.91 6.9 0s1.91-4.989 0-6.9L56.76 55.22l17.25-17.249c1.91-1.911 1.91-4.988 0-6.9s-4.989-1.91-6.9 0z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/><path d="M70.561 28.982c-1.418 0-2.837.54-3.918 1.621l-20.699 20.7a5.541 5.541 0 0 0 0 7.833l20.699 20.7a5.541 5.541 0 0 0 7.834 0 5.541 5.541 0 0 0 0-7.835l-16.781-16.78 16.781-16.782a5.544 5.544 0 0 0 0-7.836 5.519 5.519 0 0 0-3.916-1.62zm0 1.313c1.076 0 2.152.414 2.982 1.244a4.194 4.194 0 0 1 0 5.964L55.826 55.22l17.717 17.717a4.192 4.192 0 0 1 0 5.963 4.194 4.194 0 0 1-5.964 0l-20.7-20.697a4.194 4.194 0 0 1 0-5.965l20.7-20.698a4.204 4.204 0 0 1 2.982-1.245z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/></g></svg>
+</span>
+ Back to San Francisco 2025 </a>
+        <div id="post-head">
+            <h1>Changelog</h1>
+            <h4>Site optimization and bugfixes</h4>
+
+            <div class="date">
+
+                <p>June 8, 2023</p>
+                <div class="tag-list">
+                    
+
+                    
+                    <span class="tag">web</span>
+                    
+                    <span class="tag">hugo</span>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1 id="improving-loading-time-with-hugo-image-processing">Improving loading time with Hugo image processing</h1>
+<p>I used Hugo&rsquo;s image processing features to have all the images on my website compressed. The basic shortcode I came up with finds any global asset (stored in <code>/assets</code> instead of <code>/static</code>) or an asset in a page bundle. If you want to use a page bundle resource, make sure to pass in the <code>$.page</code> variable</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="nx">$image</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="s">&#34;&#34;</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="na">$.page</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">{{-</span><span class="w"> </span><span class="nx">$image</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="na">$.page.Resources.GetMatch</span><span class="w"> </span><span class="na">$.src</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">{{-</span><span class="w"> </span><span class="nx">$image</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">resources</span><span class="na">.Get</span><span class="w"> </span><span class="na">$.src</span><span class="w"> </span><span class="cp">-}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="nx">$image</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">{{</span><span class="w"> </span><span class="nx">$image</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">$image</span><span class="na">.Resize</span><span class="w"> </span><span class="na">$.resize</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">img</span>
+</span></span><span class="line"><span class="cl">        <span class="cp">{{</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="na">$.class</span><span class="cp">}}</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;</span><span class="cp">{{</span><span class="w"> </span><span class="na">$.class</span><span class="w"> </span><span class="cp">}}</span><span class="s">&#34;</span> <span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}</span> 
+</span></span><span class="line"><span class="cl">        <span class="cp">{{</span><span class="w"> </span><span class="k">with</span><span class="w"> </span><span class="na">$.id</span><span class="w"> </span><span class="cp">}}</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;</span><span class="cp">{{</span><span class="w"> </span><span class="na">$.id</span><span class="w"> </span><span class="cp">}}</span><span class="s">&#34;</span> <span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">        <span class="na">title</span><span class="o">=</span><span class="s">&#34;</span><span class="cp">{{</span><span class="w"> </span><span class="nx">cond</span><span class="w"> </span><span class="o">(</span><span class="nx">isset</span><span class="w"> </span><span class="na">.Params</span><span class="w"> </span><span class="s">&#34;alt&#34;</span><span class="o">)</span><span class="w"> </span><span class="na">$.alt</span><span class="w"> </span><span class="na">$.caption</span><span class="cp">}}</span><span class="s">&#34;</span>
+</span></span><span class="line"><span class="cl">        <span class="na">src</span><span class="o">=</span><span class="s">&#34;</span><span class="cp">{{</span><span class="w"> </span><span class="nx">$image</span><span class="na">.RelPermalink</span><span class="w"> </span><span class="cp">}}</span><span class="s">&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="k">else</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span> image not found :(<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}</span>
+</span></span></code></pre></div><p>This example retrieves the global asset &ldquo;portrait2.png&rdquo; with the following directory structure.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">assets/images/
+</span></span><span class="line"><span class="cl">├── face.png
+</span></span><span class="line"><span class="cl">├── portrait2.png
+</span></span><span class="line"><span class="cl">└── portrait.png
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;imgc&#34;</span><span class="w"> </span><span class="o">(</span><span class="nx">dict</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;id&#34;</span><span class="w"> </span><span class="s">&#34;portrait&#34;</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;src&#34;</span><span class="w"> </span><span class="s">&#34;images/portrait2.png&#34;</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;resize&#34;</span><span class="w"> </span><span class="s">&#34;1000x webp photo q50&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">)</span><span class="cp">}}</span>
+</span></span></code></pre></div><p>This example retrieves an image <em>at the same level</em> as an <code>index.md</code> or <code>_index.md</code>.</p>
+<h1 id="fake-primary-keys-in-hugo">Fake &ldquo;Primary Keys&rdquo; in Hugo</h1>
+<figure  ><div class="image-container">
+            
+            
+            
+            
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/sf2025/changelog6-8-23/orderedlogs_hu_e94d2a6b57bf971e.webp"
+     class="batch-load" 
+    
+     alt="These logs have different IDs that are all over the place" 
+    loading="lazy" 
+
+    style="
+         
+        
+        
+    "
+    />
+
+
+
+        </div>
+        <figcaption>
+            These logs have different IDs that are all over the place
+        </figcaption>
+    
+</figure>
+
+<p>Hugo does not have any kind of ID system, which makes implementing the unordered &ldquo;log id&rdquo; feature on my journeys page unnecessarily difficult. If you were using a backend, it would be as simple as sending a query <code>SELECT * FROM Logs WHERE Project=&quot;&lt;project id&gt;&quot;</code> and iterating through the IDs of the results.</p>
+<p>I couldn&rsquo;t find a better solution than iterating through every page, assign it an index, and cross reference the logs to display with their id. The code in my partial ended up looking like this</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="nx">$indexed_logs</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="k">slice</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">range</span><span class="w"> </span><span class="nx">$index</span><span class="o">,</span><span class="w"> </span><span class="nx">$log</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="na">$.all_logs.ByDate</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="o">(</span><span class="nx">in</span><span class="w"> </span><span class="na">$.log_subset</span><span class="w"> </span><span class="nx">$log</span><span class="w"> </span><span class="o">)</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="cp">{{</span><span class="w"> </span><span class="nx">$indexed_logs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">append</span><span class="w"> </span><span class="nx">$indexed_logs</span><span class="w"> </span><span class="o">(</span><span class="k">slice</span><span class="w"> </span><span class="o">(</span><span class="nx">dict</span><span class="w"> </span><span class="s">&#34;log_number&#34;</span><span class="w"> </span><span class="nx">$index</span><span class="w"> </span><span class="s">&#34;log&#34;</span><span class="w"> </span><span class="nx">$log</span><span class="o">))</span><span class="w"> </span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">  <span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="w"> </span><span class="k">end</span><span class="w"> </span><span class="cp">}}</span>
+</span></span></code></pre></div><p><code>$.all_logs</code> is a variable passed into the shortcode for all the logs. While <code>$.log_subset</code> are the logs we are trying to display. This code essentially appends <code>{&quot;log number&quot;: &lt;index&gt;, &quot;log&quot;: &lt;Page&gt;}</code> to a list if <code>$log</code> is going to be displayed.</p>
+<h1 id="the-future">The Future</h1>
+<p>I&rsquo;m hoping to improve my SEO for my posts. I haven&rsquo;t added any meta tags to anything yet.</p>
+
+        </div>
+        <div class="next-prev">
+             
+
+            <div class="section-nav">
+                
+                    <a class="section-prev hover" href="http://localhost:1313/journey/sf2025/changelog4-8-23/">
+                        <span 
+     
+>
+    <svg width="18.167" height="30" xmlns="http://www.w3.org/2000/svg"><g color="#000"><path d="M46.411 51.77a4.868 4.868 0 0 0 0 6.9L67.11 79.369c1.911 1.91 4.988 1.91 6.9 0s1.91-4.989 0-6.9L56.76 55.22l17.25-17.249c1.91-1.911 1.91-4.988 0-6.9s-4.989-1.91-6.9 0z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/><path d="M70.561 28.982c-1.418 0-2.837.54-3.918 1.621l-20.699 20.7a5.541 5.541 0 0 0 0 7.833l20.699 20.7a5.541 5.541 0 0 0 7.834 0 5.541 5.541 0 0 0 0-7.835l-16.781-16.78 16.781-16.782a5.544 5.544 0 0 0 0-7.836 5.519 5.519 0 0 0-3.916-1.62zm0 1.313c1.076 0 2.152.414 2.982 1.244a4.194 4.194 0 0 1 0 5.964L55.826 55.22l17.717 17.717a4.192 4.192 0 0 1 0 5.963 4.194 4.194 0 0 1-5.964 0l-20.7-20.697a4.194 4.194 0 0 1 0-5.965l20.7-20.698a4.204 4.204 0 0 1 2.982-1.245z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/></g></svg>
+</span>
+
+                        <div>
+                            <p>San Francisco 2025 - Previous</p>
+                            <h3>Changelog</h3>
+                        </div>
+                    </a>
+                
+            </div>
+
+            <div class="section-nav">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        
+<footer>
+    <div id="love">
+        <p>
+        Made with love
+        </p>
+
+        <span 
+     class="star-icon"  
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 23.168 20.232" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-101.93 -34.643)">
+  <path d="m108.77 37.95c-2.7926-0.0069-3.6384 2.4755-3.5284 4.7815 1.4308 6.5185 8.2134 9.0305 8.2134 9.0305s6.6452-2.3888 8.214-9.0305c0.53071-2.2468-0.88642-4.781-3.679-4.7741-3.5787 0.0088-4.5347 3.8324-4.5347 3.8324s-1.1067-3.831-4.6853-3.8398z" fill="#ff0003" stroke="#000" stroke-linecap="round" stroke-miterlimit="0" stroke-width="6.6146" style="paint-order:markers stroke fill"/>
+ </g>
+</svg>
+
+</span>
+ 
+    </div>
+    
+</footer>
+
+    </body>
+</html>
