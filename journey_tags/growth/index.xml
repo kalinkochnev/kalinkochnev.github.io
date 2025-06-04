@@ -6,7 +6,7 @@
     <description>Recent content in Growth on Kalin Kochnev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kalinkochnev.com/journey_tags/growth/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>San Francisco 2025</title>
@@ -16,18 +16,18 @@
       <description>All about my summer in the bay area.</description>
     </item>
     <item>
+      <title>Day 3</title>
+      <link>https://kalinkochnev.com/journey/sf2025/day3/</link>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey/sf2025/day3/</guid>
+      <description>This place is the real deal</description>
+    </item>
+    <item>
       <title>Day 1 &amp; 2</title>
       <link>https://kalinkochnev.com/journey/sf2025/day12/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://kalinkochnev.com/journey/sf2025/day12/</guid>
       <description>Starting off with a bang</description>
-    </item>
-    <item>
-      <title>Day 3</title>
-      <link>https://kalinkochnev.com/journey/sf2025/day3/</link>
-      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://kalinkochnev.com/journey/sf2025/day3/</guid>
-      <description>This place is the real deal</description>
     </item>
   </channel>
 </rss>
