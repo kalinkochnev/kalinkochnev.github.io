@@ -54,11 +54,11 @@
   }
   */
 }
-#welcome-container #welcome {
-  width: 600px;
-}
 #welcome-container #welcome #contact a {
   margin-right: 15px;
+}
+#welcome-container #welcome {
+  width: 600px;
 }
 #welcome-container #welcome a, #welcome-container #welcome h3 {
   margin-top: 0px;
@@ -269,13 +269,6 @@
   width: 100%;
   box-sizing: border-box;
   padding: 12.5px;
-  width: 100%;
-  padding: 0px;
-  margin-bottom: 15px;
-  box-shadow: 0px 5px 0px 0px #855546;
-  padding: 10px;
-  border: 3.5px solid #855546;
-  border-radius: 10px;
 }
 .post-page #post-head .date {
   display: flex;
@@ -309,6 +302,15 @@
   font-weight: bold;
   line-height: 1.1;
   color: black;
+}
+.post-page #post-head {
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 15px;
+  box-shadow: 0px 5px 0px 0px #855546;
+  padding: 10px;
+  border: 3.5px solid #855546;
+  border-radius: 10px;
 }
 .post-page .post-img {
   display: flex;
@@ -425,10 +427,6 @@
   width: 100%;
   box-sizing: border-box;
   padding: 12.5px;
-  padding: 15px;
-  margin: 0px;
-  margin-bottom: 10px;
-  height: fit-content;
 }
 .project-card .date {
   display: flex;
@@ -462,6 +460,12 @@
   font-weight: bold;
   line-height: 1.1;
   color: black;
+}
+.project-card {
+  padding: 15px;
+  margin: 0px;
+  margin-bottom: 10px;
+  height: fit-content;
 }
 .project-card .left {
   padding-right: 10px;
@@ -724,13 +728,15 @@
   }
   #log-container .log {
     padding: 5px;
-    margin-bottom: 5px;
   }
   #log-container .log .info-container h3 {
     margin-bottom: 2.5px;
   }
   #log-container .log .info-container .date-info {
     margin-top: 2.5px;
+  }
+  #log-container .log {
+    margin-bottom: 5px;
   }
 }
 .splide__pagination--ltr {
@@ -1498,7 +1504,6 @@ header {
   align-items: stretch;
   flex-wrap: nowrap;
   position: relative;
-  /* Fade in the dropdown menu on hover */
 }
 .dropdown .dropbtn {
   display: flex;
@@ -1523,6 +1528,9 @@ header {
   font-weight: 600;
   color: white;
   transition: all 0.4s;
+}
+.dropdown {
+  /* Fade in the dropdown menu on hover */
 }
 .dropdown:hover .dropdown-content {
   display: flex;
@@ -1735,11 +1743,6 @@ a {
     background-color: #c3ac95;
   }
 }
-.image-container {
-  background-color: #c3ac95;
-  border-radius: 8px;
-  animation: fadeIn 1s infinite alternate;
-}
 .image-container > * {
   background-color: transparent;
   opacity: 0;
@@ -1753,6 +1756,11 @@ a {
   opacity: 0;
   border-radius: 8px;
   box-sizing: border-box;
+}
+.image-container {
+  background-color: #c3ac95;
+  border-radius: 8px;
+  animation: fadeIn 1s infinite alternate;
 }
 
 .tag {
