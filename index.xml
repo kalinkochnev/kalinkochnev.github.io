@@ -6,8 +6,15 @@
     <description>Recent content on Kalin Kochnev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kalinkochnev.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume Redirect</title>
+      <link>https://kalinkochnev.com/resume/</link>
+      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/resume/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Day 11</title>
       <link>https://kalinkochnev.com/journey/sf2025/day11/</link>
@@ -280,13 +287,6 @@
       <pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://kalinkochnev.com/blog/worryaboutnow/</guid>
       <description>Sometimes it feels like all we do is fail at the things we are passionate about</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://kalinkochnev.com/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kalinkochnev.com/resume/</guid>
-      <description>&lt;p&gt;If you didn&amp;rsquo;t get redirected, &lt;a href=&#34;https://typst.app/project/rAIHX9nbpYS7zhQcUZb3iq&#34;&gt;click here&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;&lt;meta http-equiv=&#34;Refresh&#34; content=&#34;0; url=&#39;https://typst.app/project/rAIHX9nbpYS7zhQcUZb3iq&#34; /&gt;</description>
     </item>
   </channel>
 </rss>
