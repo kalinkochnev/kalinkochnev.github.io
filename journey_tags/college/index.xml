@@ -6,8 +6,22 @@
     <description>Recent content in College on Kalin Kochnev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 16 May 2024 10:52:54 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kalinkochnev.com/journey_tags/college/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cooperative Robotics</title>
+      <link>https://kalinkochnev.com/journey/cooprobotics/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey/cooprobotics/</guid>
+      <description>Investigating motion planning techniques for robots that work together</description>
+    </item>
+    <item>
+      <title>Undergraduate Research</title>
+      <link>https://kalinkochnev.com/journey/fluentlab/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey/fluentlab/</guid>
+      <description>Researched Lyapunov stability analysis for time-dependent dynamical systems. Accepted to ACC 2026 and as my honors thesis</description>
+    </item>
     <item>
       <title>Rembrot</title>
       <link>https://kalinkochnev.com/journey/robotarm/</link>

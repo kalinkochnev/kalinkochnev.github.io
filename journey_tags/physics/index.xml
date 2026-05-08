@@ -6,13 +6,34 @@
     <description>Recent content in Physics on Kalin Kochnev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kalinkochnev.com/journey_tags/physics/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Undergraduate Research</title>
+      <link>https://kalinkochnev.com/journey/fluentlab/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey/fluentlab/</guid>
+      <description>Researched Lyapunov stability analysis for time-dependent dynamical systems. Accepted to ACC 2026 and as my honors thesis</description>
+    </item>
+    <item>
+      <title>Bike Simulation</title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log6/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log6/</guid>
+      <description>Software side quest!</description>
+    </item>
+    <item>
+      <title>Alpha Version Done!</title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log5/</link>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log5/</guid>
+      <description>One semester&amp;rsquo;s worth of progress!</description>
+    </item>
+    <item>
       <title>Physics and controls research</title>
-      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate1/</link>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log1/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate1/</guid>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log1/</guid>
       <description>Attempting to find a handhold to latch on</description>
     </item>
     <item>

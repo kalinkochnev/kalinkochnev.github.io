@@ -1234,6 +1234,17 @@
 .content iframe:first-child {
   margin-top: 0px;
 }
+.content table {
+  border-collapse: collapse;
+}
+.content table td:last-child {
+  border-right: none;
+}
+.content td {
+  border-top: 1.5px solid black;
+  border-right: 1.5px solid black;
+  padding: 8px 16px;
+}
 .content .image-container {
   display: flex;
   flex-direction: column;

@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<link rel="stylesheet" href="/scss/main.css" />
+
+
+<script src="/js/batch-load.js"></script>
+
+
+<script src="/js/responsive-navbar.js"></script>
+<noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ]
+        });
+    });
+</script>
+ 
+
+<head>
+ <title>Kalin Kochnev</title>
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<header>
+  <nav class="navbar" id="navbar" role="navigation">
+    <div id="left">
+
+        <a id="face-icon" href="/">
+          
+
+
+
+
+    
+        
+    
+    <img
+    src="/images/face_hu_d2a978bcf329ecb9.webp"
+    
+    
+    
+	
+    loading="lazy" 
+
+    style="
+         
+        
+        
+        
+    "
+    />
+
+
+
+        </a>
+
+        <div id="name">
+          
+          <a href="/">kalin kochnev</a>
+          
+        </div>
+
+      <a id="hamburger" href="javascript:void(0);" onclick="triggerHamburger()">
+        <span 
+     
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 7.9375 6.0704" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-49.416 -74.36)" stroke-linecap="round" stroke-width="1.3229">
+  <rect x="49.416" y="74.36" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="76.604" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="78.848" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+ </g>
+</svg>
+
+</span>
+
+      </a>
+    </div>
+    <div id="right">
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/journey">
+          journeys
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/blog">
+          blog
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn"
+          href="/resume.pdf">resume</a>
+      </div>
+    </div>
+
+  </nav>
+</header>
+
+<body>
+        <div id="content">
+
+
+<div class="single-container">
+    <div class="post-page">
+        <a href="https://kalinkochnev.com/journey/stabilizingbike/" id="nav-parent" class="link-style"> <span 
+     
+>
+    <svg width="18.167" height="30" xmlns="http://www.w3.org/2000/svg"><g color="#000"><path d="M46.411 51.77a4.868 4.868 0 0 0 0 6.9L67.11 79.369c1.911 1.91 4.988 1.91 6.9 0s1.91-4.989 0-6.9L56.76 55.22l17.25-17.249c1.91-1.911 1.91-4.988 0-6.9s-4.989-1.91-6.9 0z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/><path d="M70.561 28.982c-1.418 0-2.837.54-3.918 1.621l-20.699 20.7a5.541 5.541 0 0 0 0 7.833l20.699 20.7a5.541 5.541 0 0 0 7.834 0 5.541 5.541 0 0 0 0-7.835l-16.781-16.78 16.781-16.782a5.544 5.544 0 0 0 0-7.836 5.519 5.519 0 0 0-3.916-1.62zm0 1.313c1.076 0 2.152.414 2.982 1.244a4.194 4.194 0 0 1 0 5.964L55.826 55.22l17.717 17.717a4.192 4.192 0 0 1 0 5.963 4.194 4.194 0 0 1-5.964 0l-20.7-20.697a4.194 4.194 0 0 1 0-5.965l20.7-20.698a4.204 4.204 0 0 1 2.982-1.245z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/></g></svg>
+</span>
+ Back to Autocycle </a>
+        <div id="post-head">
+            <h1>Bike Simulation</h1>
+            <h4>Software side quest!</h4>
+
+            <div class="date">
+
+                <p>May 7, 2026</p>
+                <div class="tag-list">
+                    
+
+                    
+                    <span class="tag">gpu</span>
+                    
+                    <span class="tag">robotics</span>
+                    
+                    <span class="tag">rust</span>
+                    
+                    <span class="tag">physics</span>
+                    
+                    <span class="tag">controls</span>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/KGAwOYHzcjE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Hi! It&rsquo;s been awhile since I&rsquo;ve sent out any updates about the project. I haven&rsquo;t worked on it much since senior year of college since I got busy with my <a href="https://kalinkochnev.com/journey/fluentlab/">thesis</a> and <a href="https://kalinkochnev.com/journey/cooprobotics/">senior design</a>. But I&rsquo;m picking the project back up now that I&rsquo;m funemployed. I applied to exhibit at Open Sauce several months ago but I have yet to hear back. A few more days and hopefully I&rsquo;ll have a definitive answer. If they do come through, I&rsquo;m going to be on the hook for this project! And oh boy there&rsquo;s a lot to do.</p>
+<p>Since I was in San Francisco again for work I didn&rsquo;t have access to my bike&rsquo;s hardware. So I decided to do a little side quest and work on a simulation for my bike. At the moment it&rsquo;s more of a visualizer than a real physics simulation. There&rsquo;s no real physics yet. It&rsquo;s going to be one-trick pony because it&rsquo;ll only visualized the dynamics I code. There are likely going to be a lot of unmodeled dynamics.</p>
+<p>I made this so I could visualize the state variable of the differential equations and see if my control algorithms even work in theory. I don&rsquo;t have time for a full rigid body simulation. And I am tired of using ROS for everything. I may switch to Gazebo if I want more fidelity in the future.</p>
+<p>Stay tuned to see if this is a massive mistake!</p>
+<h1 id="the-simulation">The simulation</h1>
+<p>I programmed this simulation in Rust (no surprise). I used <a href="https://kiss3d.rs/"><code>kiss3D</code></a> which is this really wonderful 2D/3D graphics library for quick and dirty visualizations. It defines a lot of graphics primitives so you don&rsquo;t have to waste time doing it from scratch.</p>
+<p>I ended up using quaternions for the first time! I don&rsquo;t understand the full algebra and intuition behind them. But I found <a href="https://lisyarus.github.io/blog/posts/introduction-to-quaternions.html">this article</a> helpful to work through since its explanation is almost entirely self contained.</p>
+<p>The most important thing I needed to know was how to rotate about an arbitrary axis. Suppose you have an axis of rotation represented by the unit vector $(a_x, a_y, a_z)$. The quaternion representing a rotation of $\theta$ radians about that axis is represented by the collection $(x, y, z, w)$</p>
+<p>$$
+\begin{align*}
+w&amp;= \cos(θ / 2)  \\
+x&amp;= a_{x} \sin(θ / 2) \\
+y&amp;= a_{y} \sin(θ / 2) \\
+z&amp;= a_{z} \sin(θ / 2)
+\end{align*}
+$$</p>
+<h2 id="bike-kinematics">Bike kinematics</h2>
+<p>For a rotating rigid body, like a bicycle, it has an <em>instantaneous center of rotation</em> (abbreviated by ICC). Another way of putting it, this is the point whose instantaneous velocity is zero. The location of the ICC relative to the bicycle is determined by the turn radius. If the bike is heading in a straight line, the radius of rotation approaches $\infty$.</p>
+<p>The bike&rsquo;s rotation, assuming no slip, is defined by the values in the table. Note that $\delta$ completely defines the radius of the turn with a fixed bike length.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Parameter</th>
+          <th>Definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>$\delta$</td>
+          <td>The steering angle</td>
+      </tr>
+      <tr>
+          <td>$R$</td>
+          <td>The radius of the rotation about the ICC</td>
+      </tr>
+      <tr>
+          <td>$L$</td>
+          <td>The length of the bike</td>
+      </tr>
+      <tr>
+          <td>$V$</td>
+          <td>The forward velocity of the bike</td>
+      </tr>
+      <tr>
+          <td>$\omega$</td>
+          <td>The angular velocity of the bike about the ICC</td>
+      </tr>
+  </tbody>
+</table>
+<figure  ><div class="image-container">
+            
+            
+            
+            
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/stabilizingbike/logs/log6/kinematics1_hu_5ae99a60d171f440.webp"
+     class="batch-load" 
+    
+    
+	
+    loading="lazy" 
+
+    style="
+         
+        
+        
+        
+    "
+    />
+
+
+
+        </div>
+</figure>
+
+<p>This rotation about the ICC has two different interpretations. If viewed from the coordinate frame centered at the ICC, the bike&rsquo;s motion is a pure rotation. If the rotation is viewed from the bike&rsquo;s body frame, it appears as combination of an instantaneous forward translation and rotation about the bicycle frame.</p>
+<figure  ><div class="image-container">
+            
+            
+            
+            
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/stabilizingbike/logs/log6/kinematics2_hu_a2e7bec9f540d1c2.webp"
+     class="batch-load" 
+    
+    
+	
+    loading="lazy" 
+
+    style="
+         
+        
+        
+        
+    "
+    />
+
+
+
+        </div>
+</figure>
+
+<p>This is essentially all my simulation is doing right now. For a small timestep, I rotate the bicycle frame and shift it forward by a small step according to the angular/linear velocity.</p>
+<p>Here is the same explanation for rigid body transformations but in more mathematical terms. I apologize for all the vector symbols. Normally they&rsquo;d be removed but it might be confusing for someone unfamiliar with the notation. Here is a notation table to reference while reading (don&rsquo;t worry if you don&rsquo;t understand what it means yet).</p>
+<table>
+  <thead>
+      <tr>
+          <th>Variable</th>
+          <th>Definition</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>$H_1 ^0$</td>
+          <td>Homogeneous/matrix transformation for rotation/translation to go from frame 1 to frame 0</td>
+      </tr>
+      <tr>
+          <td>$R_1 ^0$</td>
+          <td>A rotation matrix that performs a rotation to orient frame 1 onto frame 0.</td>
+      </tr>
+      <tr>
+          <td>$\vec{p}$</td>
+          <td>An abstract point in space not viewed from any particular frame.</td>
+      </tr>
+      <tr>
+          <td>$\vec{p}^i$</td>
+          <td>The same point in space but viewed from frame $i$</td>
+      </tr>
+      <tr>
+          <td>$\vec{d}_1 ^0$</td>
+          <td>Vector from the origin of frame 0 to the origin of frame 1</td>
+      </tr>
+      <tr>
+          <td>$\vec{v}_1 ^0$</td>
+          <td>Linear velocity of the origin of frame 1 expressed in frame 0</td>
+      </tr>
+      <tr>
+          <td>$\vec{\omega}(t)$</td>
+          <td>The angular velocity of the bike frame with respect to the fixed ICC frame</td>
+      </tr>
+  </tbody>
+</table>
+<p>Let frame 0 be centered at the ICC and frame 1 centered at the bike&rsquo;s body. How a point $\vec{p}^1$ in the bike frame (1) appears in the ICC frame (0) is encoded by the transformation $H_1 ^0$. $H_1 ^0$ is the combined transformation from frame 1 to frame 0. This is called a homogeneous transformation. It combines both rotations and translations into a single matrix transform.</p>
+<p>$$
+\vec{p}^0 = H_1 ^0 \vec{p}^1 = R_1 ^0 \vec{p}^1 + \vec{d}_1 ^0
+$$</p>
+<p>Subsequently, $R_{1}^{0}$ is the relative rotation from frame $O_{1}x_{1}y_{1}z_{1}$ to frame $O_{0}x_{0}y_{0}z_{0}$. $R_1 ^0$ performs a change of basis on the vector.</p>
+<p>And $\vec{d_1^0}$ is the translation vector from the origin of frame $O_{0}x_{0}y_{0}z_{0}$ to the origin of $O_1 x_1 y_1 z_1$. $\vec{d}_1 ^0$ serves to shift the properly oriented vector so it points to the same point in space, but seen from a different perspective.</p>
+<figure  ><div class="image-container">
+            
+            
+            
+            
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/stabilizingbike/logs/log6/coordinate%20frames_hu_74cc566dd1be689b.webp"
+     class="batch-load" 
+    
+     alt="Geometric representation of $H_1 ^0$" 
+	
+    loading="lazy" 
+
+    style="
+         
+        
+        
+        
+    "
+    />
+
+
+
+        </div>
+        <figcaption>
+            Geometric representation of $H_1 ^0$
+        </figcaption>
+    
+</figure>
+
+<p>Lets take the time derivative of $\vec{p}^0=R_1 ^0 \vec{p}^1 + \vec{d}_1 ^0$. Use the product rule for the first term.</p>
+<p>$$
+\begin{align*}
+\frac{d}{dt} p^0 &amp;= \dot{R}_1 ^0 \vec{p}^1 + R_1 ^0 \dot{p}^1 + \dot{d}_1 ^0 \\
+&amp;=S(\vec{\omega}(t)) R_1 ^0 \vec{p}^1 + R_1 ^0 \cancel{\dot{p}^1} + \vec{v}_1 ^0
+\end{align*}
+$$
+$\dot{p}^1$ cancels because it is a fixed point relative to the bike frame. $\vec{v}_1 ^0$ is the linear velocity of the frame.</p>
+<p>If you take my word for it, the time derivative of a rotation matrix $R(t)$ about an axis by $\theta$ degrees is the same as multiplying it with a <a href="https://en.wikipedia.org/wiki/Skew-symmetric_matrix">skew-symmetric matrix</a> $S(\vec{\omega}(t))$ where $\omega(t)$ is the angular velocity of the rotating bike frame (same as axis of rotation).<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>$$
+\dot{R}(t) = S(\vec{\omega}(t)) R(t)
+$$</p>
+<p>This is not critical to understand if you want the gist. It so happens that skew symmetric matrices have the property that multiplication with the vector is the same as a cross product (in three dimensions).</p>
+<p>$$
+S(\vec{\omega}(t)) \vec{p}^1 = \vec{\omega}(t) \times \vec{p}^1
+$$</p>
+<p>The final result is:</p>
+<p>$$
+\begin{align*}
+\frac{d}{dt}\vec{p}^0 &amp;= \vec{\omega}(t) \times \vec{p}^0 + \vec{v}_1 ^0
+\end{align*}
+$$</p>
+<p>This indicates that the linear velocity of the point seen from the ICC frame depends on the angular velocity of the rotating bike frame plus the linear velocity the two frames have relative to each other.</p>
+<h2 id="the-code">The Code</h2>
+<p>There are a few essential parts of my code. There&rsquo;s the main loop which initializes <code>kiss3d</code> and the scene. It continuously calls a step function to update the state of the simulation:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="cl"><span class="cp">#[kiss3d::main]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">async</span><span class="w"> </span><span class="k">fn</span> <span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">window</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Window</span>::<span class="n">new</span><span class="p">(</span><span class="s">&#34;Kiss3d: custom_mesh_shared&#34;</span><span class="p">).</span><span class="k">await</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">camera</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">FirstPersonCamera3d</span>::<span class="n">new</span><span class="p">(</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Vec3</span>::<span class="n">new</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span><span class="w"> </span><span class="mf">5.0</span><span class="p">),</span><span class="w"> </span><span class="c1">// Eye position
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">Vec3</span>::<span class="no">ZERO</span><span class="p">,</span><span class="w">               </span><span class="c1">// Looking at origin
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// ROS REP-103 says forward is x, left is y, up is z
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">camera</span><span class="p">.</span><span class="n">set_up_axis_dir</span><span class="p">(</span><span class="n">Vec3</span>::<span class="n">new</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">scene</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">SceneNode3d</span>::<span class="n">empty</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">scene</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">.</span><span class="n">add_light</span><span class="p">(</span><span class="n">Light</span>::<span class="n">point</span><span class="p">(</span><span class="mf">100.0</span><span class="p">))</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">.</span><span class="n">set_position</span><span class="p">(</span><span class="n">Vec3</span>::<span class="n">new</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span><span class="w"> </span><span class="mf">10.0</span><span class="p">,</span><span class="w"> </span><span class="mf">10.0</span><span class="p">));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">circle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Rc</span>::<span class="n">new</span><span class="p">(</span><span class="n">RefCell</span>::<span class="n">new</span><span class="p">(</span><span class="n">create_circle_mesh</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span><span class="w"> </span><span class="mi">150</span><span class="p">)));</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">MeshManager3d</span>::<span class="n">get_global_manager</span><span class="p">(</span><span class="o">|</span><span class="n">mm</span><span class="o">|</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">mm</span><span class="p">.</span><span class="n">add</span><span class="p">(</span><span class="n">circle</span><span class="p">.</span><span class="n">clone</span><span class="p">(),</span><span class="w"> </span><span class="s">&#34;circle_mesh&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">});</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">sim</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">BikeSim</span>::<span class="n">new</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">scene</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="fm">println!</span><span class="p">(</span><span class="s">&#34;Init sim!&#34;</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Measure time since last loop and use that to
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">del_t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Duration</span>::<span class="n">from_secs</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">loop</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="n">t0</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Timestamp</span>::<span class="n">now</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">sim</span><span class="p">.</span><span class="n">step</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">window</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">del_t</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">window</span><span class="p">.</span><span class="n">render_3d</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">scene</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">camera</span><span class="p">).</span><span class="k">await</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kd">let</span><span class="w"> </span><span class="n">t1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Timestamp</span>::<span class="n">now</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">del_t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">t1</span><span class="p">.</span><span class="n">duration_since</span><span class="p">(</span><span class="n">t0</span><span class="p">).</span><span class="n">unwrap</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="fm">println!</span><span class="p">(</span><span class="s">&#34;del t=</span><span class="si">{}</span><span class="s">&#34;</span><span class="p">,</span><span class="w"> </span><span class="n">del_t</span><span class="p">.</span><span class="n">as_secs_f64</span><span class="p">());</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>I make the distinction between two different types of information. The &ldquo;state vector&rdquo; of the bike which changes over time based on the kinematics and dynamics. And then fixed parameters of the bike, like its dimensions. The <code>self.state.step()</code> updates the state vector of the bike using the rotation about an instantaneous center equations.</p>
+<p>The coordinate frames are then defined by the values within the state vector. Instead of directly transforming the coordinate frames when updating the simulation, I update the main angles of the bike (steering, roll, and yaw) and the <code>BikeSim::bike_frames()</code> function uses these angles to define the coordinate frames in 3D space.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="cl"><span class="k">pub</span><span class="w"> </span><span class="k">fn</span> <span class="nf">step</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="bp">self</span><span class="p">,</span><span class="w"> </span><span class="n">window</span>: <span class="kp">&amp;</span><span class="nc">mut</span><span class="w"> </span><span class="n">Window</span><span class="p">,</span><span class="w"> </span><span class="n">del_t</span>: <span class="kp">&amp;</span><span class="nc">Duration</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">//println!(&#34;{:?}&#34;, self.state);
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Do math to update bike state
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="bp">self</span><span class="p">.</span><span class="n">state</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">.</span><span class="n">step</span><span class="p">(</span><span class="n">del_t</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">frame_registry</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="bp">self</span><span class="p">.</span><span class="n">params</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Increment time
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="bp">self</span><span class="p">.</span><span class="n">state</span><span class="p">.</span><span class="n">t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Timestamp</span>::<span class="n">now</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Update all the frames now that bike state has changed
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="n">f</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">BikeSim</span>::<span class="n">bike_frames</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">.</span><span class="n">params</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="bp">self</span><span class="p">.</span><span class="n">state</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="bp">self</span><span class="p">.</span><span class="n">frame_registry</span><span class="p">.</span><span class="n">add_transform</span><span class="p">(</span><span class="n">f</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Draw the bike onscreen using kiss3D
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="bp">self</span><span class="p">.</span><span class="n">viz</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">.</span><span class="n">draw_bike</span><span class="p">(</span><span class="n">window</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">frame_registry</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="bp">self</span><span class="p">.</span><span class="n">state</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>To see what I mean, here is an example coordinate frame definition using the <code>transforms</code> crate.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="cl"><span class="k">fn</span> <span class="nf">bike_frames</span><span class="p">(</span><span class="n">params</span>: <span class="kp">&amp;</span><span class="nc">BikeParams</span><span class="p">,</span><span class="w"> </span><span class="n">state</span>: <span class="kp">&amp;</span><span class="nc">BikeState</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="p">[</span><span class="n">Transform</span><span class="o">&lt;</span><span class="n">Timestamp</span><span class="o">&gt;</span><span class="p">;</span><span class="w"> </span><span class="mi">9</span><span class="p">]</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">bike_roll</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Quaternion</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">// rotation along x axis
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">w</span>: <span class="kt">f64</span>::<span class="n">cos</span><span class="p">(</span><span class="n">state</span><span class="p">.</span><span class="n">bike_roll</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="k">f64</span><span class="p">),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">x</span>: <span class="kt">f64</span>::<span class="n">sin</span><span class="p">(</span><span class="n">state</span><span class="p">.</span><span class="n">bike_roll</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="k">f64</span><span class="p">),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">y</span>: <span class="mf">0.0</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">z</span>: <span class="mf">0.0</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">bike_yaw</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Quaternion</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">// rotation along z axis
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">w</span>: <span class="kt">f64</span>::<span class="n">cos</span><span class="p">(</span><span class="n">state</span><span class="p">.</span><span class="n">bike_yaw</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="k">f64</span><span class="p">),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">x</span>: <span class="mf">0.0</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">y</span>: <span class="mf">0.0</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">z</span>: <span class="kt">f64</span>::<span class="n">sin</span><span class="p">(</span><span class="n">state</span><span class="p">.</span><span class="n">bike_yaw</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="k">f64</span><span class="p">),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">bike_frame</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Transform</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">translation</span>: <span class="nc">Vector3</span>::<span class="n">new</span><span class="p">(</span><span class="n">state</span><span class="p">.</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">state</span><span class="p">.</span><span class="n">y</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0</span><span class="p">),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">rotation</span>: <span class="p">(</span><span class="n">bike_roll</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">bike_yaw</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="p">.</span><span class="n">normalize</span><span class="p">()</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="p">.</span><span class="n">expect</span><span class="p">(</span><span class="s">&#34;Failed to normalize bike frame rotations&#34;</span><span class="p">),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">timestamp</span>: <span class="nc">state</span><span class="p">.</span><span class="n">t</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">parent</span>: <span class="s">&#34;world&#34;</span><span class="p">.</span><span class="n">into</span><span class="p">(),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">child</span>: <span class="s">&#34;bike_frame&#34;</span><span class="p">.</span><span class="n">into</span><span class="p">(),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">bike_com</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Transform</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">translation</span>: <span class="nc">Vector3</span>::<span class="n">new</span><span class="p">(</span><span class="mf">2.0</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w"> </span><span class="mf">2.0</span><span class="p">),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">rotation</span>: <span class="nc">Quaternion</span>::<span class="n">identity</span><span class="p">(),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">timestamp</span>: <span class="nc">state</span><span class="p">.</span><span class="n">t</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">parent</span>: <span class="s">&#34;bike_frame&#34;</span><span class="p">.</span><span class="n">into</span><span class="p">(),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">child</span>: <span class="s">&#34;bike_com&#34;</span><span class="p">.</span><span class="n">into</span><span class="p">(),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// ... other code note shown
+</span></span></span><span class="line"><span class="cl"><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><p>If you&rsquo;re interested to see the full code, here&rsquo;s <a href="https://github.com/kalinkochnev/bike-sim/tree/43561c43d0ea9ea11a78560935493fdf93a3c8f8">a link</a> to the commit at the time of posting.</p>
+<h1 id="whats-next">What&rsquo;s next</h1>
+<p>Now that I&rsquo;m back home I&rsquo;ll be assembling the hardware for the stabilization. Once I get some basic integration tests done I&rsquo;ll return to sim, implement a physics model for the bike, and try a simple control loop.</p>
+<h1 id="ai-statement">AI Statement</h1>
+<p>AI was used to polish the writing and explanations as well as try and catch any mistakes ahead of time. If something is in need for correction, please <a href="mailto:blogcorrections.crib881@passmail.net">contact me</a></p>
+<p><strong>References</strong></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>M. W. Spong, S. Hutchinson, and M. Vidyasagar, Robot modeling and control, Second edition. Hoboken, NJ: John Wiley &amp; Sons, Inc, 2020.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+        </div>
+        <div class="next-prev">
+             
+
+            <div class="section-nav">
+                
+                    <a class="section-prev hover" href="https://kalinkochnev.com/journey/stabilizingbike/logs/log5/">
+                        <span 
+     
+>
+    <svg width="18.167" height="30" xmlns="http://www.w3.org/2000/svg"><g color="#000"><path d="M46.411 51.77a4.868 4.868 0 0 0 0 6.9L67.11 79.369c1.911 1.91 4.988 1.91 6.9 0s1.91-4.989 0-6.9L56.76 55.22l17.25-17.249c1.91-1.911 1.91-4.988 0-6.9s-4.989-1.91-6.9 0z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/><path d="M70.561 28.982c-1.418 0-2.837.54-3.918 1.621l-20.699 20.7a5.541 5.541 0 0 0 0 7.833l20.699 20.7a5.541 5.541 0 0 0 7.834 0 5.541 5.541 0 0 0 0-7.835l-16.781-16.78 16.781-16.782a5.544 5.544 0 0 0 0-7.836 5.519 5.519 0 0 0-3.916-1.62zm0 1.313c1.076 0 2.152.414 2.982 1.244a4.194 4.194 0 0 1 0 5.964L55.826 55.22l17.717 17.717a4.192 4.192 0 0 1 0 5.963 4.194 4.194 0 0 1-5.964 0l-20.7-20.697a4.194 4.194 0 0 1 0-5.965l20.7-20.698a4.204 4.204 0 0 1 2.982-1.245z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/></g></svg>
+</span>
+
+                        <div>
+                            <p>Autocycle - Previous</p>
+                            <h3>Alpha Version Done!</h3>
+                        </div>
+                    </a>
+                
+            </div>
+
+            <div class="section-nav">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        
+<footer>
+    <div id="love">
+        <p>
+        Made with love
+        </p>
+
+        <span 
+     class="star-icon"  
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 23.168 20.232" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-101.93 -34.643)">
+  <path d="m108.77 37.95c-2.7926-0.0069-3.6384 2.4755-3.5284 4.7815 1.4308 6.5185 8.2134 9.0305 8.2134 9.0305s6.6452-2.3888 8.214-9.0305c0.53071-2.2468-0.88642-4.781-3.679-4.7741-3.5787 0.0088-4.5347 3.8324-4.5347 3.8324s-1.1067-3.831-4.6853-3.8398z" fill="#ff0003" stroke="#000" stroke-linecap="round" stroke-miterlimit="0" stroke-width="6.6146" style="paint-order:markers stroke fill"/>
+ </g>
+</svg>
+
+</span>
+ 
+    </div>
+    
+</footer>
+
+    </body>
+</html>

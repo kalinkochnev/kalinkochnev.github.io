@@ -6,8 +6,15 @@
     <description>Recent content on Kalin Kochnev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kalinkochnev.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bike Simulation</title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log6/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log6/</guid>
+      <description>Software side quest!</description>
+    </item>
     <item>
       <title>The unreasonable effectiveness of want</title>
       <link>https://kalinkochnev.com/blog/truewants/</link>
@@ -72,10 +79,17 @@
       <description>Greatness cannot be sustained.</description>
     </item>
     <item>
-      <title>Phase 1 Week 1</title>
-      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate3/</link>
+      <title>Alpha Version Done!</title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log5/</link>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log5/</guid>
+      <description>One semester&amp;rsquo;s worth of progress!</description>
+    </item>
+    <item>
+      <title>Alpha Version Plan </title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log4/</link>
       <pubDate>Sun, 13 Oct 2024 17:55:52 -0400</pubDate>
-      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate3/</guid>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log4/</guid>
       <description>Initializing plan&amp;hellip; begin execution</description>
     </item>
     <item>
@@ -115,9 +129,9 @@
     </item>
     <item>
       <title>Inverted pendulum construction</title>
-      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate2/</link>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log3/</link>
       <pubDate>Wed, 14 Jun 2023 15:14:03 -0400</pubDate>
-      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate2/</guid>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log3/</guid>
       <description>It&amp;rsquo;s mostly ready to wire up!</description>
     </item>
     <item>
@@ -129,16 +143,16 @@
     </item>
     <item>
       <title>Physics and controls research</title>
-      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate1/</link>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log1/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate1/</guid>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log1/</guid>
       <description>Attempting to find a handhold to latch on</description>
     </item>
     <item>
       <title>Literature review</title>
-      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate0/</link>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log0/</link>
       <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate0/</guid>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log0/</guid>
       <description>Is a self driving bicycle even possible?</description>
     </item>
     <item>

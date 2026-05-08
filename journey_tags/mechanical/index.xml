@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 13 Oct 2024 17:55:52 -0400</lastBuildDate>
     <atom:link href="https://kalinkochnev.com/journey_tags/mechanical/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Phase 1 Week 1</title>
-      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate3/</link>
+      <title>Alpha Version Plan </title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log4/</link>
       <pubDate>Sun, 13 Oct 2024 17:55:52 -0400</pubDate>
-      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate3/</guid>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log4/</guid>
       <description>Initializing plan&amp;hellip; begin execution</description>
     </item>
     <item>
@@ -45,9 +45,9 @@
     </item>
     <item>
       <title>Inverted pendulum construction</title>
-      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate2/</link>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log3/</link>
       <pubDate>Wed, 14 Jun 2023 15:14:03 -0400</pubDate>
-      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate2/</guid>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log3/</guid>
       <description>It&amp;rsquo;s mostly ready to wire up!</description>
     </item>
   </channel>

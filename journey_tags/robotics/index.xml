@@ -6,10 +6,17 @@
     <description>Recent content in Robotics on Kalin Kochnev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Oct 2024 17:55:52 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kalinkochnev.com/journey_tags/robotics/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SLAM Bike</title>
+      <title>Cooperative Robotics</title>
+      <link>https://kalinkochnev.com/journey/cooprobotics/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey/cooprobotics/</guid>
+      <description>Investigating motion planning techniques for robots that work together</description>
+    </item>
+    <item>
+      <title>Autocycle</title>
       <link>https://kalinkochnev.com/journey/stabilizingbike/</link>
       <pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://kalinkochnev.com/journey/stabilizingbike/</guid>
@@ -23,10 +30,24 @@
       <description>A hybrid quadruped/tank rover for extreme lunar terrain. Finalists at the 2022 NASA Big Idea Challenge</description>
     </item>
     <item>
-      <title>Phase 1 Week 1</title>
-      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate3/</link>
+      <title>Bike Simulation</title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log6/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log6/</guid>
+      <description>Software side quest!</description>
+    </item>
+    <item>
+      <title>Alpha Version Done!</title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log5/</link>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log5/</guid>
+      <description>One semester&amp;rsquo;s worth of progress!</description>
+    </item>
+    <item>
+      <title>Alpha Version Plan </title>
+      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log4/</link>
       <pubDate>Sun, 13 Oct 2024 17:55:52 -0400</pubDate>
-      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/weeklyupdate3/</guid>
+      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log4/</guid>
       <description>Initializing plan&amp;hellip; begin execution</description>
     </item>
     <item>

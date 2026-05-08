@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<link rel="stylesheet" href="/scss/main.css" />
+
+
+<script src="/js/batch-load.js"></script>
+
+
+<script src="/js/responsive-navbar.js"></script>
+<noscript>
+    <style>
+        .image-container {
+            opacity: 1 !important;
+        }
+    </style>
+</noscript>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ]
+        });
+    });
+</script>
+ 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elms = document.getElementsByClassName('splide');
+        for (var i = 0; i < elms.length; i++) {
+            console.log("elms " + elms.length);
+            let settings = { type: 'loop', autoplay: false, arrows: false, clones: 0, lazyLoad: true,};
+            
+            new Splide(elms[i], settings).mount();
+        }
+    });
+</script>
+ 
+<head>
+ <title>Kalin Kochnev</title>
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<header>
+  <nav class="navbar" id="navbar" role="navigation">
+    <div id="left">
+
+        <a id="face-icon" href="/">
+          
+
+
+
+
+    
+        
+    
+    <img
+    src="/images/face_hu_d2a978bcf329ecb9.webp"
+    
+    
+    
+	
+    loading="lazy" 
+
+    style="
+         
+        
+        
+        
+    "
+    />
+
+
+
+        </a>
+
+        <div id="name">
+          
+          <a href="/">kalin kochnev</a>
+          
+        </div>
+
+      <a id="hamburger" href="javascript:void(0);" onclick="triggerHamburger()">
+        <span 
+     
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 7.9375 6.0704" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-49.416 -74.36)" stroke-linecap="round" stroke-width="1.3229">
+  <rect x="49.416" y="74.36" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="76.604" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+  <rect x="49.416" y="78.848" width="7.9375" height="1.5817" rx=".79375" ry=".79375"/>
+ </g>
+</svg>
+
+</span>
+
+      </a>
+    </div>
+    <div id="right">
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/journey">
+          journeys
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn" href="/blog">
+          blog
+        </a>
+      </div>
+
+      <div class="dropdown">
+        <a class="dropbtn"
+          href="/resume.pdf">resume</a>
+      </div>
+    </div>
+
+  </nav>
+</header>
+
+<body>
+        <div id="content">
+
+
+<div class="single-container">
+    <div class="post-page">
+        <a href="https://kalinkochnev.com/journey/stabilizingbike/" id="nav-parent" class="link-style"> <span 
+     
+>
+    <svg width="18.167" height="30" xmlns="http://www.w3.org/2000/svg"><g color="#000"><path d="M46.411 51.77a4.868 4.868 0 0 0 0 6.9L67.11 79.369c1.911 1.91 4.988 1.91 6.9 0s1.91-4.989 0-6.9L56.76 55.22l17.25-17.249c1.91-1.911 1.91-4.988 0-6.9s-4.989-1.91-6.9 0z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/><path d="M70.561 28.982c-1.418 0-2.837.54-3.918 1.621l-20.699 20.7a5.541 5.541 0 0 0 0 7.833l20.699 20.7a5.541 5.541 0 0 0 7.834 0 5.541 5.541 0 0 0 0-7.835l-16.781-16.78 16.781-16.782a5.544 5.544 0 0 0 0-7.836 5.519 5.519 0 0 0-3.916-1.62zm0 1.313c1.076 0 2.152.414 2.982 1.244a4.194 4.194 0 0 1 0 5.964L55.826 55.22l17.717 17.717a4.192 4.192 0 0 1 0 5.963 4.194 4.194 0 0 1-5.964 0l-20.7-20.697a4.194 4.194 0 0 1 0-5.965l20.7-20.698a4.204 4.204 0 0 1 2.982-1.245z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/></g></svg>
+</span>
+ Back to Autocycle </a>
+        <div id="post-head">
+            <h1>Alpha Version Done!</h1>
+            <h4>One semester&rsquo;s worth of progress!</h4>
+
+            <div class="date">
+
+                <p>November 27, 2024</p>
+                <div class="tag-list">
+                    
+
+                    
+                    <span class="tag">robotics</span>
+                    
+                    <span class="tag">rust</span>
+                    
+                    <span class="tag">embedded</span>
+                    
+                    <span class="tag">physics</span>
+                    
+                    <span class="tag">controls</span>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>My professors were kind enough to let me work on my bicycle project as a part of my final project for two different classes: ECE 3162 Robot Motion Planning and ECE3411 Microprocessor Applications. It was an extremely busy time of year to say the least. The main priority for my bike project was to get a semi-functioning version of the electric bike controllable.</p>
+<section class="splide" aria-label="">
+  <div class="splide__track">
+    <ul class="splide__list">
+      
+<li class="splide__slide">
+   <figure  ><div class="image-container">
+             
+             
+             
+             
+ 
+ 
+ 
+ 
+     
+         
+     
+     <img
+     src="/journey/stabilizingbike/logs/log5/design_hu_4f0ce57d3e638b2f.webp"
+      class="batch-load" 
+     
+      alt="A labeled diagram of components on the bicycle" 
+ 	
+     loading="lazy" 
+ 
+     style="
+          
+          height: 420px; 
+         
+         
+     "
+     />
+ 
+ 
+ 
+         </div>
+         <figcaption>
+             A labeled diagram of components on the bicycle
+         </figcaption>
+     
+ </figure>
+ 
+</li>
+
+<li class="splide__slide">
+   <figure  ><div class="image-container">
+             
+             
+             
+             
+ 
+ 
+ 
+ 
+     
+         
+     
+     <img
+     src="/journey/stabilizingbike/logs/log5/architecture_hu_397e304eb3ce9107.webp"
+      class="batch-load" 
+     
+      alt="Block diagram of the system modules" 
+ 	
+     loading="lazy" 
+ 
+     style="
+          
+          height: 420px; 
+         
+         
+     "
+     />
+ 
+ 
+ 
+         </div>
+         <figcaption>
+             Block diagram of the system modules
+         </figcaption>
+     
+ </figure>
+ 
+</li>
+
+
+<li class="splide__slide">
+   <figure  ><div class="image-container">
+             
+             
+             
+             
+ 
+ 
+ 
+ 
+     
+         
+     
+     <img
+     src="/journey/stabilizingbike/logs/log5/timeline_hu_75513f950c786eb6.webp"
+      class="batch-load" 
+     
+      alt="Approximate timeline for version alpha" 
+ 	
+     loading="lazy" 
+ 
+     style="
+          
+          height: 420px; 
+         
+         
+     "
+     />
+ 
+ 
+ 
+         </div>
+         <figcaption>
+             Approximate timeline for version alpha
+         </figcaption>
+     
+ </figure>
+ 
+</li>
+
+
+<li class="splide__slide">
+   <figure  ><div class="image-container">
+             
+             
+             
+             
+ 
+ 
+ 
+ 
+     
+         
+     
+     <img
+     src="/journey/stabilizingbike/logs/log5/expidentures_hu_86f6b19e759facdd.webp"
+      class="batch-load" 
+     
+      alt="Cost for version alpha prototype" 
+ 	
+     loading="lazy" 
+ 
+     style="
+          
+          height: 420px; 
+         
+         
+     "
+     />
+ 
+ 
+ 
+         </div>
+         <figcaption>
+             Cost for version alpha prototype
+         </figcaption>
+     
+ </figure>
+ 
+</li>
+
+
+    </ul>
+  </div>
+</section>
+
+<h1 id="video-demo">Video Demo</h1>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/maflwlFvROg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<h1 id="challenges">Challenges</h1>
+<p>There were several challenges with this prototype:</p>
+<ol>
+<li>Bike electrification</li>
+<li>Corrosion</li>
+<li>Power distribution</li>
+<li>Bike stabilization</li>
+<li>Steering</li>
+<li>Reverse engineering e-bike motor</li>
+</ol>
+<h2 id="bike-electrification-and-corrosion">Bike electrification and Corrosion</h2>
+<p>There were much easier avenues to acquire an electrified bicycle. I made this part of the project needlessly difficult because I happend to like the aesthetics of vintage bicycles. I wanted to make something beautiful (it remains to be seen if it&rsquo;s beautiful yet). But it&rsquo;s at least unique. There probably aren&rsquo;t many electrified road bikes, probably because every person on the internet says it&rsquo;s a stupid idea. I expected my bike to instantly disassemble itself like those old slapstick movie cars when I rode it for the first time. I guess that&rsquo;s why you shouldn&rsquo;t always listen to people on the internet.</p>
+<p>They do have a point though. This thing is a death trap on wheels. This thing accelerates way too fast. Low mass and high torque. One small crack in the road and I&rsquo;m street pizza. I&rsquo;m sure that this bike could go 60km/hr if it weren&rsquo;t limited in software. I&rsquo;ve artificially limited the speed profile as much as possible because I&rsquo;m a scaredy cat.</p>
+<p>I researched a lot of different methods to electrify the bike. The two main ones are either hub motors (integrated into the back wheel) or mid drive motors which replaces your bottom bracket.</p>
+<section class="splide" aria-label="">
+  <div class="splide__track">
+    <ul class="splide__list">
+      
+<li class="splide__slide">
+   <figure  ><div class="image-container">
+             
+             
+             
+             
+ 
+ 
+ 
+ 
+     
+         
+     
+     <img
+     src="/journey/stabilizingbike/logs/log5/parktool_hu_43efc85dd081bd10.webp"
+      class="batch-load" 
+     
+      alt="Bottom bracket image credit [Parktool](https://www.parktool.com/en-us/blog/repair-help/bottom-bracket-removal-installation-threaded)" 
+ 	
+     loading="lazy" 
+ 
+     style="
+          
+         
+         
+         
+     "
+     />
+ 
+ 
+ 
+         </div>
+         <figcaption>
+             Bottom bracket image credit <a href="https://www.parktool.com/en-us/blog/repair-help/bottom-bracket-removal-installation-threaded">Parktool</a>
+         </figcaption>
+     
+ </figure>
+ 
+</li>
+
+
+    </ul>
+  </div>
+</section>
+
+<p>For a roadbike, I&rsquo;m relatively certain the only electrification method that can work is the mid-drive motor, especially if it&rsquo;s vintage. Most hub motors assume mountain bike dimensions made in the last 1-2 decades. The vintage road bike did not have enough <a href="https://www.sheldonbrown.com/gloss_sp-ss.html">dropout spacing</a> to fit a hub motor. There is an option to &ldquo;cold set&rdquo; (aka bend) the dropout spacing to fit a large rear wheel. I didn&rsquo;t trust myself to do this and any local bike shop refused to touch this project with a 20 foot pole. That is a common theme throughout this process. If you are doing some jank mods to your bike, say electrifying a bike not meant to be electrified, shops will refuse to service your bike for liability reasons.</p>
+<p>It so happens that the bottom bracket was the only part of the bike that is consistent across several decades and types of bikes. I purchased the <a href="https://a.co/d/00MNGt7Q">BAFANG 48V 500W Mid Drive Motor Kit</a> and it worked like a charm. By the way, <a href="https://www.sheldonbrown.com/glossary.html">Sheldon Brown&rsquo;s Bicycle Glossary</a> is very valuable to understand bike nomenclature and common sizes in case someone else wants to attempt this.</p>
+<p>Actually removing the bottom bracket after 30 years of corrosion and cruft was most likely the most difficult part. A special thanks to Anthony from the UConn machine shop with the invaluable help getting this thing unstuck. We had to try like 4 different ways to get the bottom bracket loose after breaking the kit&rsquo;s bottom bracket removal tool in the process. I would not have had any idea where to start taking this apart.</p>
+<h2 id="power-distribution">Power distribution</h2>
+<p>I know virtually nothing about power electronics. The inner workings of a buck converter are black magic to me. Maybe someday I&rsquo;ll have the time to study how it works. But thankfully for simple use cases like stepping a 48V e-bike battery down to 5-8V for microcontroller and servo use went mostly without a hitch (I&rsquo;ll get back to this later). I purchased these <a href="https://www.digikey.com/short/97wz233v">power distribution blocks</a> which can clamp down wires and distribute voltage. They were a little bit expensive and maybe overrated for my applications. Better safe than sorry, at least for prototyping purposes. I grabbed some <a href="https://a.co/d/0j2RYhMl">random buck converters</a> from Amazon rated for 6A so there&rsquo;s enough juice for my steering servo to handle stalls.</p>
+<h2 id="bike-stabilization">Bike stabilization</h2>
+<p>This semester we would not even attempt gyroscopic balancing since there was so little time. My initial idea was to buy a set of adult training wheels off the shelf (they do indeed exist). My choice in bike came back to bite me yet again. My bike is very tall. I am 5'8&quot; and I barely can reach the bike seat from a standing position. That also means that there are no adult training wheels tall enough to fit my bike. So I put together some support tubes to keep the bike up for testing. It turns out there&rsquo;s something very similar for motorcycle testing called the outrigger!</p>
+<figure  ><div class="image-container">
+            
+            
+            
+            
+
+
+
+
+    
+        
+    
+    <img
+    src="/journey/stabilizingbike/logs/log5/outrigger_hu_becfb2a8babd34c3.webp"
+     class="batch-load" 
+    
+    
+	
+    loading="lazy" 
+
+    style="
+         
+        
+        
+        
+    "
+    />
+
+
+
+        </div>
+</figure>
+
+<h2 id="reverse-engineering">&ldquo;Reverse engineering&rdquo;</h2>
+<p>I might be giving myself too much credit by using the term. I needed to figure out how the bike throttle worked that way I could trick the e-bike motor controller into thinking a person is pulling the throttle when it&rsquo;s actually my microcontroller. It uses a hall effect sensor but it is literally just a potentiometer. I believe I used $500 k\Omega$</p>
+<h2 id="steering">Steering</h2>
+<p>I used a 60kg (what a meaningless rating) <a href="https://a.co/d/0fh2D1HG">servo</a> to control the steering. I put a pulley on the steering column of the bike. A super useful trick I discovered to mount things to cylindrical tubes is gluing duct tape onto the cylinder and then clamping onto that tape. And so I put some tape on the column before sliding the 3D printed pulley. Unfortunately I was unable to solve the pulley slipping issue. I am guessing that the 3D printed pulley I made isn&rsquo;t doing the job. Though it might be the belt and pulley as awhole. If I introduce enough tension into the belt it does seem to engage. Though it is a crazy amount of tension when I did it by hand. I&rsquo;ve been dying to try building a capstan drive to try and solve this issue after seeing <a href="https://www.aaedmusa.com/projects/capstandrive">Aaed Musa&rsquo;s capstan drive quadruped</a>.</p>
+<h2 id="fried-electronics">Fried electronics</h2>
+<p>My bike managed to live long enough for me to get a grade in my courses thankfully. But right before my demo my microcontroller fried itself. I am still unsure what exactly happened and need to figure this out before attempting a second version of the bike. The microcontroller survived several power ons of the bike battery. But after the 5th time or so it died. I do not know if it was the power on that killed it or the power off. I made sure the buck converter was set properly and that I was powering the right pins.</p>
+<p>I have a few theories. I think maybe some kind of transient must have ocurred while powering on the buck converter. This might be a noob mistake, but maybe I was missing a current limit resistor for the power input to my controller. I might need a reverse diode/RC snubber if it&rsquo;s caused by inductive kick or voltage clamp to limit a transient.</p>
+
+        </div>
+        <div class="next-prev">
+             
+
+            <div class="section-nav">
+                
+                    <a class="section-prev hover" href="https://kalinkochnev.com/journey/stabilizingbike/logs/log4/">
+                        <span 
+     
+>
+    <svg width="18.167" height="30" xmlns="http://www.w3.org/2000/svg"><g color="#000"><path d="M46.411 51.77a4.868 4.868 0 0 0 0 6.9L67.11 79.369c1.911 1.91 4.988 1.91 6.9 0s1.91-4.989 0-6.9L56.76 55.22l17.25-17.249c1.91-1.911 1.91-4.988 0-6.9s-4.989-1.91-6.9 0z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/><path d="M70.561 28.982c-1.418 0-2.837.54-3.918 1.621l-20.699 20.7a5.541 5.541 0 0 0 0 7.833l20.699 20.7a5.541 5.541 0 0 0 7.834 0 5.541 5.541 0 0 0 0-7.835l-16.781-16.78 16.781-16.782a5.544 5.544 0 0 0 0-7.836 5.519 5.519 0 0 0-3.916-1.62zm0 1.313c1.076 0 2.152.414 2.982 1.244a4.194 4.194 0 0 1 0 5.964L55.826 55.22l17.717 17.717a4.192 4.192 0 0 1 0 5.963 4.194 4.194 0 0 1-5.964 0l-20.7-20.697a4.194 4.194 0 0 1 0-5.965l20.7-20.698a4.204 4.204 0 0 1 2.982-1.245z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/></g></svg>
+</span>
+
+                        <div>
+                            <p>Autocycle - Previous</p>
+                            <h3>Alpha Version Plan </h3>
+                        </div>
+                    </a>
+                
+            </div>
+
+            <div class="section-nav">
+                
+                    <a class="section-next hover" href="https://kalinkochnev.com/journey/stabilizingbike/logs/log6/">
+                        <div>
+                            <p>Next - Autocycle</p>
+                            <h3>Bike Simulation</h3>
+                        </div>
+                        <span 
+     
+>
+    <svg width="18.167" height="30" xmlns="http://www.w3.org/2000/svg"><g color="#000"><path d="M46.411 51.77a4.868 4.868 0 0 0 0 6.9L67.11 79.369c1.911 1.91 4.988 1.91 6.9 0s1.91-4.989 0-6.9L56.76 55.22l17.25-17.249c1.91-1.911 1.91-4.988 0-6.9s-4.989-1.91-6.9 0z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/><path d="M70.561 28.982c-1.418 0-2.837.54-3.918 1.621l-20.699 20.7a5.541 5.541 0 0 0 0 7.833l20.699 20.7a5.541 5.541 0 0 0 7.834 0 5.541 5.541 0 0 0 0-7.835l-16.781-16.78 16.781-16.782a5.544 5.544 0 0 0 0-7.836 5.519 5.519 0 0 0-3.916-1.62zm0 1.313c1.076 0 2.152.414 2.982 1.244a4.194 4.194 0 0 1 0 5.964L55.826 55.22l17.717 17.717a4.192 4.192 0 0 1 0 5.963 4.194 4.194 0 0 1-5.964 0l-20.7-20.697a4.194 4.194 0 0 1 0-5.965l20.7-20.698a4.204 4.204 0 0 1 2.982-1.245z" style="-inkscape-stroke:none" transform="translate(-25.339 -16.569) scale(.5717)"/></g></svg>
+</span>
+
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        
+<footer>
+    <div id="love">
+        <p>
+        Made with love
+        </p>
+
+        <span 
+     class="star-icon"  
+>
+    
+<svg width="100%" height="100%" version="1.1" viewBox="0 0 23.168 20.232" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-101.93 -34.643)">
+  <path d="m108.77 37.95c-2.7926-0.0069-3.6384 2.4755-3.5284 4.7815 1.4308 6.5185 8.2134 9.0305 8.2134 9.0305s6.6452-2.3888 8.214-9.0305c0.53071-2.2468-0.88642-4.781-3.679-4.7741-3.5787 0.0088-4.5347 3.8324-4.5347 3.8324s-1.1067-3.831-4.6853-3.8398z" fill="#ff0003" stroke="#000" stroke-linecap="round" stroke-miterlimit="0" stroke-width="6.6146" style="paint-order:markers stroke fill"/>
+ </g>
+</svg>
+
+</span>
+ 
+    </div>
+    
+</footer>
+
+    </body>
+</html>
