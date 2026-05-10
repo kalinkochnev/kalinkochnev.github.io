@@ -6,43 +6,8 @@
     <description>Recent content in Journey_tags on Kalin Kochnev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kalinkochnev.com/journey_tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Controls</title>
-      <link>https://kalinkochnev.com/journey_tags/controls/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://kalinkochnev.com/journey_tags/controls/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gpu</title>
-      <link>https://kalinkochnev.com/journey_tags/gpu/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://kalinkochnev.com/journey_tags/gpu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Physics</title>
-      <link>https://kalinkochnev.com/journey_tags/physics/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://kalinkochnev.com/journey_tags/physics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Robotics</title>
-      <link>https://kalinkochnev.com/journey_tags/robotics/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://kalinkochnev.com/journey_tags/robotics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rust</title>
-      <link>https://kalinkochnev.com/journey_tags/rust/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://kalinkochnev.com/journey_tags/rust/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Academia</title>
       <link>https://kalinkochnev.com/journey_tags/academia/</link>
@@ -65,6 +30,13 @@
       <description></description>
     </item>
     <item>
+      <title>Robotics</title>
+      <link>https://kalinkochnev.com/journey_tags/robotics/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey_tags/robotics/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Senior Design</title>
       <link>https://kalinkochnev.com/journey_tags/senior-design/</link>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
@@ -79,10 +51,24 @@
       <description></description>
     </item>
     <item>
+      <title>Controls</title>
+      <link>https://kalinkochnev.com/journey_tags/controls/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey_tags/controls/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Math</title>
       <link>https://kalinkochnev.com/journey_tags/math/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://kalinkochnev.com/journey_tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Physics</title>
+      <link>https://kalinkochnev.com/journey_tags/physics/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey_tags/physics/</guid>
       <description></description>
     </item>
     <item>
@@ -121,6 +107,13 @@
       <description></description>
     </item>
     <item>
+      <title>Rust</title>
+      <link>https://kalinkochnev.com/journey_tags/rust/</link>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://kalinkochnev.com/journey_tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Mechanical</title>
       <link>https://kalinkochnev.com/journey_tags/mechanical/</link>
       <pubDate>Sun, 13 Oct 2024 17:55:52 -0400</pubDate>
@@ -128,7 +121,7 @@
       <description></description>
     </item>
     <item>
-      <title>Cad</title>
+      <title>CAD</title>
       <link>https://kalinkochnev.com/journey_tags/cad/</link>
       <pubDate>Thu, 16 May 2024 10:52:54 -0400</pubDate>
       <guid>https://kalinkochnev.com/journey_tags/cad/</guid>
@@ -146,6 +139,13 @@
       <link>https://kalinkochnev.com/journey_tags/hackathon/</link>
       <pubDate>Sun, 12 Nov 2023 12:33:16 -0500</pubDate>
       <guid>https://kalinkochnev.com/journey_tags/hackathon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gpu</title>
+      <link>https://kalinkochnev.com/journey_tags/gpu/</link>
+      <pubDate>Wed, 02 Aug 2023 10:52:37 -0400</pubDate>
+      <guid>https://kalinkochnev.com/journey_tags/gpu/</guid>
       <description></description>
     </item>
     <item>
@@ -198,7 +198,7 @@
       <description></description>
     </item>
     <item>
-      <title>Signal-Processing</title>
+      <title>Signal Processing</title>
       <link>https://kalinkochnev.com/journey_tags/signal-processing/</link>
       <pubDate>Fri, 10 Mar 2023 11:13:00 +0000</pubDate>
       <guid>https://kalinkochnev.com/journey_tags/signal-processing/</guid>

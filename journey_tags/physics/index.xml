@@ -6,7 +6,7 @@
     <description>Recent content in Physics on Kalin Kochnev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kalinkochnev.com/journey_tags/physics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Undergraduate Research</title>
@@ -14,13 +14,6 @@
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
       <guid>https://kalinkochnev.com/journey/fluentlab/</guid>
       <description>Researched Lyapunov stability analysis for time-dependent dynamical systems. Accepted to ACC 2026 and as my honors thesis</description>
-    </item>
-    <item>
-      <title>Bike Simulation</title>
-      <link>https://kalinkochnev.com/journey/stabilizingbike/logs/log6/</link>
-      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://kalinkochnev.com/journey/stabilizingbike/logs/log6/</guid>
-      <description>Software side quest!</description>
     </item>
     <item>
       <title>Alpha Version Done!</title>
